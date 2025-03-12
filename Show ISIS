@@ -1,0 +1,40 @@
+#!/usr/bin/python3
+from netmiko import ConnectHandler
+import json
+
+KRGDevices = {
+        'AR2ASR01' : '10.10.3.20',
+            }
+SouthDevices = {
+        'BBASR01' : '10.10.3.120',
+            }
+log = "KRG Devices"
+for key,value in KRGDevices.items():
+    IP_dic = {'device_type': 'cisco_xr', 'ip': value, 'username': 'mustafa.azad', 'password': 'Grepolis'}
+    net_connect = ConnectHandler(**IP_dic)
+    output = net_connect.send_command("show isis adj")
+    net_connect.disconnect()
+    log += '\n' + "---------------------------------------------" + '\n' + key + '\n' + output + '\n'
+
+log += '\n' + "-------------------------------------------------------------------------------" + '\n' + "South Devices" + '\n'
+
+for key,value in SouthDevices.items():
+    IP_dic = {'device_type': 'cisco_xr', 'ip': value, 'username': 'mustafa.azad', 'password': 'Grepolis'}
+    net_connect = ConnectHandler(**IP_dic)
+    output = net_connect.send_command("show isis adj")
+    net_connect.disconnect()
+    log += '\n' + "---------------------------------------------" + '\n' + key + '\n' + output + '\n'
+
+print(log)
+myText = open(r'C:\Users\Mustafa.azad\Desktop\ISISadjacencies.txt','w')
+myText.write(log)
+myText.close()
+# Send show command with textFSM filter to parse output
+#
+
+#dictionary = dict(subString.split(" ") for subString in output.split("!"))
+
+
+# textFSM parsed the output variable type to be dictionary 
+#print (output)
+#print (dictionary)

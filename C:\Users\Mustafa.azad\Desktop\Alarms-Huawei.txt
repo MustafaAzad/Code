@@ -1,0 +1,2091 @@
+Devices
+AR3NE8K03
+
+
+Info: No alarm.
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------------------------
+Slot                           CPU Usage  Memory Usage(Used/Total)
+--------------------------------------------------------------------
+15          IPU(Master)            11%          35%   5501MB/15456MB
+16          IPU(Slave)              5%          31%   4901MB/15456MB
+--------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+Pic-status information :
+--------------------------------------------------------------------------------
+Pic#    Status       Type                      Port_count Init_result Logic_down
+--------------------------------------------------------------------------------
+15/1    Registered   LAN_WAN_10x10GF_CARD      10         SUCCESS     SUCCESS   
+15/2    Registered   LAN_WAN_10x10GF_CARD      10         SUCCESS     SUCCESS   
+15/3    Registered   ETH_4x25GF_CARD           4          SUCCESS     SUCCESS   
+15/4    Registered   ETH_2x50GB_CARD           2          SUCCESS     SUCCESS   
+15/5    Registered   ETH_2x50GB_CARD           2          SUCCESS     SUCCESS   
+15/6    Registered   ETH_2x50GB_CARD           2          SUCCESS     SUCCESS   
+15/7    Registered   ETH_2x100GB_CARD          2          SUCCESS     SUCCESS   
+15/8    Registered   ETH_2x100GB_CARD          2          SUCCESS     SUCCESS   
+15/9    Registered   ETH_2x100GB_CARD          2          SUCCESS     SUCCESS   
+15/10   Registered   ETH_2x100GB_CARD          2          SUCCESS     SUCCESS   
+15/11   Registered   ETH_2x100GB_CARD          2          SUCCESS     SUCCESS   
+15/12   Registered   ETH_8x25GF_CARD           8          SUCCESS     SUCCESS   
+15/13   Registered   ETH_2x50GB_CARD           2          SUCCESS     SUCCESS   
+15/14   Registered   ETH_2x50GB_CARD           2          SUCCESS     SUCCESS   
+15/76   Registered   FLEXE_VIRTUAL_CARD        0          SUCCESS     SUCCESS   
+15/77   Registered   FLEXE_VIRTUAL_CARD        0          SUCCESS     SUCCESS   
+15/78   Registered   FLEXE_VIRTUAL_CARD        0          SUCCESS     SUCCESS   
+15/79   Registered   FLEXE_VIRTUAL_CARD        0          SUCCESS     SUCCESS   
+--------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+NetEngine 8000 M14's Device status:
+-------------------------------------------------------------------------------
+Slot #   Type    Online     Register     Status     Role   LsId   Primary      
+-------------------------------------------------------------------------------
+1        PIC     Present    Registered   Normal     OTHER  0      NA           
+2        PIC     Present    Registered   Normal     OTHER  0      NA           
+3        PIC     Present    Registered   Normal     OTHER  0      NA           
+4        PIC     Present    Registered   Normal     OTHER  0      NA           
+5        PIC     Present    Registered   Normal     OTHER  0      NA           
+6        PIC     Present    Registered   Normal     OTHER  0      NA           
+7        PIC     Present    Registered   Normal     OTHER  0      NA           
+8        PIC     Present    Registered   Normal     OTHER  0      NA           
+9        PIC     Present    Registered   Normal     OTHER  0      NA           
+10       PIC     Present    Registered   Normal     OTHER  0      NA           
+11       PIC     Present    Registered   Normal     OTHER  0      NA           
+12       PIC     Present    Registered   Normal     OTHER  0      NA           
+13       PIC     Present    Registered   Normal     OTHER  0      NA           
+14       PIC     Present    Registered   Normal     OTHER  0      NA           
+15       IPU     Present    Registered   Normal     MMB    0      Master       
+16       IPU     Present    Registered   Normal     MMB    0      Slave        
+17       PWR     Present    Registered   Normal     OTHER  0      NA           
+18       PWR     Present    Registered   Normal     OTHER  0      NA           
+19       FAN     Present    Registered   Normal     OTHER  0      NA           
+20       CLK     Present    Registered   Normal     OTHER  0      Master       
+21       CLK     Present    Registered   Normal     OTHER  0      Slave        
+-------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+ Active License    : 2102353ABJ10NA100067.xml
+ License state     : Normal
+ Revoke ticket     : No ticket
+ License mode      : common
+ 
+ Bee Cable Company for Communication Services Ltd.
+
+ Product name      : NetEngine 8000
+ Product version   : V800R021
+ License Serial No : LIC20221010Q3B96T
+ Creator           : Huawei Technologies Co., Ltd.
+ Created Time      : 2022-10-10 10:59:09
+
+ -------------------------------------------------------------
+ Feature name      : CRFEA5
+ Authorize type    : comm
+ Expired date      : PERMANENT
+ Trial days        : --
+
+ Item name               Item type      Value      Description
+ -------------------------------------------------------------
+
+ CR8S00EVPNC4              --             46         NetEngine 8000 M Series EVPN Port Function License(per 10GE)
+    LCR8S00EVPNC4          Resource       46         NetEngine 8000 M Series EVPN Port Function License(per 10GE)
+ CR8S00EVPNC2              --             22         NetEngine 8000 M Series EVPN Port Function License(per 50GE/40GE)
+    LCR8S00EVPNC2          Resource       22         NetEngine 8000 M Series EVPN Port Function License(per 50GE/40GE)
+ CR8S00L3VPC2              --             22         NetEngine 8000 M Series L3VPN Port Function License(per 50GE/40GE)
+    LCR8S00L3VPC2          Resource       22         NetEngine 8000 M Series L3VPN Port Function License(per 50GE/40GE)
+ CR8S00OAMBC0              --             1          NetEngine 8000 M Series OAM Essential Function License
+    LCR8S002544C1          Function       YES        NetEngine 8000 M Series OAM Enhanced Function License
+ CR8S00CRAGC4              --             46         NetEngine 8000 M Series Core&Aggregation Scenario Port Function License(per 10GE)
+    LCR8S00CRAGC4          Resource       46         NetEngine 8000 M Series Core&Aggregation Scenario Port Function License(per 10GE)
+ CR8S00CRAGC2              --             22         NetEngine 8000 M Series Core&Aggregation Scenario Port Function License(per 50GE/40GE)
+    LCR8S00CRAGC2          Resource       22         NetEngine 8000 M Series Core&Aggregation Scenario Port Function License(per 50GE/40GE)
+ CR8S00L3VPC4              --             46         NetEngine 8000 M Series L3VPN Port Function License(per 10GE)
+    LCR8S00L3VPC4          Resource       46         NetEngine 8000 M Series L3VPN Port Function License(per 10GE)
+
+ Item name               (View)Resource License Command-line
+ -------------------------------------------------------------
+ LCR8S00L3VPC4           (License)active port-l3vpn slot <slot-id> card <card-id> port <port-list>
+ LCR8S00CRAGC4           (License)active port-core-aggregation slot <slot-id> card <card-id> port <port-list>
+ LCR8S00CRAGC2           (License)active port-core-aggregation slot <slot-id> card <card-id> port <port-list>
+ LCR8S00L3VPC2           (License)active port-l3vpn slot <slot-id> card <card-id> port <port-list>
+ LCR8S00EVPNC2           (License)active port-evpn slot <slot-id> card <card-id> port <port-list>
+ LCR8S00EVPNC4           (License)active port-evpn slot <slot-id> card <card-id> port <port-list>
+
+ Master board license state: Normal.
+
+
+
+
+
+
+
+
+
+
+
+
+  Base-Board, Unit:C, Slot 15
+------------------------------------------------------------------------------
+PCB            I2C Addr Chl Status   Minor Major Fatal FanTMin FanTMax Temp(C)
+------------------------------------------------------------------------------
+CR81IPU2TA2S   8   73   0   NORMAL   75    85    90    50      60      34     
+DP51CPUH       8   73   2   NORMAL   90    100   105   65      75      55     
+CR81IPU2TA2S   8   75   1   NORMAL   85    95    100   55      65      46     
+CR81IPU2TA2S   8   255  3   NORMAL   105   115   120   80      90      59     
+CR81IPU2TA2S   8   255  4   NORMAL   105   115   120   80      90      58     
+CR81IPU2TA2S   8   255  5   NORMAL   105   115   120   80      90      58     
+CR81IPU2TA2S   8   255  6   NORMAL   105   115   120   80      90      57     
+CR81IPU2TA2S   8   255  7   NORMAL   105   115   120   80      90      63     
+CR81IPU2TA2S   8   255  8   NORMAL   105   115   120   80      90      66     
+CR81IPU2TA2S   8   255  9   NORMAL   105   115   120   80      90      64     
+CR81IPU2TA2S   8   255  10  NORMAL   105   115   120   80      90      64     
+CR81IPU2TA2S   8   255  11  NORMAL   105   115   120   83      93      52     
+CR81IPU2TA2S   8   255  12  NORMAL   95    105   110   73      83      52     
+CR81IPU2TA2S   8   255  13  NORMAL   95    105   110   73      83      56     
+CR81IPU2TA2S   8   255  14  NORMAL   105   115   120   83      93      52     
+CR81IPU2TA2S   8   255  15  NORMAL   95    105   110   73      83      53     
+CR81IPU2TA2S   8   255  16  NORMAL   95    105   110   73      83      57     
+CR81IPU2TA2S   8   255  17  NORMAL   100   110   115   75      85      56     
+CR81IPU2TA2S   8   255  18  NORMAL   100   110   115   75      85      56     
+DP51CPUH       8   255  19  NORMAL   98    103   108   94      95      84     
+DP51CPUH       8   255  20  NORMAL   98    103   108   94      95      85     
+DP51CPUH       8   255  21  NORMAL   105   115   120   80      90      49     
+CR51LAXFE0     0   76   0   NORMAL   95    100   105   65      70      33     
+CR51LAXFE0     0   255  1   NORMAL   105   110   120   90      95      38     
+CR51LAXFE0     0   255  2   NORMAL   105   110   120   90      95      40     
+CR51LAXFE0     1   76   0   NORMAL   95    100   105   65      70      36     
+CR51LAXFE0     1   255  1   NORMAL   105   110   120   90      95      41     
+CR51LAXFE0     1   255  2   NORMAL   105   110   120   90      95      42     
+CR81E4YFC0     2   76   0   NORMAL   80    90    95    48      58      22     
+CR81E2VBD0     3   76   0   NORMAL   80    90    95    48      58      25     
+CR81E2VBD0     4   76   0   NORMAL   80    90    95    48      58      22     
+CR81E2VBD0     5   76   0   NORMAL   80    90    95    48      58      24     
+CR51E2NBF1     6   76   0   NORMAL   80    90    95    55      65      26     
+CR51E2NBF1     6   255  0   NORMAL   105   115   120   83      93      38     
+CR51E2NBF1     6   255  1   NORMAL   105   115   120   83      93      40     
+CR51E2NBF1     6   255  2   NORMAL   100   110   115   78      88      26     
+CR51E2NBF1     7   76   0   NORMAL   80    90    95    55      65      28     
+CR51E2NBF1     7   255  0   NORMAL   105   115   120   83      93      38     
+CR51E2NBF1     7   255  1   NORMAL   105   115   120   83      93      41     
+CR51E2NBF1     7   255  2   NORMAL   100   110   115   78      88      28     
+CR51E2NBF1     16  76   0   NORMAL   80    90    95    55      65      26     
+CR51E2NBF1     16  255  0   NORMAL   105   115   120   83      93      38     
+CR51E2NBF1     16  255  1   NORMAL   105   115   120   83      93      39     
+CR51E2NBF1     16  255  2   NORMAL   100   110   115   78      88      25     
+CR51E2NBF1     17  76   0   NORMAL   80    90    95    55      65      28     
+CR51E2NBF1     17  255  0   NORMAL   105   115   120   83      93      43     
+CR51E2NBF1     17  255  1   NORMAL   105   115   120   83      93      45     
+CR51E2NBF1     17  255  2   NORMAL   100   110   115   78      88      27     
+CR51E2NBF1     18  76   0   NORMAL   80    90    95    55      65      26     
+CR51E2NBF1     18  255  0   NORMAL   105   115   120   83      93      39     
+CR51E2NBF1     18  255  1   NORMAL   105   115   120   83      93      41     
+CR51E2NBF1     18  255  2   NORMAL   100   110   115   78      88      25     
+CR51E8YF0      19  76   0   NORMAL   85    90    95    60      65      28     
+CR51E8YF0      19  255  1   NORMAL   105   110   120   80      85      38     
+CR51E8YF0      19  255  2   NORMAL   105   110   120   80      85      41     
+CR81E2VBD0     20  76   0   NORMAL   80    90    95    48      58      25     
+CR81E2VBD0     21  76   0   NORMAL   80    90    95    48      58      25     
+------------------------------------------------------------------------------
+  Base-Board, Unit:C, Slot 16
+------------------------------------------------------------------------------
+PCB            I2C Addr Chl Status   Minor Major Fatal FanTMin FanTMax Temp(C)
+------------------------------------------------------------------------------
+CR81IPU2TA2S   8   73   0   NORMAL   75    85    90    50      60      36     
+DP51CPUH       8   73   2   NORMAL   90    100   105   65      75      50     
+CR81IPU2TA2S   8   75   1   NORMAL   85    95    100   55      65      47     
+CR81IPU2TA2S   8   255  3   NORMAL   105   115   120   80      90      61     
+CR81IPU2TA2S   8   255  4   NORMAL   105   115   120   80      90      61     
+CR81IPU2TA2S   8   255  5   NORMAL   105   115   120   80      90      60     
+CR81IPU2TA2S   8   255  6   NORMAL   105   115   120   80      90      60     
+CR81IPU2TA2S   8   255  7   NORMAL   105   115   120   80      90      66     
+CR81IPU2TA2S   8   255  8   NORMAL   105   115   120   80      90      68     
+CR81IPU2TA2S   8   255  9   NORMAL   105   115   120   80      90      67     
+CR81IPU2TA2S   8   255  10  NORMAL   105   115   120   80      90      67     
+CR81IPU2TA2S   8   255  11  NORMAL   105   115   120   83      93      51     
+CR81IPU2TA2S   8   255  12  NORMAL   95    105   110   73      83      53     
+CR81IPU2TA2S   8   255  13  NORMAL   95    105   110   73      83      58     
+CR81IPU2TA2S   8   255  14  NORMAL   105   115   120   83      93      54     
+CR81IPU2TA2S   8   255  15  NORMAL   95    105   110   73      83      55     
+CR81IPU2TA2S   8   255  16  NORMAL   95    105   110   73      83      58     
+CR81IPU2TA2S   8   255  17  NORMAL   100   110   115   75      85      62     
+CR81IPU2TA2S   8   255  18  NORMAL   100   110   115   75      85      62     
+DP51CPUH       8   255  19  NORMAL   98    103   108   94      95      80     
+DP51CPUH       8   255  20  NORMAL   98    103   108   94      95      83     
+DP51CPUH       8   255  21  NORMAL   105   115   120   80      90      47     
+------------------------------------------------------------------------------
+  Base-Board, Unit:C, Slot 17
+------------------------------------------------------------------------------
+PCB            I2C Addr Chl Status   Minor Major Fatal FanTMin FanTMax Temp(C)
+------------------------------------------------------------------------------
+DP52PDC2K4A    5   72   0   NORMAL   75    85    90    50      55      16     
+------------------------------------------------------------------------------
+  Base-Board, Unit:C, Slot 18
+------------------------------------------------------------------------------
+PCB            I2C Addr Chl Status   Minor Major Fatal FanTMin FanTMax Temp(C)
+------------------------------------------------------------------------------
+DP52PDC2K4A    6   72   0   NORMAL   75    85    90    50      55      17     
+------------------------------------------------------------------------------
+
+
+######################################################################################################################################
+
+
+
+AR3NE8K04
+
+
+Info: No alarm.
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------------------------
+Slot                           CPU Usage  Memory Usage(Used/Total)
+--------------------------------------------------------------------
+15          IPU(Master)            10%          35%   5509MB/15456MB
+16          IPU(Slave)              6%          31%   4898MB/15456MB
+--------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+Pic-status information :
+--------------------------------------------------------------------------------
+Pic#    Status       Type                      Port_count Init_result Logic_down
+--------------------------------------------------------------------------------
+15/1    Registered   LAN_WAN_10x10GF_CARD      10         SUCCESS     SUCCESS   
+15/2    Registered   LAN_WAN_10x10GF_CARD      10         SUCCESS     SUCCESS   
+15/3    Registered   ETH_4x25GF_CARD           4          SUCCESS     SUCCESS   
+15/4    Registered   ETH_2x50GB_CARD           2          SUCCESS     SUCCESS   
+15/5    Registered   ETH_2x50GB_CARD           2          SUCCESS     SUCCESS   
+15/6    Registered   ETH_2x50GB_CARD           2          SUCCESS     SUCCESS   
+15/7    Registered   ETH_2x100GB_CARD          2          SUCCESS     SUCCESS   
+15/8    Registered   ETH_2x100GB_CARD          2          SUCCESS     SUCCESS   
+15/9    Registered   ETH_2x100GB_CARD          2          SUCCESS     SUCCESS   
+15/10   Registered   ETH_2x100GB_CARD          2          SUCCESS     SUCCESS   
+15/11   Registered   ETH_2x100GB_CARD          2          SUCCESS     SUCCESS   
+15/12   Registered   ETH_8x25GF_CARD           8          SUCCESS     SUCCESS   
+15/13   Registered   ETH_2x50GB_CARD           2          SUCCESS     SUCCESS   
+15/14   Registered   ETH_2x50GB_CARD           2          SUCCESS     SUCCESS   
+15/76   Registered   FLEXE_VIRTUAL_CARD        0          SUCCESS     SUCCESS   
+15/77   Registered   FLEXE_VIRTUAL_CARD        0          SUCCESS     SUCCESS   
+15/78   Registered   FLEXE_VIRTUAL_CARD        0          SUCCESS     SUCCESS   
+15/79   Registered   FLEXE_VIRTUAL_CARD        0          SUCCESS     SUCCESS   
+--------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+NetEngine 8000 M14's Device status:
+-------------------------------------------------------------------------------
+Slot #   Type    Online     Register     Status     Role   LsId   Primary      
+-------------------------------------------------------------------------------
+1        PIC     Present    Registered   Normal     OTHER  0      NA           
+2        PIC     Present    Registered   Normal     OTHER  0      NA           
+3        PIC     Present    Registered   Normal     OTHER  0      NA           
+4        PIC     Present    Registered   Normal     OTHER  0      NA           
+5        PIC     Present    Registered   Normal     OTHER  0      NA           
+6        PIC     Present    Registered   Normal     OTHER  0      NA           
+7        PIC     Present    Registered   Normal     OTHER  0      NA           
+8        PIC     Present    Registered   Normal     OTHER  0      NA           
+9        PIC     Present    Registered   Normal     OTHER  0      NA           
+10       PIC     Present    Registered   Normal     OTHER  0      NA           
+11       PIC     Present    Registered   Normal     OTHER  0      NA           
+12       PIC     Present    Registered   Normal     OTHER  0      NA           
+13       PIC     Present    Registered   Normal     OTHER  0      NA           
+14       PIC     Present    Registered   Normal     OTHER  0      NA           
+15       IPU     Present    Registered   Normal     MMB    0      Master       
+16       IPU     Present    Registered   Normal     MMB    0      Slave        
+17       PWR     Present    Registered   Normal     OTHER  0      NA           
+18       PWR     Present    Registered   Normal     OTHER  0      NA           
+19       FAN     Present    Registered   Normal     OTHER  0      NA           
+20       CLK     Present    Registered   Normal     OTHER  0      Master       
+21       CLK     Present    Registered   Normal     OTHER  0      Slave        
+-------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+ Active License    : 2102353ABJ10NA100066.xml
+ License state     : Normal
+ Revoke ticket     : No ticket
+ License mode      : common
+ 
+ Bee Cable Company for Communication Services Ltd.
+
+ Product name      : NetEngine 8000
+ Product version   : V800R021
+ License Serial No : LIC20221010Q3QI6T
+ Creator           : Huawei Technologies Co., Ltd.
+ Created Time      : 2022-10-10 11:07:53
+
+ -------------------------------------------------------------
+ Feature name      : CRFEA5
+ Authorize type    : comm
+ Expired date      : PERMANENT
+ Trial days        : --
+
+ Item name               Item type      Value      Description
+ -------------------------------------------------------------
+
+ CR8S00EVPNC4              --             46         NetEngine 8000 M Series EVPN Port Function License(per 10GE)
+    LCR8S00EVPNC4          Resource       46         NetEngine 8000 M Series EVPN Port Function License(per 10GE)
+ CR8S00EVPNC2              --             22         NetEngine 8000 M Series EVPN Port Function License(per 50GE/40GE)
+    LCR8S00EVPNC2          Resource       22         NetEngine 8000 M Series EVPN Port Function License(per 50GE/40GE)
+ CR8S00L3VPC2              --             22         NetEngine 8000 M Series L3VPN Port Function License(per 50GE/40GE)
+    LCR8S00L3VPC2          Resource       22         NetEngine 8000 M Series L3VPN Port Function License(per 50GE/40GE)
+ CR8S00OAMBC0              --             1          NetEngine 8000 M Series OAM Essential Function License
+    LCR8S002544C1          Function       YES        NetEngine 8000 M Series OAM Enhanced Function License
+ CR8S00CRAGC4              --             46         NetEngine 8000 M Series Core&Aggregation Scenario Port Function License(per 10GE)
+    LCR8S00CRAGC4          Resource       46         NetEngine 8000 M Series Core&Aggregation Scenario Port Function License(per 10GE)
+ CR8S00CRAGC2              --             22         NetEngine 8000 M Series Core&Aggregation Scenario Port Function License(per 50GE/40GE)
+    LCR8S00CRAGC2          Resource       22         NetEngine 8000 M Series Core&Aggregation Scenario Port Function License(per 50GE/40GE)
+ CR8S00L3VPC4              --             46         NetEngine 8000 M Series L3VPN Port Function License(per 10GE)
+    LCR8S00L3VPC4          Resource       46         NetEngine 8000 M Series L3VPN Port Function License(per 10GE)
+
+ Item name               (View)Resource License Command-line
+ -------------------------------------------------------------
+ LCR8S00L3VPC4           (License)active port-l3vpn slot <slot-id> card <card-id> port <port-list>
+ LCR8S00CRAGC2           (License)active port-core-aggregation slot <slot-id> card <card-id> port <port-list>
+ LCR8S00L3VPC2           (License)active port-l3vpn slot <slot-id> card <card-id> port <port-list>
+ LCR8S00EVPNC2           (License)active port-evpn slot <slot-id> card <card-id> port <port-list>
+ LCR8S00CRAGC4           (License)active port-core-aggregation slot <slot-id> card <card-id> port <port-list>
+ LCR8S00EVPNC4           (License)active port-evpn slot <slot-id> card <card-id> port <port-list>
+
+ Master board license state: Normal.
+
+
+
+
+
+
+
+
+
+
+
+
+  Base-Board, Unit:C, Slot 15
+------------------------------------------------------------------------------
+PCB            I2C Addr Chl Status   Minor Major Fatal FanTMin FanTMax Temp(C)
+------------------------------------------------------------------------------
+CR81IPU2TA2S   8   73   0   NORMAL   75    85    90    50      60      34     
+DP51CPUH       8   73   2   NORMAL   90    100   105   65      75      51     
+CR81IPU2TA2S   8   75   1   NORMAL   85    95    100   55      65      44     
+CR81IPU2TA2S   8   255  3   NORMAL   105   115   120   80      90      59     
+CR81IPU2TA2S   8   255  4   NORMAL   105   115   120   80      90      59     
+CR81IPU2TA2S   8   255  5   NORMAL   105   115   120   80      90      59     
+CR81IPU2TA2S   8   255  6   NORMAL   105   115   120   80      90      59     
+CR81IPU2TA2S   8   255  7   NORMAL   105   115   120   80      90      63     
+CR81IPU2TA2S   8   255  8   NORMAL   105   115   120   80      90      65     
+CR81IPU2TA2S   8   255  9   NORMAL   105   115   120   80      90      64     
+CR81IPU2TA2S   8   255  10  NORMAL   105   115   120   80      90      63     
+CR81IPU2TA2S   8   255  11  NORMAL   105   115   120   83      93      52     
+CR81IPU2TA2S   8   255  12  NORMAL   95    105   110   73      83      51     
+CR81IPU2TA2S   8   255  13  NORMAL   95    105   110   73      83      56     
+CR81IPU2TA2S   8   255  14  NORMAL   105   115   120   83      93      50     
+CR81IPU2TA2S   8   255  15  NORMAL   95    105   110   73      83      52     
+CR81IPU2TA2S   8   255  16  NORMAL   95    105   110   73      83      57     
+CR81IPU2TA2S   8   255  17  NORMAL   100   110   115   75      85      54     
+CR81IPU2TA2S   8   255  18  NORMAL   100   110   115   75      85      54     
+DP51CPUH       8   255  19  NORMAL   98    103   108   94      95      76     
+DP51CPUH       8   255  20  NORMAL   98    103   108   94      95      78     
+DP51CPUH       8   255  21  NORMAL   105   115   120   80      90      45     
+CR51LAXFE0     0   76   0   NORMAL   95    100   105   65      70      31     
+CR51LAXFE0     0   255  1   NORMAL   105   110   120   90      95      36     
+CR51LAXFE0     0   255  2   NORMAL   105   110   120   90      95      37     
+CR51LAXFE0     1   76   0   NORMAL   95    100   105   65      70      34     
+CR51LAXFE0     1   255  1   NORMAL   105   110   120   90      95      44     
+CR51LAXFE0     1   255  2   NORMAL   105   110   120   90      95      44     
+CR81E4YFC0     2   76   0   NORMAL   80    90    95    48      58      21     
+CR81E2VBD0     3   76   0   NORMAL   80    90    95    48      58      24     
+CR81E2VBD0     4   76   0   NORMAL   80    90    95    48      58      22     
+CR81E2VBD0     5   76   0   NORMAL   80    90    95    48      58      24     
+CR51E2NBF1     6   76   0   NORMAL   80    90    95    55      65      25     
+CR51E2NBF1     6   255  0   NORMAL   105   115   120   83      93      36     
+CR51E2NBF1     6   255  1   NORMAL   105   115   120   83      93      38     
+CR51E2NBF1     6   255  2   NORMAL   100   110   115   78      88      26     
+CR51E2NBF1     7   76   0   NORMAL   80    90    95    55      65      28     
+CR51E2NBF1     7   255  0   NORMAL   105   115   120   83      93      39     
+CR51E2NBF1     7   255  1   NORMAL   105   115   120   83      93      42     
+CR51E2NBF1     7   255  2   NORMAL   100   110   115   78      88      28     
+CR51E2NBF1     16  76   0   NORMAL   80    90    95    55      65      25     
+CR51E2NBF1     16  255  0   NORMAL   105   115   120   83      93      40     
+CR51E2NBF1     16  255  1   NORMAL   105   115   120   83      93      41     
+CR51E2NBF1     16  255  2   NORMAL   100   110   115   78      88      25     
+CR51E2NBF1     17  76   0   NORMAL   80    90    95    55      65      28     
+CR51E2NBF1     17  255  0   NORMAL   105   115   120   83      93      39     
+CR51E2NBF1     17  255  1   NORMAL   105   115   120   83      93      41     
+CR51E2NBF1     17  255  2   NORMAL   100   110   115   78      88      27     
+CR51E2NBF1     18  76   0   NORMAL   80    90    95    55      65      25     
+CR51E2NBF1     18  255  0   NORMAL   105   115   120   83      93      31     
+CR51E2NBF1     18  255  1   NORMAL   105   115   120   83      93      34     
+CR51E2NBF1     18  255  2   NORMAL   100   110   115   78      88      25     
+CR51E8YF0      19  76   0   NORMAL   85    90    95    60      65      28     
+CR51E8YF0      19  255  1   NORMAL   105   110   120   80      85      37     
+CR51E8YF0      19  255  2   NORMAL   105   110   120   80      85      41     
+CR81E2VBD0     20  76   0   NORMAL   80    90    95    48      58      24     
+CR81E2VBD0     21  76   0   NORMAL   80    90    95    48      58      25     
+------------------------------------------------------------------------------
+  Base-Board, Unit:C, Slot 16
+------------------------------------------------------------------------------
+PCB            I2C Addr Chl Status   Minor Major Fatal FanTMin FanTMax Temp(C)
+------------------------------------------------------------------------------
+CR81IPU2TA2S   8   73   0   NORMAL   75    85    90    50      60      34     
+DP51CPUH       8   73   2   NORMAL   90    100   105   65      75      47     
+CR81IPU2TA2S   8   75   1   NORMAL   85    95    100   55      65      43     
+CR81IPU2TA2S   8   255  3   NORMAL   105   115   120   80      90      55     
+CR81IPU2TA2S   8   255  4   NORMAL   105   115   120   80      90      55     
+CR81IPU2TA2S   8   255  5   NORMAL   105   115   120   80      90      53     
+CR81IPU2TA2S   8   255  6   NORMAL   105   115   120   80      90      54     
+CR81IPU2TA2S   8   255  7   NORMAL   105   115   120   80      90      57     
+CR81IPU2TA2S   8   255  8   NORMAL   105   115   120   80      90      61     
+CR81IPU2TA2S   8   255  9   NORMAL   105   115   120   80      90      58     
+CR81IPU2TA2S   8   255  10  NORMAL   105   115   120   80      90      59     
+CR81IPU2TA2S   8   255  11  NORMAL   105   115   120   83      93      50     
+CR81IPU2TA2S   8   255  12  NORMAL   95    105   110   73      83      50     
+CR81IPU2TA2S   8   255  13  NORMAL   95    105   110   73      83      54     
+CR81IPU2TA2S   8   255  14  NORMAL   105   115   120   83      93      51     
+CR81IPU2TA2S   8   255  15  NORMAL   95    105   110   73      83      50     
+CR81IPU2TA2S   8   255  16  NORMAL   95    105   110   73      83      56     
+CR81IPU2TA2S   8   255  17  NORMAL   100   110   115   75      85      56     
+CR81IPU2TA2S   8   255  18  NORMAL   100   110   115   75      85      56     
+DP51CPUH       8   255  19  NORMAL   98    103   108   94      95      76     
+DP51CPUH       8   255  20  NORMAL   98    103   108   94      95      80     
+DP51CPUH       8   255  21  NORMAL   105   115   120   80      90      41     
+------------------------------------------------------------------------------
+  Base-Board, Unit:C, Slot 17
+------------------------------------------------------------------------------
+PCB            I2C Addr Chl Status   Minor Major Fatal FanTMin FanTMax Temp(C)
+------------------------------------------------------------------------------
+DP52PDC2K4A    5   72   0   NORMAL   75    85    90    50      55      17     
+------------------------------------------------------------------------------
+  Base-Board, Unit:C, Slot 18
+------------------------------------------------------------------------------
+PCB            I2C Addr Chl Status   Minor Major Fatal FanTMin FanTMax Temp(C)
+------------------------------------------------------------------------------
+DP52PDC2K4A    6   72   0   NORMAL   75    85    90    50      55      17     
+------------------------------------------------------------------------------
+
+
+######################################################################################################################################
+
+
+
+BG3NE8K03
+
+
+Info: No alarm.
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------------------------
+Slot                           CPU Usage  Memory Usage(Used/Total)
+--------------------------------------------------------------------
+15          IPU(Master)             9%          34%   5301MB/15456MB
+16          IPU(Slave)              5%          30%   4700MB/15456MB
+--------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+Pic-status information :
+--------------------------------------------------------------------------------
+Pic#    Status       Type                      Port_count Init_result Logic_down
+--------------------------------------------------------------------------------
+15/1    Registered   LAN_WAN_10x10GF_CARD      10         SUCCESS     SUCCESS   
+15/2    Registered   LAN_WAN_10x10GF_CARD      10         SUCCESS     SUCCESS   
+15/7    Registered   ETH_2x100GB_CARD          2          SUCCESS     SUCCESS   
+15/8    Registered   ETH_2x100GB_CARD          2          SUCCESS     SUCCESS   
+15/9    Registered   ETH_2x100GB_CARD          2          SUCCESS     SUCCESS   
+15/10   Registered   ETH_2x100GB_CARD          2          SUCCESS     SUCCESS   
+15/11   Registered   ETH_2x100GB_CARD          2          SUCCESS     SUCCESS   
+15/12   Registered   ETH_8x25GF_CARD           8          SUCCESS     SUCCESS   
+15/13   Registered   ETH_2x50GB_CARD           2          SUCCESS     SUCCESS   
+15/76   Registered   FLEXE_VIRTUAL_CARD        0          SUCCESS     SUCCESS   
+15/77   Registered   FLEXE_VIRTUAL_CARD        0          SUCCESS     SUCCESS   
+15/78   Registered   FLEXE_VIRTUAL_CARD        0          SUCCESS     SUCCESS   
+15/79   Registered   FLEXE_VIRTUAL_CARD        0          SUCCESS     SUCCESS   
+--------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+NetEngine 8000 M14's Device status:
+-------------------------------------------------------------------------------
+Slot #   Type    Online     Register     Status     Role   LsId   Primary      
+-------------------------------------------------------------------------------
+1        PIC     Present    Registered   Normal     OTHER  0      NA           
+2        PIC     Present    Registered   Normal     OTHER  0      NA           
+7        PIC     Present    Registered   Normal     OTHER  0      NA           
+8        PIC     Present    Registered   Normal     OTHER  0      NA           
+9        PIC     Present    Registered   Normal     OTHER  0      NA           
+10       PIC     Present    Registered   Normal     OTHER  0      NA           
+11       PIC     Present    Registered   Normal     OTHER  0      NA           
+12       PIC     Present    Registered   Normal     OTHER  0      NA           
+13       PIC     Present    Registered   Normal     OTHER  0      NA           
+15       IPU     Present    Registered   Normal     MMB    0      Master       
+16       IPU     Present    Registered   Normal     MMB    0      Slave        
+17       PWR     Present    Registered   Normal     OTHER  0      NA           
+18       PWR     Present    Registered   Normal     OTHER  0      NA           
+19       FAN     Present    Registered   Normal     OTHER  0      NA           
+20       CLK     Present    Registered   Normal     OTHER  0      Master       
+21       CLK     Present    Registered   Normal     OTHER  0      Slave        
+-------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+ Active License    : 2102353ABJ10NA100068.xml
+ License state     : Normal
+ Revoke ticket     : No ticket
+ License mode      : common
+ 
+ Bee Cable Company for Communication Services Ltd.
+
+ Product name      : NetEngine 8000
+ Product version   : V800R021
+ License Serial No : LIC20221010Q1Y16T
+ Creator           : Huawei Technologies Co., Ltd.
+ Created Time      : 2022-10-10 10:52:38
+
+ -------------------------------------------------------------
+ Feature name      : CRFEA5
+ Authorize type    : comm
+ Expired date      : PERMANENT
+ Trial days        : --
+
+ Item name               Item type      Value      Description
+ -------------------------------------------------------------
+
+ CR8S00EVPNC4              --             36         NetEngine 8000 M Series EVPN Port Function License(per 10GE)
+    LCR8S00EVPNC4          Resource       36         NetEngine 8000 M Series EVPN Port Function License(per 10GE)
+ CR8S00EVPNC2              --             22         NetEngine 8000 M Series EVPN Port Function License(per 50GE/40GE)
+    LCR8S00EVPNC2          Resource       22         NetEngine 8000 M Series EVPN Port Function License(per 50GE/40GE)
+ CR8S00L3VPC2              --             22         NetEngine 8000 M Series L3VPN Port Function License(per 50GE/40GE)
+    LCR8S00L3VPC2          Resource       22         NetEngine 8000 M Series L3VPN Port Function License(per 50GE/40GE)
+ CR8S00OAMBC0              --             1          NetEngine 8000 M Series OAM Essential Function License
+    LCR8S002544C1          Function       YES        NetEngine 8000 M Series OAM Enhanced Function License
+ CR8S00CRAGC4              --             36         NetEngine 8000 M Series Core&Aggregation Scenario Port Function License(per 10GE)
+    LCR8S00CRAGC4          Resource       36         NetEngine 8000 M Series Core&Aggregation Scenario Port Function License(per 10GE)
+ CR8S00CRAGC2              --             22         NetEngine 8000 M Series Core&Aggregation Scenario Port Function License(per 50GE/40GE)
+    LCR8S00CRAGC2          Resource       22         NetEngine 8000 M Series Core&Aggregation Scenario Port Function License(per 50GE/40GE)
+ CR8S00L3VPC4              --             36         NetEngine 8000 M Series L3VPN Port Function License(per 10GE)
+    LCR8S00L3VPC4          Resource       36         NetEngine 8000 M Series L3VPN Port Function License(per 10GE)
+
+ Item name               (View)Resource License Command-line
+ -------------------------------------------------------------
+ LCR8S00EVPNC2           (License)active port-evpn slot <slot-id> card <card-id> port <port-list>
+ LCR8S00L3VPC2           (License)active port-l3vpn slot <slot-id> card <card-id> port <port-list>
+ LCR8S00EVPNC4           (License)active port-evpn slot <slot-id> card <card-id> port <port-list>
+ LCR8S00CRAGC4           (License)active port-core-aggregation slot <slot-id> card <card-id> port <port-list>
+ LCR8S00CRAGC2           (License)active port-core-aggregation slot <slot-id> card <card-id> port <port-list>
+ LCR8S00L3VPC4           (License)active port-l3vpn slot <slot-id> card <card-id> port <port-list>
+
+ Master board license state: Normal.
+
+
+
+
+
+
+
+
+
+
+
+
+  Base-Board, Unit:C, Slot 15
+------------------------------------------------------------------------------
+PCB            I2C Addr Chl Status   Minor Major Fatal FanTMin FanTMax Temp(C)
+------------------------------------------------------------------------------
+CR81IPU2TA2S   8   73   0   NORMAL   75    85    90    50      60      38     
+DP51CPUH       8   73   2   NORMAL   90    100   105   65      75      56     
+CR81IPU2TA2S   8   75   1   NORMAL   85    95    100   55      65      48     
+CR81IPU2TA2S   8   255  3   NORMAL   105   115   120   80      90      60     
+CR81IPU2TA2S   8   255  4   NORMAL   105   115   120   80      90      61     
+CR81IPU2TA2S   8   255  5   NORMAL   105   115   120   80      90      59     
+CR81IPU2TA2S   8   255  6   NORMAL   105   115   120   80      90      59     
+CR81IPU2TA2S   8   255  7   NORMAL   105   115   120   80      90      64     
+CR81IPU2TA2S   8   255  8   NORMAL   105   115   120   80      90      66     
+CR81IPU2TA2S   8   255  9   NORMAL   105   115   120   80      90      65     
+CR81IPU2TA2S   8   255  10  NORMAL   105   115   120   80      90      66     
+CR81IPU2TA2S   8   255  11  NORMAL   105   115   120   83      93      54     
+CR81IPU2TA2S   8   255  12  NORMAL   95    105   110   73      83      55     
+CR81IPU2TA2S   8   255  13  NORMAL   95    105   110   73      83      61     
+CR81IPU2TA2S   8   255  14  NORMAL   105   115   120   83      93      56     
+CR81IPU2TA2S   8   255  15  NORMAL   95    105   110   73      83      54     
+CR81IPU2TA2S   8   255  16  NORMAL   95    105   110   73      83      59     
+CR81IPU2TA2S   8   255  17  NORMAL   100   110   115   75      85      56     
+CR81IPU2TA2S   8   255  18  NORMAL   100   110   115   75      85      56     
+DP51CPUH       8   255  19  NORMAL   98    103   108   94      95      81     
+DP51CPUH       8   255  20  NORMAL   98    103   108   94      95      84     
+DP51CPUH       8   255  21  NORMAL   105   115   120   80      90      51     
+CR51LAXFE0     0   76   0   NORMAL   95    100   105   65      70      37     
+CR51LAXFE0     0   255  1   NORMAL   105   110   120   90      95      43     
+CR51LAXFE0     0   255  2   NORMAL   105   110   120   90      95      44     
+CR51LAXFE0     1   76   0   NORMAL   95    100   105   65      70      42     
+CR51LAXFE0     1   255  1   NORMAL   105   110   120   90      95      50     
+CR51LAXFE0     1   255  2   NORMAL   105   110   120   90      95      51     
+CR51E2NBF1     6   76   0   NORMAL   80    90    95    55      65      29     
+CR51E2NBF1     6   255  0   NORMAL   105   115   120   83      93      40     
+CR51E2NBF1     6   255  1   NORMAL   105   115   120   83      93      42     
+CR51E2NBF1     6   255  2   NORMAL   100   110   115   78      88      30     
+CR51E2NBF1     7   76   0   NORMAL   80    90    95    55      65      33     
+CR51E2NBF1     7   255  0   NORMAL   105   115   120   83      93      39     
+CR51E2NBF1     7   255  1   NORMAL   105   115   120   83      93      42     
+CR51E2NBF1     7   255  2   NORMAL   100   110   115   78      88      33     
+CR51E2NBF1     16  76   0   NORMAL   80    90    95    55      65      29     
+CR51E2NBF1     16  255  0   NORMAL   105   115   120   83      93      43     
+CR51E2NBF1     16  255  1   NORMAL   105   115   120   83      93      45     
+CR51E2NBF1     16  255  2   NORMAL   100   110   115   78      88      29     
+CR51E2NBF1     17  76   0   NORMAL   80    90    95    55      65      31     
+CR51E2NBF1     17  255  0   NORMAL   105   115   120   83      93      44     
+CR51E2NBF1     17  255  1   NORMAL   105   115   120   83      93      47     
+CR51E2NBF1     17  255  2   NORMAL   100   110   115   78      88      32     
+CR51E2NBF1     18  76   0   NORMAL   80    90    95    55      65      28     
+CR51E2NBF1     18  255  0   NORMAL   105   115   120   83      93      39     
+CR51E2NBF1     18  255  1   NORMAL   105   115   120   83      93      42     
+CR51E2NBF1     18  255  2   NORMAL   100   110   115   78      88      28     
+CR51E8YF0      19  76   0   NORMAL   85    90    95    60      65      33     
+CR51E8YF0      19  255  1   NORMAL   105   110   120   80      85      39     
+CR51E8YF0      19  255  2   NORMAL   105   110   120   80      85      43     
+CR81E2VBD0     20  76   0   NORMAL   80    90    95    48      58      27     
+------------------------------------------------------------------------------
+  Base-Board, Unit:C, Slot 16
+------------------------------------------------------------------------------
+PCB            I2C Addr Chl Status   Minor Major Fatal FanTMin FanTMax Temp(C)
+------------------------------------------------------------------------------
+CR81IPU2TA2S   8   73   0   NORMAL   75    85    90    50      60      39     
+DP51CPUH       8   73   2   NORMAL   90    100   105   65      75      53     
+CR81IPU2TA2S   8   75   1   NORMAL   85    95    100   55      65      48     
+CR81IPU2TA2S   8   255  3   NORMAL   105   115   120   80      90      61     
+CR81IPU2TA2S   8   255  4   NORMAL   105   115   120   80      90      61     
+CR81IPU2TA2S   8   255  5   NORMAL   105   115   120   80      90      59     
+CR81IPU2TA2S   8   255  6   NORMAL   105   115   120   80      90      59     
+CR81IPU2TA2S   8   255  7   NORMAL   105   115   120   80      90      63     
+CR81IPU2TA2S   8   255  8   NORMAL   105   115   120   80      90      66     
+CR81IPU2TA2S   8   255  9   NORMAL   105   115   120   80      90      64     
+CR81IPU2TA2S   8   255  10  NORMAL   105   115   120   80      90      63     
+CR81IPU2TA2S   8   255  11  NORMAL   105   115   120   83      93      55     
+CR81IPU2TA2S   8   255  12  NORMAL   95    105   110   73      83      55     
+CR81IPU2TA2S   8   255  13  NORMAL   95    105   110   73      83      61     
+CR81IPU2TA2S   8   255  14  NORMAL   105   115   120   83      93      57     
+CR81IPU2TA2S   8   255  15  NORMAL   95    105   110   73      83      55     
+CR81IPU2TA2S   8   255  16  NORMAL   95    105   110   73      83      62     
+CR81IPU2TA2S   8   255  17  NORMAL   100   110   115   75      85      59     
+CR81IPU2TA2S   8   255  18  NORMAL   100   110   115   75      85      59     
+DP51CPUH       8   255  19  NORMAL   98    103   108   94      95      76     
+DP51CPUH       8   255  20  NORMAL   98    103   108   94      95      81     
+DP51CPUH       8   255  21  NORMAL   105   115   120   80      90      49     
+------------------------------------------------------------------------------
+  Base-Board, Unit:C, Slot 17
+------------------------------------------------------------------------------
+PCB            I2C Addr Chl Status   Minor Major Fatal FanTMin FanTMax Temp(C)
+------------------------------------------------------------------------------
+DP52PDC2K4A    5   72   0   NORMAL   75    85    90    50      55      21     
+------------------------------------------------------------------------------
+  Base-Board, Unit:C, Slot 18
+------------------------------------------------------------------------------
+PCB            I2C Addr Chl Status   Minor Major Fatal FanTMin FanTMax Temp(C)
+------------------------------------------------------------------------------
+DP52PDC2K4A    6   72   0   NORMAL   75    85    90    50      55      22     
+------------------------------------------------------------------------------
+
+
+######################################################################################################################################
+
+
+
+BG3NE8K04
+
+
+Info: No alarm.
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------------------------
+Slot                           CPU Usage  Memory Usage(Used/Total)
+--------------------------------------------------------------------
+16          IPU(Master)            10%          32%   5062MB/15456MB
+15          IPU(Slave)              5%          30%   4706MB/15456MB
+--------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+Pic-status information :
+--------------------------------------------------------------------------------
+Pic#    Status       Type                      Port_count Init_result Logic_down
+--------------------------------------------------------------------------------
+16/1    Registered   LAN_WAN_10x10GF_CARD      10         SUCCESS     SUCCESS   
+16/2    Registered   LAN_WAN_10x10GF_CARD      10         SUCCESS     SUCCESS   
+16/7    Registered   ETH_2x100GB_CARD          2          SUCCESS     SUCCESS   
+16/8    Registered   ETH_2x100GB_CARD          2          SUCCESS     SUCCESS   
+16/9    Registered   ETH_2x100GB_CARD          2          SUCCESS     SUCCESS   
+16/10   Registered   ETH_2x100GB_CARD          2          SUCCESS     SUCCESS   
+16/11   Registered   ETH_2x100GB_CARD          2          SUCCESS     SUCCESS   
+16/12   Registered   ETH_8x25GF_CARD           8          SUCCESS     SUCCESS   
+16/13   Registered   ETH_2x50GB_CARD           2          SUCCESS     SUCCESS   
+16/76   Registered   FLEXE_VIRTUAL_CARD        0          SUCCESS     SUCCESS   
+16/77   Registered   FLEXE_VIRTUAL_CARD        0          SUCCESS     SUCCESS   
+16/78   Registered   FLEXE_VIRTUAL_CARD        0          SUCCESS     SUCCESS   
+16/79   Registered   FLEXE_VIRTUAL_CARD        0          SUCCESS     SUCCESS   
+--------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+NetEngine 8000 M14's Device status:
+-------------------------------------------------------------------------------
+Slot #   Type    Online     Register     Status     Role   LsId   Primary      
+-------------------------------------------------------------------------------
+1        PIC     Present    Registered   Normal     OTHER  0      NA           
+2        PIC     Present    Registered   Normal     OTHER  0      NA           
+7        PIC     Present    Registered   Normal     OTHER  0      NA           
+8        PIC     Present    Registered   Normal     OTHER  0      NA           
+9        PIC     Present    Registered   Normal     OTHER  0      NA           
+10       PIC     Present    Registered   Normal     OTHER  0      NA           
+11       PIC     Present    Registered   Normal     OTHER  0      NA           
+12       PIC     Present    Registered   Normal     OTHER  0      NA           
+13       PIC     Present    Registered   Normal     OTHER  0      NA           
+15       IPU     Present    Registered   Normal     MMB    0      Slave        
+16       IPU     Present    Registered   Normal     MMB    0      Master       
+17       PWR     Present    Registered   Normal     OTHER  0      NA           
+18       PWR     Present    Registered   Normal     OTHER  0      NA           
+19       FAN     Present    Registered   Normal     OTHER  0      NA           
+20       CLK     Present    Registered   Normal     OTHER  0      Slave        
+21       CLK     Present    Registered   Normal     OTHER  0      Master       
+-------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+ Active License    : 2102353ABJ10NA100069.xml
+ License state     : Normal
+ Revoke ticket     : No ticket
+ License mode      : common
+ 
+ Bee Cable Company for Communication Services Ltd.
+
+ Product name      : NetEngine 8000
+ Product version   : V800R021
+ License Serial No : LIC20221010Q3BT6T
+ Creator           : Huawei Technologies Co., Ltd.
+ Created Time      : 2022-10-10 10:58:54
+
+ -------------------------------------------------------------
+ Feature name      : CRFEA5
+ Authorize type    : comm
+ Expired date      : PERMANENT
+ Trial days        : --
+
+ Item name               Item type      Value      Description
+ -------------------------------------------------------------
+
+ CR8S00EVPNC4              --             36         NetEngine 8000 M Series EVPN Port Function License(per 10GE)
+    LCR8S00EVPNC4          Resource       36         NetEngine 8000 M Series EVPN Port Function License(per 10GE)
+ CR8S00EVPNC2              --             22         NetEngine 8000 M Series EVPN Port Function License(per 50GE/40GE)
+    LCR8S00EVPNC2          Resource       22         NetEngine 8000 M Series EVPN Port Function License(per 50GE/40GE)
+ CR8S00L3VPC2              --             22         NetEngine 8000 M Series L3VPN Port Function License(per 50GE/40GE)
+    LCR8S00L3VPC2          Resource       22         NetEngine 8000 M Series L3VPN Port Function License(per 50GE/40GE)
+ CR8S00OAMBC0              --             1          NetEngine 8000 M Series OAM Essential Function License
+    LCR8S002544C1          Function       YES        NetEngine 8000 M Series OAM Enhanced Function License
+ CR8S00CRAGC4              --             36         NetEngine 8000 M Series Core&Aggregation Scenario Port Function License(per 10GE)
+    LCR8S00CRAGC4          Resource       36         NetEngine 8000 M Series Core&Aggregation Scenario Port Function License(per 10GE)
+ CR8S00CRAGC2              --             22         NetEngine 8000 M Series Core&Aggregation Scenario Port Function License(per 50GE/40GE)
+    LCR8S00CRAGC2          Resource       22         NetEngine 8000 M Series Core&Aggregation Scenario Port Function License(per 50GE/40GE)
+ CR8S00L3VPC4              --             36         NetEngine 8000 M Series L3VPN Port Function License(per 10GE)
+    LCR8S00L3VPC4          Resource       36         NetEngine 8000 M Series L3VPN Port Function License(per 10GE)
+
+ Item name               (View)Resource License Command-line
+ -------------------------------------------------------------
+ LCR8S00EVPNC2           (License)active port-evpn slot <slot-id> card <card-id> port <port-list>
+ LCR8S00EVPNC4           (License)active port-evpn slot <slot-id> card <card-id> port <port-list>
+ LCR8S00L3VPC2           (License)active port-l3vpn slot <slot-id> card <card-id> port <port-list>
+ LCR8S00CRAGC2           (License)active port-core-aggregation slot <slot-id> card <card-id> port <port-list>
+ LCR8S00CRAGC4           (License)active port-core-aggregation slot <slot-id> card <card-id> port <port-list>
+ LCR8S00L3VPC4           (License)active port-l3vpn slot <slot-id> card <card-id> port <port-list>
+
+ Master board license state: Normal.
+
+
+
+
+
+
+
+
+
+
+
+
+  Base-Board, Unit:C, Slot 15
+------------------------------------------------------------------------------
+PCB            I2C Addr Chl Status   Minor Major Fatal FanTMin FanTMax Temp(C)
+------------------------------------------------------------------------------
+CR81IPU2TA2S   8   73   0   NORMAL   75    85    90    50      60      39     
+DP51CPUH       8   73   2   NORMAL   90    100   105   65      75      55     
+CR81IPU2TA2S   8   75   1   NORMAL   85    95    100   55      65      48     
+CR81IPU2TA2S   8   255  3   NORMAL   105   115   120   80      90      58     
+CR81IPU2TA2S   8   255  4   NORMAL   105   115   120   80      90      58     
+CR81IPU2TA2S   8   255  5   NORMAL   105   115   120   80      90      57     
+CR81IPU2TA2S   8   255  6   NORMAL   105   115   120   80      90      59     
+CR81IPU2TA2S   8   255  7   NORMAL   105   115   120   80      90      64     
+CR81IPU2TA2S   8   255  8   NORMAL   105   115   120   80      90      66     
+CR81IPU2TA2S   8   255  9   NORMAL   105   115   120   80      90      65     
+CR81IPU2TA2S   8   255  10  NORMAL   105   115   120   80      90      65     
+CR81IPU2TA2S   8   255  11  NORMAL   105   115   120   83      93      55     
+CR81IPU2TA2S   8   255  12  NORMAL   95    105   110   73      83      55     
+CR81IPU2TA2S   8   255  13  NORMAL   95    105   110   73      83      59     
+CR81IPU2TA2S   8   255  14  NORMAL   105   115   120   83      93      56     
+CR81IPU2TA2S   8   255  15  NORMAL   95    105   110   73      83      56     
+CR81IPU2TA2S   8   255  16  NORMAL   95    105   110   73      83      61     
+CR81IPU2TA2S   8   255  17  NORMAL   100   110   115   75      85      57     
+CR81IPU2TA2S   8   255  18  NORMAL   100   110   115   75      85      57     
+DP51CPUH       8   255  19  NORMAL   98    103   108   94      95      78     
+DP51CPUH       8   255  20  NORMAL   98    103   108   94      95      83     
+DP51CPUH       8   255  21  NORMAL   105   115   120   80      90      50     
+------------------------------------------------------------------------------
+  Base-Board, Unit:C, Slot 16
+------------------------------------------------------------------------------
+PCB            I2C Addr Chl Status   Minor Major Fatal FanTMin FanTMax Temp(C)
+------------------------------------------------------------------------------
+CR81IPU2TA2S   8   73   0   NORMAL   75    85    90    50      60      40     
+DP51CPUH       8   73   2   NORMAL   90    100   105   65      75      54     
+CR81IPU2TA2S   8   75   1   NORMAL   85    95    100   55      65      48     
+CR81IPU2TA2S   8   255  3   NORMAL   105   115   120   80      90      56     
+CR81IPU2TA2S   8   255  4   NORMAL   105   115   120   80      90      56     
+CR81IPU2TA2S   8   255  5   NORMAL   105   115   120   80      90      55     
+CR81IPU2TA2S   8   255  6   NORMAL   105   115   120   80      90      56     
+CR81IPU2TA2S   8   255  7   NORMAL   105   115   120   80      90      62     
+CR81IPU2TA2S   8   255  8   NORMAL   105   115   120   80      90      64     
+CR81IPU2TA2S   8   255  9   NORMAL   105   115   120   80      90      63     
+CR81IPU2TA2S   8   255  10  NORMAL   105   115   120   80      90      63     
+CR81IPU2TA2S   8   255  11  NORMAL   105   115   120   83      93      55     
+CR81IPU2TA2S   8   255  12  NORMAL   95    105   110   73      83      54     
+CR81IPU2TA2S   8   255  13  NORMAL   95    105   110   73      83      61     
+CR81IPU2TA2S   8   255  14  NORMAL   105   115   120   83      93      55     
+CR81IPU2TA2S   8   255  15  NORMAL   95    105   110   73      83      55     
+CR81IPU2TA2S   8   255  16  NORMAL   95    105   110   73      83      61     
+CR81IPU2TA2S   8   255  17  NORMAL   100   110   115   75      85      59     
+CR81IPU2TA2S   8   255  18  NORMAL   100   110   115   75      85      59     
+DP51CPUH       8   255  19  NORMAL   98    103   108   94      95      80     
+DP51CPUH       8   255  20  NORMAL   98    103   108   94      95      82     
+DP51CPUH       8   255  21  NORMAL   105   115   120   80      90      48     
+CR51LAXFE0     0   76   0   NORMAL   95    100   105   65      70      39     
+CR51LAXFE0     0   255  1   NORMAL   105   110   120   90      95      46     
+CR51LAXFE0     0   255  2   NORMAL   105   110   120   90      95      48     
+CR51LAXFE0     1   76   0   NORMAL   95    100   105   65      70      43     
+CR51LAXFE0     1   255  1   NORMAL   105   110   120   90      95      50     
+CR51LAXFE0     1   255  2   NORMAL   105   110   120   90      95      52     
+CR51E2NBF1     6   76   0   NORMAL   80    90    95    55      65      31     
+CR51E2NBF1     6   255  0   NORMAL   105   115   120   83      93      40     
+CR51E2NBF1     6   255  1   NORMAL   105   115   120   83      93      43     
+CR51E2NBF1     6   255  2   NORMAL   100   110   115   78      88      30     
+CR51E2NBF1     7   76   0   NORMAL   80    90    95    55      65      34     
+CR51E2NBF1     7   255  0   NORMAL   105   115   120   83      93      45     
+CR51E2NBF1     7   255  1   NORMAL   105   115   120   83      93      48     
+CR51E2NBF1     7   255  2   NORMAL   100   110   115   78      88      34     
+CR51E2NBF1     16  76   0   NORMAL   80    90    95    55      65      30     
+CR51E2NBF1     16  255  0   NORMAL   105   115   120   83      93      39     
+CR51E2NBF1     16  255  1   NORMAL   105   115   120   83      93      42     
+CR51E2NBF1     16  255  2   NORMAL   100   110   115   78      88      31     
+CR51E2NBF1     17  76   0   NORMAL   80    90    95    55      65      33     
+CR51E2NBF1     17  255  0   NORMAL   105   115   120   83      93      45     
+CR51E2NBF1     17  255  1   NORMAL   105   115   120   83      93      48     
+CR51E2NBF1     17  255  2   NORMAL   100   110   115   78      88      33     
+CR51E2NBF1     18  76   0   NORMAL   80    90    95    55      65      30     
+CR51E2NBF1     18  255  0   NORMAL   105   115   120   83      93      42     
+CR51E2NBF1     18  255  1   NORMAL   105   115   120   83      93      45     
+CR51E2NBF1     18  255  2   NORMAL   100   110   115   78      88      30     
+CR51E8YF0      19  76   0   NORMAL   85    90    95    60      65      34     
+CR51E8YF0      19  255  1   NORMAL   105   110   120   80      85      44     
+CR51E8YF0      19  255  2   NORMAL   105   110   120   80      85      45     
+CR81E2VBD0     20  76   0   NORMAL   80    90    95    48      58      29     
+------------------------------------------------------------------------------
+  Base-Board, Unit:C, Slot 17
+------------------------------------------------------------------------------
+PCB            I2C Addr Chl Status   Minor Major Fatal FanTMin FanTMax Temp(C)
+------------------------------------------------------------------------------
+DP52PDC2K4A    5   72   0   NORMAL   75    85    90    50      55      22     
+------------------------------------------------------------------------------
+  Base-Board, Unit:C, Slot 18
+------------------------------------------------------------------------------
+PCB            I2C Addr Chl Status   Minor Major Fatal FanTMin FanTMax Temp(C)
+------------------------------------------------------------------------------
+DP52PDC2K4A    6   72   0   NORMAL   75    85    90    50      55      23     
+------------------------------------------------------------------------------
+
+
+######################################################################################################################################
+
+
+
+MSLNE8K03
+
+
+Info: No alarm.
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------------------------
+Slot                           CPU Usage  Memory Usage(Used/Total)
+--------------------------------------------------------------------
+15          IPU(Master)            10%          38%   5984MB/15456MB
+16          IPU(Slave)              6%          34%   5293MB/15456MB
+--------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+Pic-status information :
+--------------------------------------------------------------------------------
+Pic#    Status       Type                      Port_count Init_result Logic_down
+--------------------------------------------------------------------------------
+15/1    Registered   LAN_WAN_10x10GF_CARD      10         SUCCESS     SUCCESS   
+15/2    Registered   LAN_WAN_10x10GF_CARD      10         SUCCESS     SUCCESS   
+15/3    Registered   LAN_WAN_10x10GF_CARD      10         SUCCESS     SUCCESS   
+15/7    Registered   ETH_2x100GB_CARD          2          SUCCESS     SUCCESS   
+15/8    Registered   ETH_2x100GB_CARD          2          SUCCESS     SUCCESS   
+15/9    Registered   ETH_2x100GB_CARD          2          SUCCESS     SUCCESS   
+15/10   Registered   ETH_2x100GB_CARD          2          SUCCESS     SUCCESS   
+15/11   Registered   ETH_8x25GF_CARD           8          SUCCESS     SUCCESS   
+15/12   Registered   ETH_8x25GF_CARD           8          SUCCESS     SUCCESS   
+15/13   Registered   ETH_2x50GB_CARD           2          SUCCESS     SUCCESS   
+15/14   Registered   ETH_2x50GB_CARD           2          SUCCESS     SUCCESS   
+15/76   Registered   FLEXE_VIRTUAL_CARD        0          SUCCESS     SUCCESS   
+15/77   Registered   FLEXE_VIRTUAL_CARD        0          SUCCESS     SUCCESS   
+15/78   Registered   FLEXE_VIRTUAL_CARD        0          SUCCESS     SUCCESS   
+15/79   Registered   FLEXE_VIRTUAL_CARD        0          SUCCESS     SUCCESS   
+--------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+NetEngine 8000 M14's Device status:
+-------------------------------------------------------------------------------
+Slot #   Type    Online     Register     Status     Role   LsId   Primary      
+-------------------------------------------------------------------------------
+1        PIC     Present    Registered   Normal     OTHER  0      NA           
+2        PIC     Present    Registered   Normal     OTHER  0      NA           
+3        PIC     Present    Registered   Normal     OTHER  0      NA           
+7        PIC     Present    Registered   Normal     OTHER  0      NA           
+8        PIC     Present    Registered   Normal     OTHER  0      NA           
+9        PIC     Present    Registered   Normal     OTHER  0      NA           
+10       PIC     Present    Registered   Normal     OTHER  0      NA           
+11       PIC     Present    Registered   Normal     OTHER  0      NA           
+12       PIC     Present    Registered   Normal     OTHER  0      NA           
+13       PIC     Present    Registered   Normal     OTHER  0      NA           
+14       PIC     Present    Registered   Normal     OTHER  0      NA           
+15       IPU     Present    Registered   Normal     MMB    0      Master       
+16       IPU     Present    Registered   Normal     MMB    0      Slave        
+17       PWR     Present    Registered   Normal     OTHER  0      NA           
+18       PWR     Present    Registered   Normal     OTHER  0      NA           
+19       FAN     Present    Registered   Normal     OTHER  0      NA           
+20       CLK     Present    Registered   Normal     OTHER  0      Master       
+21       CLK     Present    Registered   Normal     OTHER  0      Slave        
+-------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+ Active License    : cfcard:/MO1NE8K03.xml
+ License state     : Normal
+ Revoke ticket     : No ticket
+ License mode      : common
+ 
+ Bee Cable Company for Communication Services Ltd.
+
+ Product name      : NetEngine 8000
+ Product version   : V800R021
+ License Serial No : LIC202308252ORV6T
+ Creator           : Huawei Technologies Co., Ltd.
+ Created Time      : 2023-08-25 19:44:04
+
+ -------------------------------------------------------------
+ Feature name      : CRFEA5
+ Authorize type    : comm
+ Expired date      : PERMANENT
+ Trial days        : --
+
+ Item name               Item type      Value      Description
+ -------------------------------------------------------------
+
+ CR8S00L3VPC2              --             30         NetEngine 8000 M Series L3VPN Port Function License(per 50GE/40GE)
+    LCR8S00L3VPC2          Resource       30         NetEngine 8000 M Series L3VPN Port Function License(per 50GE/40GE)
+ CR8S00OAMBC0              --             1          NetEngine 8000 M Series OAM Essential Function License
+    LCR8S002544C1          Function       YES        NetEngine 8000 M Series OAM Enhanced Function License
+ CR8S00CRAGC2              --             30         NetEngine 8000 M Series Core&Aggregation Scenario Port Function License(per 50GE/40GE)
+    LCR8S00CRAGC2          Resource       30         NetEngine 8000 M Series Core&Aggregation Scenario Port Function License(per 50GE/40GE)
+ CR8S00L3VPC4              --             62         NetEngine 8000 M Series L3VPN Port Function License(per 10GE)
+    LCR8S00L3VPC4          Resource       62         NetEngine 8000 M Series L3VPN Port Function License(per 10GE)
+ CR8S00EVPNC4              --             62         NetEngine 8000 M Series EVPN Port Function License(per 10GE)
+    LCR8S00EVPNC4          Resource       62         NetEngine 8000 M Series EVPN Port Function License(per 10GE)
+ CR8S00CRAGC4              --             62         NetEngine 8000 M Series Core&Aggregation Scenario Port Function License(per 10GE)
+    LCR8S00CRAGC4          Resource       62         NetEngine 8000 M Series Core&Aggregation Scenario Port Function License(per 10GE)
+ CR8S00EVPNC2              --             30         NetEngine 8000 M Series EVPN Port Function License(per 50GE/40GE)
+    LCR8S00EVPNC2          Resource       30         NetEngine 8000 M Series EVPN Port Function License(per 50GE/40GE)
+
+ Item name               (View)Resource License Command-line
+ -------------------------------------------------------------
+ LCR8S00L3VPC4           (License)active port-l3vpn slot <slot-id> card <card-id> port <port-list>
+ LCR8S00L3VPC2           (License)active port-l3vpn slot <slot-id> card <card-id> port <port-list>
+ LCR8S00EVPNC2           (License)active port-evpn slot <slot-id> card <card-id> port <port-list>
+ LCR8S00CRAGC4           (License)active port-core-aggregation slot <slot-id> card <card-id> port <port-list>
+ LCR8S00EVPNC4           (License)active port-evpn slot <slot-id> card <card-id> port <port-list>
+ LCR8S00CRAGC2           (License)active port-core-aggregation slot <slot-id> card <card-id> port <port-list>
+
+ Master board license state: Normal.
+
+
+
+
+
+
+
+
+
+
+
+
+  Base-Board, Unit:C, Slot 15
+------------------------------------------------------------------------------
+PCB            I2C Addr Chl Status   Minor Major Fatal FanTMin FanTMax Temp(C)
+------------------------------------------------------------------------------
+CR81IPU2TA2S   8   73   0   NORMAL   75    85    90    50      60      50     
+DP51CPUH       8   73   2   NORMAL   90    100   105   65      75      61     
+CR81IPU2TA2S   8   75   1   NORMAL   85    95    100   55      65      57     
+CR81IPU2TA2S   8   255  3   NORMAL   105   115   120   80      90      68     
+CR81IPU2TA2S   8   255  4   NORMAL   105   115   120   80      90      69     
+CR81IPU2TA2S   8   255  5   NORMAL   105   115   120   80      90      69     
+CR81IPU2TA2S   8   255  6   NORMAL   105   115   120   80      90      67     
+CR81IPU2TA2S   8   255  7   NORMAL   105   115   120   80      90      73     
+CR81IPU2TA2S   8   255  8   NORMAL   105   115   120   80      90      75     
+CR81IPU2TA2S   8   255  9   NORMAL   105   115   120   80      90      74     
+CR81IPU2TA2S   8   255  10  NORMAL   105   115   120   80      90      73     
+CR81IPU2TA2S   8   255  11  NORMAL   105   115   120   83      93      61     
+CR81IPU2TA2S   8   255  12  NORMAL   95    105   110   73      83      62     
+CR81IPU2TA2S   8   255  13  NORMAL   95    105   110   73      83      66     
+CR81IPU2TA2S   8   255  14  NORMAL   105   115   120   83      93      62     
+CR81IPU2TA2S   8   255  15  NORMAL   95    105   110   73      83      62     
+CR81IPU2TA2S   8   255  16  NORMAL   95    105   110   73      83      67     
+CR81IPU2TA2S   8   255  17  NORMAL   100   110   115   75      85      67     
+CR81IPU2TA2S   8   255  18  NORMAL   100   110   115   75      85      67     
+DP51CPUH       8   255  19  NORMAL   98    103   108   94      95      83     
+DP51CPUH       8   255  20  NORMAL   98    103   108   94      95      85     
+DP51CPUH       8   255  21  NORMAL   105   115   120   80      90      58     
+CR51LAXFE0     0   76   0   NORMAL   95    100   105   65      70      51     
+CR51LAXFE0     0   255  1   NORMAL   105   110   120   90      95      53     
+CR51LAXFE0     0   255  2   NORMAL   105   110   120   90      95      55     
+CR51LAXFE0     1   76   0   NORMAL   95    100   105   65      70      54     
+CR51LAXFE0     1   255  1   NORMAL   105   110   120   90      95      62     
+CR51LAXFE0     1   255  2   NORMAL   105   110   120   90      95      62     
+CR51LAXFE0     2   76   0   NORMAL   95    100   105   65      70      48     
+CR51LAXFE0     2   255  1   NORMAL   105   110   120   90      95      58     
+CR51LAXFE0     2   255  2   NORMAL   105   110   120   90      95      57     
+CR51E2NBF1     6   76   0   NORMAL   80    90    95    55      65      43     
+CR51E2NBF1     6   255  0   NORMAL   105   115   120   83      93      50     
+CR51E2NBF1     6   255  1   NORMAL   105   115   120   83      93      53     
+CR51E2NBF1     6   255  2   NORMAL   100   110   115   78      88      43     
+CR51E2NBF1     7   76   0   NORMAL   80    90    95    55      65      44     
+CR51E2NBF1     7   255  0   NORMAL   105   115   120   83      93      53     
+CR51E2NBF1     7   255  1   NORMAL   105   115   120   83      93      57     
+CR51E2NBF1     7   255  2   NORMAL   100   110   115   78      88      44     
+CR51E2NBF1     16  76   0   NORMAL   80    90    95    55      65      42     
+CR51E2NBF1     16  255  0   NORMAL   105   115   120   83      93      53     
+CR51E2NBF1     16  255  1   NORMAL   105   115   120   83      93      56     
+CR51E2NBF1     16  255  2   NORMAL   100   110   115   78      88      42     
+CR51E2NBF1     17  76   0   NORMAL   80    90    95    55      65      43     
+CR51E2NBF1     17  255  0   NORMAL   105   115   120   83      93      53     
+CR51E2NBF1     17  255  1   NORMAL   105   115   120   83      93      56     
+CR51E2NBF1     17  255  2   NORMAL   100   110   115   78      88      42     
+CR51E8YF0      18  76   0   NORMAL   85    90    95    60      65      43     
+CR51E8YF0      18  255  1   NORMAL   105   110   120   80      85      54     
+CR51E8YF0      18  255  2   NORMAL   105   110   120   80      85      55     
+CR51E8YF0      19  76   0   NORMAL   85    90    95    60      65      43     
+CR51E8YF0      19  255  1   NORMAL   105   110   120   80      85      54     
+CR51E8YF0      19  255  2   NORMAL   105   110   120   80      85      57     
+CR81E2VBD0     20  76   0   NORMAL   80    90    95    48      58      42     
+CR81E2VBD0     21  76   0   NORMAL   80    90    95    48      58      41     
+------------------------------------------------------------------------------
+  Base-Board, Unit:C, Slot 16
+------------------------------------------------------------------------------
+PCB            I2C Addr Chl Status   Minor Major Fatal FanTMin FanTMax Temp(C)
+------------------------------------------------------------------------------
+CR81IPU2TA2S   8   73   0   NORMAL   75    85    90    50      60      48     
+DP51CPUH       8   73   2   NORMAL   90    100   105   65      75      59     
+CR81IPU2TA2S   8   75   1   NORMAL   85    95    100   55      65      55     
+CR81IPU2TA2S   8   255  3   NORMAL   105   115   120   80      90      64     
+CR81IPU2TA2S   8   255  4   NORMAL   105   115   120   80      90      65     
+CR81IPU2TA2S   8   255  5   NORMAL   105   115   120   80      90      64     
+CR81IPU2TA2S   8   255  6   NORMAL   105   115   120   80      90      64     
+CR81IPU2TA2S   8   255  7   NORMAL   105   115   120   80      90      65     
+CR81IPU2TA2S   8   255  8   NORMAL   105   115   120   80      90      67     
+CR81IPU2TA2S   8   255  9   NORMAL   105   115   120   80      90      66     
+CR81IPU2TA2S   8   255  10  NORMAL   105   115   120   80      90      66     
+CR81IPU2TA2S   8   255  11  NORMAL   105   115   120   83      93      58     
+CR81IPU2TA2S   8   255  12  NORMAL   95    105   110   73      83      61     
+CR81IPU2TA2S   8   255  13  NORMAL   95    105   110   73      83      64     
+CR81IPU2TA2S   8   255  14  NORMAL   105   115   120   83      93      59     
+CR81IPU2TA2S   8   255  15  NORMAL   95    105   110   73      83      58     
+CR81IPU2TA2S   8   255  16  NORMAL   95    105   110   73      83      62     
+CR81IPU2TA2S   8   255  17  NORMAL   100   110   115   75      85      66     
+CR81IPU2TA2S   8   255  18  NORMAL   100   110   115   75      85      66     
+DP51CPUH       8   255  19  NORMAL   98    103   108   94      95      79     
+DP51CPUH       8   255  20  NORMAL   98    103   108   94      95      82     
+DP51CPUH       8   255  21  NORMAL   105   115   120   80      90      56     
+------------------------------------------------------------------------------
+  Base-Board, Unit:C, Slot 17
+------------------------------------------------------------------------------
+PCB            I2C Addr Chl Status   Minor Major Fatal FanTMin FanTMax Temp(C)
+------------------------------------------------------------------------------
+DP52PDC2K4A    5   72   0   NORMAL   75    85    90    50      55      39     
+------------------------------------------------------------------------------
+  Base-Board, Unit:C, Slot 18
+------------------------------------------------------------------------------
+PCB            I2C Addr Chl Status   Minor Major Fatal FanTMin FanTMax Temp(C)
+------------------------------------------------------------------------------
+DP52PDC2K4A    6   72   0   NORMAL   75    85    90    50      55      37     
+------------------------------------------------------------------------------
+
+
+######################################################################################################################################
+
+
+
+MSLNE8K04
+
+
+Info: No alarm.
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------------------------
+Slot                           CPU Usage  Memory Usage(Used/Total)
+--------------------------------------------------------------------
+15          IPU(Master)            10%          38%   5971MB/15456MB
+16          IPU(Slave)              6%          34%   5300MB/15456MB
+--------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+Pic-status information :
+--------------------------------------------------------------------------------
+Pic#    Status       Type                      Port_count Init_result Logic_down
+--------------------------------------------------------------------------------
+15/1    Registered   LAN_WAN_10x10GF_CARD      10         SUCCESS     SUCCESS   
+15/2    Registered   LAN_WAN_10x10GF_CARD      10         SUCCESS     SUCCESS   
+15/3    Registered   LAN_WAN_10x10GF_CARD      10         SUCCESS     SUCCESS   
+15/7    Registered   ETH_2x100GB_CARD          2          SUCCESS     SUCCESS   
+15/8    Registered   ETH_2x100GB_CARD          2          SUCCESS     SUCCESS   
+15/9    Registered   ETH_2x100GB_CARD          2          SUCCESS     SUCCESS   
+15/10   Registered   ETH_2x100GB_CARD          2          SUCCESS     SUCCESS   
+15/11   Registered   ETH_8x25GF_CARD           8          SUCCESS     SUCCESS   
+15/12   Registered   ETH_8x25GF_CARD           8          SUCCESS     SUCCESS   
+15/13   Registered   ETH_2x50GB_CARD           2          SUCCESS     SUCCESS   
+15/14   Registered   ETH_2x50GB_CARD           2          SUCCESS     SUCCESS   
+15/76   Registered   FLEXE_VIRTUAL_CARD        0          SUCCESS     SUCCESS   
+15/77   Registered   FLEXE_VIRTUAL_CARD        0          SUCCESS     SUCCESS   
+15/78   Registered   FLEXE_VIRTUAL_CARD        0          SUCCESS     SUCCESS   
+15/79   Registered   FLEXE_VIRTUAL_CARD        0          SUCCESS     SUCCESS   
+--------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+NetEngine 8000 M14's Device status:
+-------------------------------------------------------------------------------
+Slot #   Type    Online     Register     Status     Role   LsId   Primary      
+-------------------------------------------------------------------------------
+1        PIC     Present    Registered   Normal     OTHER  0      NA           
+2        PIC     Present    Registered   Normal     OTHER  0      NA           
+3        PIC     Present    Registered   Normal     OTHER  0      NA           
+7        PIC     Present    Registered   Normal     OTHER  0      NA           
+8        PIC     Present    Registered   Normal     OTHER  0      NA           
+9        PIC     Present    Registered   Normal     OTHER  0      NA           
+10       PIC     Present    Registered   Normal     OTHER  0      NA           
+11       PIC     Present    Registered   Normal     OTHER  0      NA           
+12       PIC     Present    Registered   Normal     OTHER  0      NA           
+13       PIC     Present    Registered   Normal     OTHER  0      NA           
+14       PIC     Present    Registered   Normal     OTHER  0      NA           
+15       IPU     Present    Registered   Normal     MMB    0      Master       
+16       IPU     Present    Registered   Normal     MMB    0      Slave        
+17       PWR     Present    Registered   Normal     OTHER  0      NA           
+18       PWR     Present    Registered   Normal     OTHER  0      NA           
+19       FAN     Present    Registered   Normal     OTHER  0      NA           
+20       CLK     Present    Registered   Normal     OTHER  0      Master       
+21       CLK     Present    Registered   Normal     OTHER  0      Slave        
+-------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+ Active License    : MO1NE8K04.xml
+ License state     : Normal
+ Revoke ticket     : No ticket
+ License mode      : common
+ 
+ Bee Cable Company for Communication Services Ltd.
+
+ Product name      : NetEngine 8000
+ Product version   : V800R021
+ License Serial No : LIC202308252ORU6T
+ Creator           : Huawei Technologies Co., Ltd.
+ Created Time      : 2023-08-25 19:44:03
+
+ -------------------------------------------------------------
+ Feature name      : CRFEA5
+ Authorize type    : comm
+ Expired date      : PERMANENT
+ Trial days        : --
+
+ Item name               Item type      Value      Description
+ -------------------------------------------------------------
+
+ CR8S00L3VPC2              --             30         NetEngine 8000 M Series L3VPN Port Function License(per 50GE/40GE)
+    LCR8S00L3VPC2          Resource       30         NetEngine 8000 M Series L3VPN Port Function License(per 50GE/40GE)
+ CR8S00OAMBC0              --             1          NetEngine 8000 M Series OAM Essential Function License
+    LCR8S002544C1          Function       YES        NetEngine 8000 M Series OAM Enhanced Function License
+ CR8S00CRAGC2              --             30         NetEngine 8000 M Series Core&Aggregation Scenario Port Function License(per 50GE/40GE)
+    LCR8S00CRAGC2          Resource       30         NetEngine 8000 M Series Core&Aggregation Scenario Port Function License(per 50GE/40GE)
+ CR8S00L3VPC4              --             62         NetEngine 8000 M Series L3VPN Port Function License(per 10GE)
+    LCR8S00L3VPC4          Resource       62         NetEngine 8000 M Series L3VPN Port Function License(per 10GE)
+ CR8S00EVPNC4              --             62         NetEngine 8000 M Series EVPN Port Function License(per 10GE)
+    LCR8S00EVPNC4          Resource       62         NetEngine 8000 M Series EVPN Port Function License(per 10GE)
+ CR8S00CRAGC4              --             62         NetEngine 8000 M Series Core&Aggregation Scenario Port Function License(per 10GE)
+    LCR8S00CRAGC4          Resource       62         NetEngine 8000 M Series Core&Aggregation Scenario Port Function License(per 10GE)
+ CR8S00EVPNC2              --             30         NetEngine 8000 M Series EVPN Port Function License(per 50GE/40GE)
+    LCR8S00EVPNC2          Resource       30         NetEngine 8000 M Series EVPN Port Function License(per 50GE/40GE)
+
+ Item name               (View)Resource License Command-line
+ -------------------------------------------------------------
+ LCR8S00CRAGC4           (License)active port-core-aggregation slot <slot-id> card <card-id> port <port-list>
+ LCR8S00L3VPC4           (License)active port-l3vpn slot <slot-id> card <card-id> port <port-list>
+ LCR8S00EVPNC4           (License)active port-evpn slot <slot-id> card <card-id> port <port-list>
+ LCR8S00L3VPC2           (License)active port-l3vpn slot <slot-id> card <card-id> port <port-list>
+ LCR8S00CRAGC2           (License)active port-core-aggregation slot <slot-id> card <card-id> port <port-list>
+ LCR8S00EVPNC2           (License)active port-evpn slot <slot-id> card <card-id> port <port-list>
+
+ Master board license state: Normal.
+
+
+
+
+
+
+
+
+
+
+
+
+  Base-Board, Unit:C, Slot 15
+------------------------------------------------------------------------------
+PCB            I2C Addr Chl Status   Minor Major Fatal FanTMin FanTMax Temp(C)
+------------------------------------------------------------------------------
+CR81IPU2TA2S   8   73   0   NORMAL   75    85    90    50      60      45     
+DP51CPUH       8   73   2   NORMAL   90    100   105   65      75      58     
+CR81IPU2TA2S   8   75   1   NORMAL   85    95    100   55      65      53     
+CR81IPU2TA2S   8   255  3   NORMAL   105   115   120   80      90      59     
+CR81IPU2TA2S   8   255  4   NORMAL   105   115   120   80      90      60     
+CR81IPU2TA2S   8   255  5   NORMAL   105   115   120   80      90      59     
+CR81IPU2TA2S   8   255  6   NORMAL   105   115   120   80      90      60     
+CR81IPU2TA2S   8   255  7   NORMAL   105   115   120   80      90      60     
+CR81IPU2TA2S   8   255  8   NORMAL   105   115   120   80      90      63     
+CR81IPU2TA2S   8   255  9   NORMAL   105   115   120   80      90      62     
+CR81IPU2TA2S   8   255  10  NORMAL   105   115   120   80      90      62     
+CR81IPU2TA2S   8   255  11  NORMAL   105   115   120   83      93      58     
+CR81IPU2TA2S   8   255  12  NORMAL   95    105   110   73      83      58     
+CR81IPU2TA2S   8   255  13  NORMAL   95    105   110   73      83      62     
+CR81IPU2TA2S   8   255  14  NORMAL   105   115   120   83      93      59     
+CR81IPU2TA2S   8   255  15  NORMAL   95    105   110   73      83      60     
+CR81IPU2TA2S   8   255  16  NORMAL   95    105   110   73      83      60     
+CR81IPU2TA2S   8   255  17  NORMAL   100   110   115   75      85      62     
+CR81IPU2TA2S   8   255  18  NORMAL   100   110   115   75      85      62     
+DP51CPUH       8   255  19  NORMAL   98    103   108   94      95      81     
+DP51CPUH       8   255  20  NORMAL   98    103   108   94      95      80     
+DP51CPUH       8   255  21  NORMAL   105   115   120   80      90      56     
+CR51LAXFE0     0   76   0   NORMAL   95    100   105   65      70      45     
+CR51LAXFE0     0   255  1   NORMAL   105   110   120   90      95      46     
+CR51LAXFE0     0   255  2   NORMAL   105   110   120   90      95      48     
+CR51LAXFE0     1   76   0   NORMAL   95    100   105   65      70      50     
+CR51LAXFE0     1   255  1   NORMAL   105   110   120   90      95      55     
+CR51LAXFE0     1   255  2   NORMAL   105   110   120   90      95      56     
+CR51LAXFE0     2   76   0   NORMAL   95    100   105   65      70      43     
+CR51LAXFE0     2   255  1   NORMAL   105   110   120   90      95      49     
+CR51LAXFE0     2   255  2   NORMAL   105   110   120   90      95      50     
+CR51E2NBF1     6   76   0   NORMAL   80    90    95    55      65      34     
+CR51E2NBF1     6   255  0   NORMAL   105   115   120   83      93      42     
+CR51E2NBF1     6   255  1   NORMAL   105   115   120   83      93      44     
+CR51E2NBF1     6   255  2   NORMAL   100   110   115   78      88      34     
+CR51E2NBF1     7   76   0   NORMAL   80    90    95    55      65      38     
+CR51E2NBF1     7   255  0   NORMAL   105   115   120   83      93      45     
+CR51E2NBF1     7   255  1   NORMAL   105   115   120   83      93      47     
+CR51E2NBF1     7   255  2   NORMAL   100   110   115   78      88      39     
+CR51E2NBF1     16  76   0   NORMAL   80    90    95    55      65      33     
+CR51E2NBF1     16  255  0   NORMAL   105   115   120   83      93      39     
+CR51E2NBF1     16  255  1   NORMAL   105   115   120   83      93      41     
+CR51E2NBF1     16  255  2   NORMAL   100   110   115   78      88      34     
+CR51E2NBF1     17  76   0   NORMAL   80    90    95    55      65      36     
+CR51E2NBF1     17  255  0   NORMAL   105   115   120   83      93      42     
+CR51E2NBF1     17  255  1   NORMAL   105   115   120   83      93      45     
+CR51E2NBF1     17  255  2   NORMAL   100   110   115   78      88      37     
+CR51E8YF0      18  76   0   NORMAL   85    90    95    60      65      33     
+CR51E8YF0      18  255  1   NORMAL   105   110   120   80      85      41     
+CR51E8YF0      18  255  2   NORMAL   105   110   120   80      85      45     
+CR51E8YF0      19  76   0   NORMAL   85    90    95    60      65      36     
+CR51E8YF0      19  255  1   NORMAL   105   110   120   80      85      44     
+CR51E8YF0      19  255  2   NORMAL   105   110   120   80      85      48     
+CR81E2VBD0     20  76   0   NORMAL   80    90    95    48      58      34     
+CR81E2VBD0     21  76   0   NORMAL   80    90    95    48      58      35     
+------------------------------------------------------------------------------
+  Base-Board, Unit:C, Slot 16
+------------------------------------------------------------------------------
+PCB            I2C Addr Chl Status   Minor Major Fatal FanTMin FanTMax Temp(C)
+------------------------------------------------------------------------------
+CR81IPU2TA2S   8   73   0   NORMAL   75    85    90    50      60      43     
+DP51CPUH       8   73   2   NORMAL   90    100   105   65      75      56     
+CR81IPU2TA2S   8   75   1   NORMAL   85    95    100   55      65      52     
+CR81IPU2TA2S   8   255  3   NORMAL   105   115   120   80      90      57     
+CR81IPU2TA2S   8   255  4   NORMAL   105   115   120   80      90      58     
+CR81IPU2TA2S   8   255  5   NORMAL   105   115   120   80      90      57     
+CR81IPU2TA2S   8   255  6   NORMAL   105   115   120   80      90      57     
+CR81IPU2TA2S   8   255  7   NORMAL   105   115   120   80      90      58     
+CR81IPU2TA2S   8   255  8   NORMAL   105   115   120   80      90      60     
+CR81IPU2TA2S   8   255  9   NORMAL   105   115   120   80      90      58     
+CR81IPU2TA2S   8   255  10  NORMAL   105   115   120   80      90      58     
+CR81IPU2TA2S   8   255  11  NORMAL   105   115   120   83      93      56     
+CR81IPU2TA2S   8   255  12  NORMAL   95    105   110   73      83      55     
+CR81IPU2TA2S   8   255  13  NORMAL   95    105   110   73      83      61     
+CR81IPU2TA2S   8   255  14  NORMAL   105   115   120   83      93      56     
+CR81IPU2TA2S   8   255  15  NORMAL   95    105   110   73      83      56     
+CR81IPU2TA2S   8   255  16  NORMAL   95    105   110   73      83      59     
+CR81IPU2TA2S   8   255  17  NORMAL   100   110   115   75      85      61     
+CR81IPU2TA2S   8   255  18  NORMAL   100   110   115   75      85      62     
+DP51CPUH       8   255  19  NORMAL   98    103   108   94      95      76     
+DP51CPUH       8   255  20  NORMAL   98    103   108   94      95      77     
+DP51CPUH       8   255  21  NORMAL   105   115   120   80      90      55     
+------------------------------------------------------------------------------
+  Base-Board, Unit:C, Slot 17
+------------------------------------------------------------------------------
+PCB            I2C Addr Chl Status   Minor Major Fatal FanTMin FanTMax Temp(C)
+------------------------------------------------------------------------------
+DP52PDC2K4A    5   72   0   NORMAL   75    85    90    50      55      30     
+------------------------------------------------------------------------------
+  Base-Board, Unit:C, Slot 18
+------------------------------------------------------------------------------
+PCB            I2C Addr Chl Status   Minor Major Fatal FanTMin FanTMax Temp(C)
+------------------------------------------------------------------------------
+DP52PDC2K4A    6   72   0   NORMAL   75    85    90    50      55      28     
+------------------------------------------------------------------------------
+
+
+######################################################################################################################################
+
+
+
+REZNE8K03
+
+
+Info: No alarm.
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------------------------
+Slot                           CPU Usage  Memory Usage(Used/Total)
+--------------------------------------------------------------------
+15          IPU(Master)             9%          37%   5741MB/15456MB
+16          IPU(Slave)              6%          34%   5285MB/15456MB
+--------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+Pic-status information :
+--------------------------------------------------------------------------------
+Pic#    Status       Type                      Port_count Init_result Logic_down
+--------------------------------------------------------------------------------
+15/1    Registered   LAN_WAN_10x10GF_CARD      10         SUCCESS     SUCCESS   
+15/2    Registered   LAN_WAN_10x10GF_CARD      10         SUCCESS     SUCCESS   
+15/3    Registered   ETH_4x25GF_CARD           4          SUCCESS     SUCCESS   
+15/4    Registered   ETH_2x50GB_CARD           2          SUCCESS     SUCCESS   
+15/5    Registered   ETH_2x50GB_CARD           2          SUCCESS     SUCCESS   
+15/6    Registered   ETH_2x50GB_CARD           2          SUCCESS     SUCCESS   
+15/7    Registered   ETH_2x100GB_CARD          2          SUCCESS     SUCCESS   
+15/8    Registered   ETH_2x100GB_CARD          2          SUCCESS     SUCCESS   
+15/9    Registered   ETH_2x100GB_CARD          2          SUCCESS     SUCCESS   
+15/10   Registered   ETH_2x100GB_CARD          2          SUCCESS     SUCCESS   
+15/11   Registered   ETH_2x100GB_CARD          2          SUCCESS     SUCCESS   
+15/12   Registered   ETH_8x25GF_CARD           8          SUCCESS     SUCCESS   
+15/14   Registered   ETH_2x50GB_CARD           2          SUCCESS     SUCCESS   
+15/76   Registered   FLEXE_VIRTUAL_CARD        0          SUCCESS     SUCCESS   
+15/77   Registered   FLEXE_VIRTUAL_CARD        0          SUCCESS     SUCCESS   
+15/78   Registered   FLEXE_VIRTUAL_CARD        0          SUCCESS     SUCCESS   
+15/79   Registered   FLEXE_VIRTUAL_CARD        0          SUCCESS     SUCCESS   
+--------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+NetEngine 8000 M14's Device status:
+-------------------------------------------------------------------------------
+Slot #   Type    Online     Register     Status     Role   LsId   Primary      
+-------------------------------------------------------------------------------
+1        PIC     Present    Registered   Normal     OTHER  0      NA           
+2        PIC     Present    Registered   Normal     OTHER  0      NA           
+3        PIC     Present    Registered   Normal     OTHER  0      NA           
+4        PIC     Present    Registered   Normal     OTHER  0      NA           
+5        PIC     Present    Registered   Normal     OTHER  0      NA           
+6        PIC     Present    Registered   Normal     OTHER  0      NA           
+7        PIC     Present    Registered   Normal     OTHER  0      NA           
+8        PIC     Present    Registered   Normal     OTHER  0      NA           
+9        PIC     Present    Registered   Normal     OTHER  0      NA           
+10       PIC     Present    Registered   Normal     OTHER  0      NA           
+11       PIC     Present    Registered   Normal     OTHER  0      NA           
+12       PIC     Present    Registered   Normal     OTHER  0      NA           
+14       PIC     Present    Registered   Normal     OTHER  0      NA           
+15       IPU     Present    Registered   Normal     MMB    0      Master       
+16       IPU     Present    Registered   Normal     MMB    0      Slave        
+17       PWR     Present    Registered   Normal     OTHER  0      NA           
+18       PWR     Present    Registered   Normal     OTHER  0      NA           
+19       FAN     Present    Registered   Normal     OTHER  0      NA           
+20       CLK     Present    Registered   Normal     OTHER  0      Master       
+21       CLK     Present    Registered   Normal     OTHER  0      Slave        
+-------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+ Active License    : LICNetEngine8000M14_V800R021_20241125BDZR8T.xml
+ License state     : Normal
+ Revoke ticket     : No ticket
+ License mode      : common
+ 
+ Bee Cable Company for Communication Services Ltd.
+
+ Product name      : NetEngine 8000
+ Product version   : V800R021
+ License Serial No : LIC20241125BDZR8T
+ Creator           : Huawei Technologies Co., Ltd.
+ Created Time      : 2024-11-25 14:14:17
+
+ -------------------------------------------------------------
+ Feature name      : CRFEA5
+ Authorize type    : comm
+ Expired date      : PERMANENT
+ Trial days        : --
+
+ Item name               Item type      Value      Description
+ -------------------------------------------------------------
+
+ CR8S00L3VPC2              --             20         NetEngine 8000 M Series L3VPN Port Function License(per 50GE/40GE)
+    LCR8S00L3VPC2          Resource       20         NetEngine 8000 M Series L3VPN Port Function License(per 50GE/40GE)
+ CR8S00OAMBC0              --             1          NetEngine 8000 M Series OAM Essential Function License
+    LCR8S002544C1          Function       YES        NetEngine 8000 M Series OAM Enhanced Function License
+ CR8S00CRAGC2              --             20         NetEngine 8000 M Series Core&Aggregation Scenario Port Function License(per 50GE/40GE)
+    LCR8S00CRAGC2          Resource       20         NetEngine 8000 M Series Core&Aggregation Scenario Port Function License(per 50GE/40GE)
+ CR8S00L3VPC4              --             52         NetEngine 8000 M Series L3VPN Port Function License(per 10GE)
+    LCR8S00L3VPC4          Resource       52         NetEngine 8000 M Series L3VPN Port Function License(per 10GE)
+ CR8S00EVPNC4              --             52         NetEngine 8000 M Series EVPN Port Function License(per 10GE)
+    LCR8S00EVPNC4          Resource       52         NetEngine 8000 M Series EVPN Port Function License(per 10GE)
+ CR8S00CRAGC4              --             52         NetEngine 8000 M Series Core&Aggregation Scenario Port Function License(per 10GE)
+    LCR8S00CRAGC4          Resource       52         NetEngine 8000 M Series Core&Aggregation Scenario Port Function License(per 10GE)
+ CR8S00EVPNC2              --             20         NetEngine 8000 M Series EVPN Port Function License(per 50GE/40GE)
+    LCR8S00EVPNC2          Resource       20         NetEngine 8000 M Series EVPN Port Function License(per 50GE/40GE)
+
+ Item name               (View)Resource License Command-line
+ -------------------------------------------------------------
+ LCR8S00L3VPC2           (License)active port-l3vpn slot <slot-id> card <card-id> port <port-list>
+ LCR8S00EVPNC2           (License)active port-evpn slot <slot-id> card <card-id> port <port-list>
+ LCR8S00CRAGC4           (License)active port-core-aggregation slot <slot-id> card <card-id> port <port-list>
+ LCR8S00CRAGC2           (License)active port-core-aggregation slot <slot-id> card <card-id> port <port-list>
+ LCR8S00EVPNC4           (License)active port-evpn slot <slot-id> card <card-id> port <port-list>
+ LCR8S00L3VPC4           (License)active port-l3vpn slot <slot-id> card <card-id> port <port-list>
+
+ Master board license state: Normal.
+
+
+
+
+
+
+
+
+
+
+
+
+  Base-Board, Unit:C, Slot 15
+------------------------------------------------------------------------------
+PCB            I2C Addr Chl Status   Minor Major Fatal FanTMin FanTMax Temp(C)
+------------------------------------------------------------------------------
+CR81IPU2TA2S   8   73   0   NORMAL   75    85    90    50      60      44     
+DP51CPUH       8   73   2   NORMAL   90    100   105   65      75      60     
+CR81IPU2TA2S   8   75   1   NORMAL   85    95    100   55      65      54     
+CR81IPU2TA2S   8   255  3   NORMAL   105   115   120   80      90      62     
+CR81IPU2TA2S   8   255  4   NORMAL   105   115   120   80      90      62     
+CR81IPU2TA2S   8   255  5   NORMAL   105   115   120   80      90      61     
+CR81IPU2TA2S   8   255  6   NORMAL   105   115   120   80      90      62     
+CR81IPU2TA2S   8   255  7   NORMAL   105   115   120   80      90      63     
+CR81IPU2TA2S   8   255  8   NORMAL   105   115   120   80      90      66     
+CR81IPU2TA2S   8   255  9   NORMAL   105   115   120   80      90      65     
+CR81IPU2TA2S   8   255  10  NORMAL   105   115   120   80      90      65     
+CR81IPU2TA2S   8   255  11  NORMAL   105   115   120   83      93      61     
+CR81IPU2TA2S   8   255  12  NORMAL   95    105   110   73      83      60     
+CR81IPU2TA2S   8   255  13  NORMAL   95    105   110   73      83      62     
+CR81IPU2TA2S   8   255  14  NORMAL   105   115   120   83      93      60     
+CR81IPU2TA2S   8   255  15  NORMAL   95    105   110   73      83      61     
+CR81IPU2TA2S   8   255  16  NORMAL   95    105   110   73      83      62     
+CR81IPU2TA2S   8   255  17  NORMAL   100   110   115   75      85      61     
+CR81IPU2TA2S   8   255  18  NORMAL   100   110   115   75      85      61     
+DP51CPUH       8   255  19  NORMAL   98    103   108   94      95      80     
+DP51CPUH       8   255  20  NORMAL   98    103   108   94      95      85     
+DP51CPUH       8   255  21  NORMAL   105   115   120   80      90      56     
+CR51LAXFE0     0   76   0   NORMAL   95    100   105   65      70      50     
+CR51LAXFE0     0   255  1   NORMAL   105   110   120   90      95      53     
+CR51LAXFE0     0   255  2   NORMAL   105   110   120   90      95      55     
+CR51LAXFE0     1   76   0   NORMAL   95    100   105   65      70      52     
+CR51LAXFE0     1   255  1   NORMAL   105   110   120   90      95      56     
+CR51LAXFE0     1   255  2   NORMAL   105   110   120   90      95      57     
+CR81E4YFC0     2   76   0   NORMAL   80    90    95    48      58      39     
+CR81E2VBD0     3   76   0   NORMAL   80    90    95    48      58      40     
+CR81E2VBD0     4   76   0   NORMAL   80    90    95    48      58      37     
+CR81E2VBD0     5   76   0   NORMAL   80    90    95    48      58      40     
+CR51E2NBF1     6   76   0   NORMAL   80    90    95    55      65      40     
+CR51E2NBF1     6   255  0   NORMAL   105   115   120   83      93      43     
+CR51E2NBF1     6   255  1   NORMAL   105   115   120   83      93      47     
+CR51E2NBF1     6   255  2   NORMAL   100   110   115   78      88      41     
+CR51E2NBF1     7   76   0   NORMAL   80    90    95    55      65      42     
+CR51E2NBF1     7   255  0   NORMAL   105   115   120   83      93      45     
+CR51E2NBF1     7   255  1   NORMAL   105   115   120   83      93      49     
+CR51E2NBF1     7   255  2   NORMAL   100   110   115   78      88      42     
+CR51E2NBF1     16  76   0   NORMAL   80    90    95    55      65      40     
+CR51E2NBF1     16  255  0   NORMAL   105   115   120   83      93      45     
+CR51E2NBF1     16  255  1   NORMAL   105   115   120   83      93      48     
+CR51E2NBF1     16  255  2   NORMAL   100   110   115   78      88      40     
+CR51E2NBF1     17  76   0   NORMAL   80    90    95    55      65      41     
+CR51E2NBF1     17  255  0   NORMAL   105   115   120   83      93      47     
+CR51E2NBF1     17  255  1   NORMAL   105   115   120   83      93      50     
+CR51E2NBF1     17  255  2   NORMAL   100   110   115   78      88      40     
+CR51E2NBF1     18  76   0   NORMAL   80    90    95    55      65      39     
+CR51E2NBF1     18  255  0   NORMAL   105   115   120   83      93      43     
+CR51E2NBF1     18  255  1   NORMAL   105   115   120   83      93      46     
+CR51E2NBF1     18  255  2   NORMAL   100   110   115   78      88      39     
+CR51E8YF0      19  76   0   NORMAL   85    90    95    60      65      39     
+CR51E8YF0      19  255  1   NORMAL   105   110   120   80      85      52     
+CR51E8YF0      19  255  2   NORMAL   105   110   120   80      85      54     
+CR81E2VBD0     21  76   0   NORMAL   80    90    95    48      58      37     
+------------------------------------------------------------------------------
+  Base-Board, Unit:C, Slot 16
+------------------------------------------------------------------------------
+PCB            I2C Addr Chl Status   Minor Major Fatal FanTMin FanTMax Temp(C)
+------------------------------------------------------------------------------
+CR81IPU2TA2S   8   73   0   NORMAL   75    85    90    50      60      45     
+DP51CPUH       8   73   2   NORMAL   90    100   105   65      75      54     
+CR81IPU2TA2S   8   75   1   NORMAL   85    95    100   55      65      53     
+CR81IPU2TA2S   8   255  3   NORMAL   105   115   120   80      90      62     
+CR81IPU2TA2S   8   255  4   NORMAL   105   115   120   80      90      63     
+CR81IPU2TA2S   8   255  5   NORMAL   105   115   120   80      90      62     
+CR81IPU2TA2S   8   255  6   NORMAL   105   115   120   80      90      64     
+CR81IPU2TA2S   8   255  7   NORMAL   105   115   120   80      90      64     
+CR81IPU2TA2S   8   255  8   NORMAL   105   115   120   80      90      68     
+CR81IPU2TA2S   8   255  9   NORMAL   105   115   120   80      90      67     
+CR81IPU2TA2S   8   255  10  NORMAL   105   115   120   80      90      66     
+CR81IPU2TA2S   8   255  11  NORMAL   105   115   120   83      93      59     
+CR81IPU2TA2S   8   255  12  NORMAL   95    105   110   73      83      60     
+CR81IPU2TA2S   8   255  13  NORMAL   95    105   110   73      83      60     
+CR81IPU2TA2S   8   255  14  NORMAL   105   115   120   83      93      58     
+CR81IPU2TA2S   8   255  15  NORMAL   95    105   110   73      83      61     
+CR81IPU2TA2S   8   255  16  NORMAL   95    105   110   73      83      61     
+CR81IPU2TA2S   8   255  17  NORMAL   100   110   115   75      85      63     
+CR81IPU2TA2S   8   255  18  NORMAL   100   110   115   75      85      63     
+DP51CPUH       8   255  19  NORMAL   98    103   108   94      95      79     
+DP51CPUH       8   255  20  NORMAL   98    103   108   94      95      82     
+DP51CPUH       8   255  21  NORMAL   105   115   120   80      90      55     
+------------------------------------------------------------------------------
+  Base-Board, Unit:C, Slot 17
+------------------------------------------------------------------------------
+PCB            I2C Addr Chl Status   Minor Major Fatal FanTMin FanTMax Temp(C)
+------------------------------------------------------------------------------
+DP52PDC2K4A    5   72   0   NORMAL   75    85    90    50      55      36     
+------------------------------------------------------------------------------
+  Base-Board, Unit:C, Slot 18
+------------------------------------------------------------------------------
+PCB            I2C Addr Chl Status   Minor Major Fatal FanTMin FanTMax Temp(C)
+------------------------------------------------------------------------------
+DP52PDC2K4A    6   72   0   NORMAL   75    85    90    50      55      35     
+------------------------------------------------------------------------------
+
+
+######################################################################################################################################
+
+
+
+REZNE8K04
+
+
+Info: No alarm.
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------------------------
+Slot                           CPU Usage  Memory Usage(Used/Total)
+--------------------------------------------------------------------
+15          IPU(Master)             9%          37%   5733MB/15456MB
+16          IPU(Slave)              7%          32%   5062MB/15456MB
+--------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+Pic-status information :
+--------------------------------------------------------------------------------
+Pic#    Status       Type                      Port_count Init_result Logic_down
+--------------------------------------------------------------------------------
+15/1    Registered   LAN_WAN_10x10GF_CARD      10         SUCCESS     SUCCESS   
+15/2    Registered   LAN_WAN_10x10GF_CARD      10         SUCCESS     SUCCESS   
+15/3    Registered   ETH_4x25GF_CARD           4          SUCCESS     SUCCESS   
+15/4    Registered   ETH_2x50GB_CARD           2          SUCCESS     SUCCESS   
+15/5    Registered   ETH_2x50GB_CARD           2          SUCCESS     SUCCESS   
+15/6    Registered   ETH_2x50GB_CARD           2          SUCCESS     SUCCESS   
+15/7    Registered   ETH_2x100GB_CARD          2          SUCCESS     SUCCESS   
+15/8    Registered   ETH_2x100GB_CARD          2          SUCCESS     SUCCESS   
+15/9    Registered   ETH_2x100GB_CARD          2          SUCCESS     SUCCESS   
+15/10   Registered   ETH_2x100GB_CARD          2          SUCCESS     SUCCESS   
+15/12   Registered   ETH_8x25GF_CARD           8          SUCCESS     SUCCESS   
+15/76   Registered   FLEXE_VIRTUAL_CARD        0          SUCCESS     SUCCESS   
+15/77   Registered   FLEXE_VIRTUAL_CARD        0          SUCCESS     SUCCESS   
+15/78   Registered   FLEXE_VIRTUAL_CARD        0          SUCCESS     SUCCESS   
+15/79   Registered   FLEXE_VIRTUAL_CARD        0          SUCCESS     SUCCESS   
+--------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+NetEngine 8000 M14's Device status:
+-------------------------------------------------------------------------------
+Slot #   Type    Online     Register     Status     Role   LsId   Primary      
+-------------------------------------------------------------------------------
+1        PIC     Present    Registered   Normal     OTHER  0      NA           
+2        PIC     Present    Registered   Normal     OTHER  0      NA           
+3        PIC     Present    Registered   Normal     OTHER  0      NA           
+4        PIC     Present    Registered   Normal     OTHER  0      NA           
+5        PIC     Present    Registered   Normal     OTHER  0      NA           
+6        PIC     Present    Registered   Normal     OTHER  0      NA           
+7        PIC     Present    Registered   Normal     OTHER  0      NA           
+8        PIC     Present    Registered   Normal     OTHER  0      NA           
+9        PIC     Present    Registered   Normal     OTHER  0      NA           
+10       PIC     Present    Registered   Normal     OTHER  0      NA           
+12       PIC     Present    Registered   Normal     OTHER  0      NA           
+15       IPU     Present    Registered   Normal     MMB    0      Master       
+16       IPU     Present    Registered   Normal     MMB    0      Slave        
+17       PWR     Present    Registered   Normal     OTHER  0      NA           
+18       PWR     Present    Registered   Normal     OTHER  0      NA           
+19       FAN     Present    Registered   Normal     OTHER  0      NA           
+20       CLK     Present    Registered   Normal     OTHER  0      Master       
+21       CLK     Present    Registered   Normal     OTHER  0      Slave        
+-------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+ Active License    : LICNetEngine8000M14_V800R021_20241125BD3Z8T.xml
+ License state     : Normal
+ Revoke ticket     : No ticket
+ License mode      : common
+ 
+ Bee Cable Company for Communication Services Ltd.
+
+ Product name      : NetEngine 8000
+ Product version   : V800R021
+ License Serial No : LIC20241125BD3Z8T
+ Creator           : Huawei Technologies Co., Ltd.
+ Created Time      : 2024-11-25 14:01:47
+
+ -------------------------------------------------------------
+ Feature name      : CRFEA5
+ Authorize type    : comm
+ Expired date      : PERMANENT
+ Trial days        : --
+
+ Item name               Item type      Value      Description
+ -------------------------------------------------------------
+
+ CR8S00L3VPC2              --             20         NetEngine 8000 M Series L3VPN Port Function License(per 50GE/40GE)
+    LCR8S00L3VPC2          Resource       20         NetEngine 8000 M Series L3VPN Port Function License(per 50GE/40GE)
+ CR8S00OAMBC0              --             1          NetEngine 8000 M Series OAM Essential Function License
+    LCR8S002544C1          Function       YES        NetEngine 8000 M Series OAM Enhanced Function License
+ CR8S00CRAGC2              --             20         NetEngine 8000 M Series Core&Aggregation Scenario Port Function License(per 50GE/40GE)
+    LCR8S00CRAGC2          Resource       20         NetEngine 8000 M Series Core&Aggregation Scenario Port Function License(per 50GE/40GE)
+ CR8S00L3VPC4              --             52         NetEngine 8000 M Series L3VPN Port Function License(per 10GE)
+    LCR8S00L3VPC4          Resource       52         NetEngine 8000 M Series L3VPN Port Function License(per 10GE)
+ CR8S00EVPNC4              --             52         NetEngine 8000 M Series EVPN Port Function License(per 10GE)
+    LCR8S00EVPNC4          Resource       52         NetEngine 8000 M Series EVPN Port Function License(per 10GE)
+ CR8S00CRAGC4              --             52         NetEngine 8000 M Series Core&Aggregation Scenario Port Function License(per 10GE)
+    LCR8S00CRAGC4          Resource       52         NetEngine 8000 M Series Core&Aggregation Scenario Port Function License(per 10GE)
+ CR8S00EVPNC2              --             20         NetEngine 8000 M Series EVPN Port Function License(per 50GE/40GE)
+    LCR8S00EVPNC2          Resource       20         NetEngine 8000 M Series EVPN Port Function License(per 50GE/40GE)
+
+ Item name               (View)Resource License Command-line
+ -------------------------------------------------------------
+ LCR8S00EVPNC2           (License)active port-evpn slot <slot-id> card <card-id> port <port-list>
+ LCR8S00L3VPC2           (License)active port-l3vpn slot <slot-id> card <card-id> port <port-list>
+ LCR8S00CRAGC4           (License)active port-core-aggregation slot <slot-id> card <card-id> port <port-list>
+ LCR8S00CRAGC2           (License)active port-core-aggregation slot <slot-id> card <card-id> port <port-list>
+ LCR8S00EVPNC4           (License)active port-evpn slot <slot-id> card <card-id> port <port-list>
+ LCR8S00L3VPC4           (License)active port-l3vpn slot <slot-id> card <card-id> port <port-list>
+
+ Master board license state: Normal.
+
+
+
+
+
+
+
+
+
+
+
+
+  Base-Board, Unit:C, Slot 15
+------------------------------------------------------------------------------
+PCB            I2C Addr Chl Status   Minor Major Fatal FanTMin FanTMax Temp(C)
+------------------------------------------------------------------------------
+CR81IPU2TA2S   8   73   0   NORMAL   75    85    90    50      60      45     
+DP51CPUH       8   73   2   NORMAL   90    100   105   65      75      61     
+CR81IPU2TA2S   8   75   1   NORMAL   85    95    100   55      65      55     
+CR81IPU2TA2S   8   255  3   NORMAL   105   115   120   80      90      61     
+CR81IPU2TA2S   8   255  4   NORMAL   105   115   120   80      90      61     
+CR81IPU2TA2S   8   255  5   NORMAL   105   115   120   80      90      60     
+CR81IPU2TA2S   8   255  6   NORMAL   105   115   120   80      90      60     
+CR81IPU2TA2S   8   255  7   NORMAL   105   115   120   80      90      66     
+CR81IPU2TA2S   8   255  8   NORMAL   105   115   120   80      90      69     
+CR81IPU2TA2S   8   255  9   NORMAL   105   115   120   80      90      68     
+CR81IPU2TA2S   8   255  10  NORMAL   105   115   120   80      90      69     
+CR81IPU2TA2S   8   255  11  NORMAL   105   115   120   83      93      63     
+CR81IPU2TA2S   8   255  12  NORMAL   95    105   110   73      83      60     
+CR81IPU2TA2S   8   255  13  NORMAL   95    105   110   73      83      61     
+CR81IPU2TA2S   8   255  14  NORMAL   105   115   120   83      93      61     
+CR81IPU2TA2S   8   255  15  NORMAL   95    105   110   73      83      61     
+CR81IPU2TA2S   8   255  16  NORMAL   95    105   110   73      83      62     
+CR81IPU2TA2S   8   255  17  NORMAL   100   110   115   75      85      61     
+CR81IPU2TA2S   8   255  18  NORMAL   100   110   115   75      85      62     
+DP51CPUH       8   255  19  NORMAL   98    103   108   94      95      83     
+DP51CPUH       8   255  20  NORMAL   98    103   108   94      95      84     
+DP51CPUH       8   255  21  NORMAL   105   115   120   80      90      57     
+CR51LAXFE0     0   76   0   NORMAL   95    100   105   65      70      47     
+CR51LAXFE0     0   255  1   NORMAL   105   110   120   90      95      53     
+CR51LAXFE0     0   255  2   NORMAL   105   110   120   90      95      55     
+CR51LAXFE0     1   76   0   NORMAL   95    100   105   65      70      49     
+CR51LAXFE0     1   255  1   NORMAL   105   110   120   90      95      51     
+CR51LAXFE0     1   255  2   NORMAL   105   110   120   90      95      52     
+CR81E4YFC0     2   76   0   NORMAL   80    90    95    48      58      36     
+CR81E2VBD0     3   76   0   NORMAL   80    90    95    48      58      37     
+CR81E2VBD0     4   76   0   NORMAL   80    90    95    48      58      37     
+CR81E2VBD0     5   76   0   NORMAL   80    90    95    48      58      38     
+CR51E2NBF1     6   76   0   NORMAL   80    90    95    55      65      40     
+CR51E2NBF1     6   255  0   NORMAL   105   115   120   83      93      44     
+CR51E2NBF1     6   255  1   NORMAL   105   115   120   83      93      47     
+CR51E2NBF1     6   255  2   NORMAL   100   110   115   78      88      40     
+CR51E2NBF1     7   76   0   NORMAL   80    90    95    55      65      42     
+CR51E2NBF1     7   255  0   NORMAL   105   115   120   83      93      46     
+CR51E2NBF1     7   255  1   NORMAL   105   115   120   83      93      49     
+CR51E2NBF1     7   255  2   NORMAL   100   110   115   78      88      42     
+CR51E2NBF1     16  76   0   NORMAL   80    90    95    55      65      40     
+CR51E2NBF1     16  255  0   NORMAL   105   115   120   83      93      45     
+CR51E2NBF1     16  255  1   NORMAL   105   115   120   83      93      48     
+CR51E2NBF1     16  255  2   NORMAL   100   110   115   78      88      40     
+CR51E2NBF1     17  76   0   NORMAL   80    90    95    55      65      41     
+CR51E2NBF1     17  255  0   NORMAL   105   115   120   83      93      44     
+CR51E2NBF1     17  255  1   NORMAL   105   115   120   83      93      47     
+CR51E2NBF1     17  255  2   NORMAL   100   110   115   78      88      41     
+CR51E8YF0      19  76   0   NORMAL   85    90    95    60      65      38     
+CR51E8YF0      19  255  1   NORMAL   105   110   120   80      85      47     
+CR51E8YF0      19  255  2   NORMAL   105   110   120   80      85      50     
+------------------------------------------------------------------------------
+  Base-Board, Unit:C, Slot 16
+------------------------------------------------------------------------------
+PCB            I2C Addr Chl Status   Minor Major Fatal FanTMin FanTMax Temp(C)
+------------------------------------------------------------------------------
+CR81IPU2TA2S   8   73   0   NORMAL   75    85    90    50      60      45     
+DP51CPUH       8   73   2   NORMAL   90    100   105   65      75      57     
+CR81IPU2TA2S   8   75   1   NORMAL   85    95    100   55      65      54     
+CR81IPU2TA2S   8   255  3   NORMAL   105   115   120   80      90      59     
+CR81IPU2TA2S   8   255  4   NORMAL   105   115   120   80      90      60     
+CR81IPU2TA2S   8   255  5   NORMAL   105   115   120   80      90      58     
+CR81IPU2TA2S   8   255  6   NORMAL   105   115   120   80      90      60     
+CR81IPU2TA2S   8   255  7   NORMAL   105   115   120   80      90      65     
+CR81IPU2TA2S   8   255  8   NORMAL   105   115   120   80      90      68     
+CR81IPU2TA2S   8   255  9   NORMAL   105   115   120   80      90      66     
+CR81IPU2TA2S   8   255  10  NORMAL   105   115   120   80      90      67     
+CR81IPU2TA2S   8   255  11  NORMAL   105   115   120   83      93      60     
+CR81IPU2TA2S   8   255  12  NORMAL   95    105   110   73      83      59     
+CR81IPU2TA2S   8   255  13  NORMAL   95    105   110   73      83      62     
+CR81IPU2TA2S   8   255  14  NORMAL   105   115   120   83      93      61     
+CR81IPU2TA2S   8   255  15  NORMAL   95    105   110   73      83      61     
+CR81IPU2TA2S   8   255  16  NORMAL   95    105   110   73      83      64     
+CR81IPU2TA2S   8   255  17  NORMAL   100   110   115   75      85      63     
+CR81IPU2TA2S   8   255  18  NORMAL   100   110   115   75      85      64     
+DP51CPUH       8   255  19  NORMAL   98    103   108   94      95      80     
+DP51CPUH       8   255  20  NORMAL   98    103   108   94      95      81     
+DP51CPUH       8   255  21  NORMAL   105   115   120   80      90      56     
+------------------------------------------------------------------------------
+  Base-Board, Unit:C, Slot 17
+------------------------------------------------------------------------------
+PCB            I2C Addr Chl Status   Minor Major Fatal FanTMin FanTMax Temp(C)
+------------------------------------------------------------------------------
+DP52PDC2K4A    5   72   0   NORMAL   75    85    90    50      55      35     
+------------------------------------------------------------------------------
+  Base-Board, Unit:C, Slot 18
+------------------------------------------------------------------------------
+PCB            I2C Addr Chl Status   Minor Major Fatal FanTMin FanTMax Temp(C)
+------------------------------------------------------------------------------
+DP52PDC2K4A    6   72   0   NORMAL   75    85    90    50      55      34     
+------------------------------------------------------------------------------
+
+
+######################################################################################################################################
+
+

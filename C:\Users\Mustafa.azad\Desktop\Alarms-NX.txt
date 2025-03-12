@@ -1,0 +1,3702 @@
+Devices
+EMCNX01
+
+EMCNX02
+
+AR3NX01
+
+
+                                                                
+       111111  11 111                                 11        
+    1114420039900924059332111111111143154811153111295930111211 6
+100                                                             
+ 90                                                             
+ 80                                                             
+ 70                                                             
+ 60                                                             
+ 50                                                             
+ 40                                                             
+ 30                                                             
+ 20                                                             
+ 10    ################                # #   #     #####       #
+    0....5....1....1....2....2....3....3....4....4....5....5....
+              0    5    0    5    0    5    0    5    0    5    
+
+               CPU% per second (last 60 seconds)
+                      # = average CPU%
+
+
+                                                                
+    111121121112111111221111211111121111212112111121122121112111
+    576831418621579338304956417695007668043335891512730706635875
+100                                                             
+ 90                                                             
+ 80                                                             
+ 70                                                             
+ 60                                                             
+ 50                                                             
+ 40                                                             
+ 30                                          *              *   
+ 20 *****  *** ****  *** **** **** ****** *  *** ** ******* ****
+ 10 *####*###**####*####*###**###**#*#**###*####**###*####*####*
+    0....5....1....1....2....2....3....3....4....4....5....5....
+              0    5    0    5    0    5    0    5    0    5    
+
+               CPU% per minute (last 60 minutes)
+              * = maximum CPU%   # = average CPU%
+
+
+                                                                            
+    222222222222223223222222322222222323422222232222222222332232222222222223
+    578669846659550770664457084469664293168777939898784885004906567698364841
+100                                                                         
+ 90                                                                         
+ 80                                                                         
+ 70                                                                         
+ 60                                                                         
+ 50                                                                         
+ 40                                     *                                   
+ 30 ******* ************  ****  **** ***************** ***** ********* * * *
+ 20 ************************************************************************
+ 10 ########################################################################
+    0....5....1....1....2....2....3....3....4....4....5....5....6....6....7.
+              0    5    0    5    0    5    0    5    0    5    0    5    0 
+
+                   CPU% per hour (last 72 hours)
+                  * = maximum CPU%   # = average CPU%
+
+
+
+
+
+
+
+
+
+
+
+
+
+Load average:   1 minute: 0.73   5 minutes: 0.70   15 minutes: 0.67
+Processes   :   809 total, 1 running
+CPU states  :   1.00% user,   1.08% kernel,   97.90% idle
+        CPU0 states  :   0.00% user,   0.00% kernel,   100.00% idle
+        CPU1 states  :   1.00% user,   0.00% kernel,   99.00% idle
+        CPU2 states  :   0.00% user,   2.97% kernel,   97.02% idle
+        CPU3 states  :   0.00% user,   0.00% kernel,   100.00% idle
+        CPU4 states  :   0.00% user,   1.00% kernel,   99.00% idle
+        CPU5 states  :   5.88% user,   0.98% kernel,   93.13% idle
+        CPU6 states  :   2.02% user,   1.01% kernel,   96.96% idle
+        CPU7 states  :   2.02% user,   0.00% kernel,   97.97% idle
+        CPU8 states  :   0.00% user,   2.00% kernel,   98.00% idle
+        CPU9 states  :   0.00% user,   2.06% kernel,   97.93% idle
+        CPU10 states  :   0.99% user,   0.00% kernel,   99.00% idle
+        CPU11 states  :   2.00% user,   4.00% kernel,   94.00% idle
+Memory usage:   65783112K total,   11395020K used,   54388092K free
+Kernel vmalloc:   0K total,   0K free
+Kernel buffers:   291124K Used
+Kernel cached :   7952812K Used
+Current memory status: OK
+
+
+
+
+
+
+
+
+
+
+
+
+Mod Ports                  Module-Type                            Model           Status
+--- ----- ------------------------------------------------ --------------------- --------
+1    54   48x10/25G/32G + 6x40/100G Ethernet/FC Module     N9K-C93180YC-FX       active *  
+
+Mod  Sw                       Hw    Slot
+---  ----------------------- ------ ----
+1    10.3(4a)                 1.1    NA  
+
+
+Mod  MAC-Address(es)                         Serial-Num
+---  --------------------------------------  ----------
+1    00-3a-9c-02-3a-98 to 00-3a-9c-02-3a-f7  FDO22201EGV
+
+Mod  Online Diag Status
+---  ------------------
+1    Pass
+
+* this terminal session 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Current bootup diagnostic level: complete
+Module 1: 48x10/25G/32G + 6x40/100G Ethernet/FC Module  (Active)
+
+        Test results: (. = Pass, F = Fail, I = Incomplete,
+        U = Untested, A = Abort, E = Error disabled)
+
+         1) USB---------------------------> .
+         2) NVRAM-------------------------> .
+         3) RealTimeClock-----------------> .
+         4) PrimaryBootROM----------------> .
+         5) SecondaryBootROM--------------> .
+         6) BootFlash---------------------> .
+         7) SystemMgmtBus-----------------> .
+         8) OBFL--------------------------> .
+         9) ACT2--------------------------> .
+        10) Console-----------------------> .
+        11) FpgaRegTest-------------------> .
+        12) Mce---------------------------> .
+        13) ASICRegisterCheck-------------> .
+        14) AsicMemory--------------------> .
+        15) Pcie--------------------------> .
+        16) PortLoopback: U 
+
+          Port   1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 
+          -----------------------------------------------------
+                 U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  
+
+          Port  17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 
+          -----------------------------------------------------
+                 U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  
+
+          Port  33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 
+          -----------------------------------------------------
+                 U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  
+
+          Port  49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 
+          -----------------------------------------------------
+                 U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  
+
+          Port  65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 
+          -----------------------------------------------------
+                 U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  
+
+          Port  81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 
+          -----------------------------------------------------
+                 U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  
+
+          Port  97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 
+          ------------------------------------------------------------------
+                 U  U  U  U   U   U   U   U   U   U   U   U   U   U   U   U   
+
+          Port  113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 
+          ---------------------------------------------------------------------
+                 U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   
+
+          Port  129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 
+          ---------------------------------------------------------------------
+                 U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   
+
+          Port  145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 160 
+          ---------------------------------------------------------------------
+                 U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   
+
+          Port  161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 
+          ---------------------------------------------------------------------
+                 U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   
+
+          Port  177 178 179 180 181 182 183 184 185 186 187 188 189 190 191 192 
+          ---------------------------------------------------------------------
+                 U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   
+
+          Port  193 194 195 196 197 198 199 200 201 202 203 204 205 206 207 208 
+          ---------------------------------------------------------------------
+                 U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   
+
+          Port  209 210 211 212 213 214 215 216 
+          -------------------------------------
+                 U   U   U   U   U   U   U   U   
+
+
+        17) L2ACLRedirect-----------------> .
+        18) BootupPortLoopback: . 
+
+          Port   1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 
+          -----------------------------------------------------
+                 .  U  U  U  .  U  U  U  .  U  U  U  .  U  U  U  
+
+          Port  17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 
+          -----------------------------------------------------
+                 .  U  U  U  .  U  U  U  .  U  U  U  .  U  U  U  
+
+          Port  33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 
+          -----------------------------------------------------
+                 .  U  U  U  .  U  U  U  .  U  U  U  .  U  U  U  
+
+          Port  49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 
+          -----------------------------------------------------
+                 .  U  U  U  .  U  U  U  .  U  U  U  .  U  U  U  
+
+          Port  65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 
+          -----------------------------------------------------
+                 .  U  U  U  .  U  U  U  .  U  U  U  .  U  U  U  
+
+          Port  81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 
+          -----------------------------------------------------
+                 .  U  U  U  .  U  U  U  .  U  U  U  .  U  U  U  
+
+          Port  97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 
+          ------------------------------------------------------------------
+                 .  U  U  U   .   U   U   U   .   U   U   U   .   U   U   U   
+
+          Port  113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 
+          ---------------------------------------------------------------------
+                 .   U   U   U   .   U   U   U   .   U   U   U   .   U   U   U   
+
+          Port  129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 
+          ---------------------------------------------------------------------
+                 .   U   U   U   .   U   U   U   .   U   U   U   .   U   U   U   
+
+          Port  145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 160 
+          ---------------------------------------------------------------------
+                 .   U   U   U   .   U   U   U   .   U   U   U   .   U   U   U   
+
+          Port  161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 
+          ---------------------------------------------------------------------
+                 .   U   U   U   .   U   U   U   .   U   U   U   .   U   U   U   
+
+          Port  177 178 179 180 181 182 183 184 185 186 187 188 189 190 191 192 
+          ---------------------------------------------------------------------
+                 .   U   U   U   .   U   U   U   .   U   U   U   .   U   U   U   
+
+          Port  193 194 195 196 197 198 199 200 201 202 203 204 205 206 207 208 
+          ---------------------------------------------------------------------
+                 .   U   U   U   .   U   U   U   .   U   U   U   .   U   U   U   
+
+          Port  209 210 211 212 213 214 215 216 
+          -------------------------------------
+                 .   U   U   U   .   U   U   U   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Fan:
+---------------------------------------------------------------------------
+Fan             Model                Hw     Direction       Status
+---------------------------------------------------------------------------
+Fan1(sys_fan1)  NXA-FAN-30CFM-F      --     back-to-front   Ok 
+Fan2(sys_fan2)  NXA-FAN-30CFM-F      --     back-to-front   Ok 
+Fan3(sys_fan3)  NXA-FAN-30CFM-F      --     back-to-front   Ok 
+Fan4(sys_fan4)  NXA-FAN-30CFM-F      --     back-to-front   Ok 
+Fan_in_PS1      --                   --     back-to-front   Ok
+Fan_in_PS2      --                   --     back-to-front   Ok
+Fan Zone Speed: Zone 1: 0xb3
+Fan Air Filter : NotSupported
+
+
+Power Supply:
+Voltage: 12 Volts
+Power                      Actual             Actual        Total
+Supply    Model            Output             Input        Capacity     Status
+                           (Watts )           (Watts )     (Watts )
+-------  ----------  ---------------  ------  ----------  --------------------
+1        NXA-PAC-500W-PE        69 W               82 W       500 W      Ok
+2        NXA-PAC-500W-PE        92 W              103 W       500 W      Ok
+
+
+Power Usage Summary:
+--------------------
+Power Supply redundancy mode (configured)                PS-Redundant
+Power Supply redundancy mode (operational)               PS-Redundant
+
+Total Power Capacity (based on configured mode)             500.00 W
+Total Grid-A (first half of PS slots) Power Capacity        500.00 W
+Total Grid-B (second half of PS slots) Power Capacity       500.00 W
+Total Power of all Inputs (cumulative)                     1000.00 W
+Total Power Output (actual draw)                            162.00 W
+Total Power Input (actual draw)                             185.00 W
+Total Power Allocated (budget)                                N/A   
+Total Power Available for additional modules                  N/A   
+
+
+
+Temperature:
+--------------------------------------------------------------------
+Module   Sensor        MajorThresh   MinorThres   CurTemp     Status
+                       (Celsius)     (Celsius)    (Celsius)         
+--------------------------------------------------------------------
+1        FRONT           80              70          23         Ok             
+1        BACK            70              42          20         Ok             
+1        CPU             90              80          38         Ok             
+1        Homewood        110             90          43         Ok             
+
+
+
+
+
+
+
+
+
+
+
+
+Legend:
+                (*) - local vPC is down, forwarding via vPC peer-link
+
+vPC domain id                     : 1   
+Peer status                       : peer adjacency formed ok      
+vPC keep-alive status             : peer is alive                 
+Configuration consistency status  : success 
+Per-vlan consistency status       : success                       
+Type-2 consistency status         : success 
+vPC role                          : primary                       
+Number of vPCs configured         : 3   
+Peer Gateway                      : Enabled
+Dual-active excluded VLANs        : -
+Graceful Consistency Check        : Enabled
+Auto-recovery status              : Disabled
+Delay-restore status              : Timer is off.(timeout = 30s)
+Delay-restore SVI status          : Timer is off.(timeout = 10s)
+Delay-restore Orphan-port status  : Timer is off.(timeout = 0s)
+Operational Layer3 Peer-router    : Disabled
+Virtual-peerlink mode             : Disabled
+
+vPC Peer-link status
+---------------------------------------------------------------------
+id    Port   Status Active vlans    
+--    ----   ------ -------------------------------------------------
+1     Po4094 up     1,10-11,30,40,42,50-51,55-56,60-84,86-88,90-91,                      
+                    100,115-118,120-124,127-142,145-146,150-168,180,                     
+                    190,200-201,205-206,210,214-215,220-222,226-227,                     
+                    230,284,300,304-305,308-309,312-317,320-321,                         
+                    325-336,340-346,350-351,360-376,386,400-405,410,                     
+                    418,427,429,440,451-453,461,473,502,540-548,556,     ...             
+
+vPC status
+----------------------------------------------------------------------------
+Id    Port          Status Consistency Reason                Active vlans
+--    ------------  ------ ----------- ------                ---------------
+1     Po1           up     success     success               1,10-11,30,40,42,           
+                                                             50-51,55-56,60-84,          
+                                                             86-88,90-91,100,            
+                                                             115-118,120-124,            
+                                                             127-142,145-146,            
+                                                             150-168,180,...,            
+3     Po3           up     success     success               1,10-11,30,40,42,           
+                                                             50-51,55-56,60-84,          
+                                                             86-88,90-91,100,            
+                                                             115-118,120-124,            
+                                                             127-142,145-146,            
+                                                             150-168,180,...,            
+4     Po4           up     success     success               1,10-11,30,40,42,           
+                                                             50-51,55-56,60-84,          
+                                                             86-88,90-91,100,            
+                                                             115-118,120-124,            
+                                                             127-142,145-146,            
+                                                             150-168,180,...,            
+
+Please check "show vpc consistency-parameters vpc <vpc-num>" for the 
+consistency reason of down vpc and for type-2 consistency reasons for 
+any vpc.
+
+
+
+
+######################################################################################################################################
+
+
+
+AR3NX02
+
+
+                                                                
+    111211111111                       1        1               
+    5484710000609848111112156213111121611 2215441911112111211 16
+100                                                             
+ 90                                                             
+ 80                                                             
+ 70                                                             
+ 60                                                             
+ 50                                                             
+ 40                                                             
+ 30                                                             
+ 20 # ###     #                                                 
+ 10 ############## #       ##         ##     #  ##             #
+    0....5....1....1....2....2....3....3....4....4....5....5....
+              0    5    0    5    0    5    0    5    0    5    
+
+               CPU% per second (last 60 seconds)
+                      # = average CPU%
+
+
+                                                                
+    112121211111122121111111112211111211111112111111211211221211
+    660348655886641425684566690084884184696382749868015378239181
+100                                                             
+ 90                                                             
+ 80                                                             
+ 70                                                             
+ 60                                                             
+ 50                                                             
+ 40                                                             
+ 30       *                                                     
+ 20 *** *********** **** ******** ** ** *** *** ***** ********* 
+ 10 **###*##*#*##*#*##*#*####*##*#*#*##*#*#**#*##*#*#**####*###*
+    0....5....1....1....2....2....3....3....4....4....5....5....
+              0    5    0    5    0    5    0    5    0    5    
+
+               CPU% per minute (last 60 minutes)
+              * = maximum CPU%   # = average CPU%
+
+
+                                                                            
+    222222222222222222222232222222232223222222222222222322322222323222222222
+    647635768774679335556826764568826563654886744596667058068856060564688796
+100                                                                         
+ 90                                                                         
+ 80                                                                         
+ 70                                                                         
+ 60                                                                         
+ 50                                                                         
+ 40                                                                         
+ 30 * ** ****** ***  ********* *********** ****  ******************** ******
+ 20 ************************************************************************
+ 10 ########################################################################
+    0....5....1....1....2....2....3....3....4....4....5....5....6....6....7.
+              0    5    0    5    0    5    0    5    0    5    0    5    0 
+
+                   CPU% per hour (last 72 hours)
+                  * = maximum CPU%   # = average CPU%
+
+
+
+
+
+
+
+
+
+
+
+
+
+Load average:   1 minute: 0.83   5 minutes: 0.73   15 minutes: 0.74
+Processes   :   804 total, 1 running
+CPU states  :   0.50% user,   1.00% kernel,   98.49% idle
+        CPU0 states  :   2.00% user,   2.00% kernel,   96.00% idle
+        CPU1 states  :   1.00% user,   1.00% kernel,   98.00% idle
+        CPU2 states  :   1.03% user,   2.06% kernel,   96.90% idle
+        CPU3 states  :   0.00% user,   3.03% kernel,   96.96% idle
+        CPU4 states  :   1.00% user,   0.00% kernel,   99.00% idle
+        CPU5 states  :   0.00% user,   0.00% kernel,   100.00% idle
+        CPU6 states  :   1.00% user,   0.00% kernel,   99.00% idle
+        CPU7 states  :   0.00% user,   0.00% kernel,   100.00% idle
+        CPU8 states  :   0.00% user,   0.99% kernel,   99.00% idle
+        CPU9 states  :   0.00% user,   0.00% kernel,   100.00% idle
+        CPU10 states  :   0.00% user,   1.02% kernel,   98.97% idle
+        CPU11 states  :   0.00% user,   1.01% kernel,   98.98% idle
+Memory usage:   32802128K total,   11154392K used,   21647736K free
+Kernel vmalloc:   0K total,   0K free
+Kernel buffers:   290480K Used
+Kernel cached :   7232320K Used
+Current memory status: OK
+
+
+
+
+
+
+
+
+
+
+
+
+Mod Ports                  Module-Type                            Model           Status
+--- ----- ------------------------------------------------ --------------------- --------
+1    54   48x10/25G/32G + 6x40/100G Ethernet/FC Module     N9K-C93180YC-FX       active *  
+
+Mod  Sw                       Hw    Slot
+---  ----------------------- ------ ----
+1    10.3(4a)                 2.2    NA  
+
+
+Mod  MAC-Address(es)                         Serial-Num
+---  --------------------------------------  ----------
+1    8c-94-1f-15-5b-a0 to 8c-94-1f-15-5b-ff  FDO24340KSG
+
+Mod  Online Diag Status
+---  ------------------
+1    Pass
+
+* this terminal session 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Current bootup diagnostic level: complete
+Module 1: 48x10/25G/32G + 6x40/100G Ethernet/FC Module  (Active)
+
+        Test results: (. = Pass, F = Fail, I = Incomplete,
+        U = Untested, A = Abort, E = Error disabled)
+
+         1) USB---------------------------> .
+         2) NVRAM-------------------------> .
+         3) RealTimeClock-----------------> .
+         4) PrimaryBootROM----------------> .
+         5) SecondaryBootROM--------------> .
+         6) BootFlash---------------------> .
+         7) SystemMgmtBus-----------------> .
+         8) OBFL--------------------------> .
+         9) ACT2--------------------------> .
+        10) Console-----------------------> .
+        11) FpgaRegTest-------------------> .
+        12) Mce---------------------------> .
+        13) ASICRegisterCheck-------------> .
+        14) AsicMemory--------------------> .
+        15) Pcie--------------------------> .
+        16) PortLoopback: U 
+
+          Port   1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 
+          -----------------------------------------------------
+                 U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  
+
+          Port  17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 
+          -----------------------------------------------------
+                 U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  
+
+          Port  33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 
+          -----------------------------------------------------
+                 U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  
+
+          Port  49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 
+          -----------------------------------------------------
+                 U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  
+
+          Port  65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 
+          -----------------------------------------------------
+                 U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  
+
+          Port  81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 
+          -----------------------------------------------------
+                 U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  
+
+          Port  97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 
+          ------------------------------------------------------------------
+                 U  U  U  U   U   U   U   U   U   U   U   U   U   U   U   U   
+
+          Port  113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 
+          ---------------------------------------------------------------------
+                 U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   
+
+          Port  129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 
+          ---------------------------------------------------------------------
+                 U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   
+
+          Port  145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 160 
+          ---------------------------------------------------------------------
+                 U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   
+
+          Port  161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 
+          ---------------------------------------------------------------------
+                 U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   
+
+          Port  177 178 179 180 181 182 183 184 185 186 187 188 189 190 191 192 
+          ---------------------------------------------------------------------
+                 U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   
+
+          Port  193 194 195 196 197 198 199 200 201 202 203 204 205 206 207 208 
+          ---------------------------------------------------------------------
+                 U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   
+
+          Port  209 210 211 212 213 214 215 216 
+          -------------------------------------
+                 U   U   U   U   U   U   U   U   
+
+
+        17) L2ACLRedirect-----------------> .
+        18) BootupPortLoopback: . 
+
+          Port   1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 
+          -----------------------------------------------------
+                 .  U  U  U  .  U  U  U  .  U  U  U  .  U  U  U  
+
+          Port  17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 
+          -----------------------------------------------------
+                 .  U  U  U  .  U  U  U  .  U  U  U  .  U  U  U  
+
+          Port  33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 
+          -----------------------------------------------------
+                 .  U  U  U  .  U  U  U  .  U  U  U  .  U  U  U  
+
+          Port  49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 
+          -----------------------------------------------------
+                 .  U  U  U  .  U  U  U  .  U  U  U  .  U  U  U  
+
+          Port  65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 
+          -----------------------------------------------------
+                 .  U  U  U  .  U  U  U  .  U  U  U  .  U  U  U  
+
+          Port  81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 
+          -----------------------------------------------------
+                 .  U  U  U  .  U  U  U  .  U  U  U  .  U  U  U  
+
+          Port  97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 
+          ------------------------------------------------------------------
+                 .  U  U  U   .   U   U   U   .   U   U   U   .   U   U   U   
+
+          Port  113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 
+          ---------------------------------------------------------------------
+                 .   U   U   U   .   U   U   U   .   U   U   U   .   U   U   U   
+
+          Port  129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 
+          ---------------------------------------------------------------------
+                 .   U   U   U   .   U   U   U   .   U   U   U   .   U   U   U   
+
+          Port  145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 160 
+          ---------------------------------------------------------------------
+                 .   U   U   U   .   U   U   U   .   U   U   U   .   U   U   U   
+
+          Port  161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 
+          ---------------------------------------------------------------------
+                 .   U   U   U   .   U   U   U   .   U   U   U   .   U   U   U   
+
+          Port  177 178 179 180 181 182 183 184 185 186 187 188 189 190 191 192 
+          ---------------------------------------------------------------------
+                 .   U   U   U   .   U   U   U   .   U   U   U   .   U   U   U   
+
+          Port  193 194 195 196 197 198 199 200 201 202 203 204 205 206 207 208 
+          ---------------------------------------------------------------------
+                 .   U   U   U   .   U   U   U   .   U   U   U   .   U   U   U   
+
+          Port  209 210 211 212 213 214 215 216 
+          -------------------------------------
+                 .   U   U   U   .   U   U   U   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Fan:
+---------------------------------------------------------------------------
+Fan             Model                Hw     Direction       Status
+---------------------------------------------------------------------------
+Fan1(sys_fan1)  NXA-FAN-30CFM-F      --     back-to-front   Ok 
+Fan2(sys_fan2)  NXA-FAN-30CFM-F      --     back-to-front   Ok 
+Fan3(sys_fan3)  NXA-FAN-30CFM-F      --     back-to-front   Ok 
+Fan4(sys_fan4)  NXA-FAN-30CFM-F      --     back-to-front   Ok 
+Fan_in_PS1      --                   --     back-to-front   Ok
+Fan_in_PS2      --                   --     back-to-front   Ok
+Fan Zone Speed: Zone 1: 0xb3
+Fan Air Filter : NotSupported
+
+
+Power Supply:
+Voltage: 12 Volts
+Power                      Actual             Actual        Total
+Supply    Model            Output             Input        Capacity     Status
+                           (Watts )           (Watts )     (Watts )
+-------  ----------  ---------------  ------  ----------  --------------------
+1        NXA-PAC-500W-PE        68 W               83 W       500 W      Ok
+2        NXA-PAC-500W-PE        88 W               95 W       500 W      Ok
+
+
+Power Usage Summary:
+--------------------
+Power Supply redundancy mode (configured)                PS-Redundant
+Power Supply redundancy mode (operational)               PS-Redundant
+
+Total Power Capacity (based on configured mode)             500.00 W
+Total Grid-A (first half of PS slots) Power Capacity        500.00 W
+Total Grid-B (second half of PS slots) Power Capacity       500.00 W
+Total Power of all Inputs (cumulative)                     1000.00 W
+Total Power Output (actual draw)                            156.00 W
+Total Power Input (actual draw)                             178.00 W
+Total Power Allocated (budget)                                N/A   
+Total Power Available for additional modules                  N/A   
+
+
+
+Temperature:
+--------------------------------------------------------------------
+Module   Sensor        MajorThresh   MinorThres   CurTemp     Status
+                       (Celsius)     (Celsius)    (Celsius)         
+--------------------------------------------------------------------
+1        FRONT           80              70          24         Ok             
+1        BACK            70              42          22         Ok             
+1        CPU             90              80          38         Ok             
+1        Homewood        110             90          41         Ok             
+
+
+
+
+
+
+
+
+
+
+
+
+Legend:
+                (*) - local vPC is down, forwarding via vPC peer-link
+
+vPC domain id                     : 1   
+Peer status                       : peer adjacency formed ok      
+vPC keep-alive status             : peer is alive                 
+Configuration consistency status  : success 
+Per-vlan consistency status       : success                       
+Type-2 consistency status         : success 
+vPC role                          : secondary                     
+Number of vPCs configured         : 3   
+Peer Gateway                      : Enabled
+Dual-active excluded VLANs        : -
+Graceful Consistency Check        : Enabled
+Auto-recovery status              : Disabled
+Delay-restore status              : Timer is off.(timeout = 30s)
+Delay-restore SVI status          : Timer is off.(timeout = 10s)
+Delay-restore Orphan-port status  : Timer is off.(timeout = 0s)
+Operational Layer3 Peer-router    : Disabled
+Virtual-peerlink mode             : Disabled
+
+vPC Peer-link status
+---------------------------------------------------------------------
+id    Port   Status Active vlans    
+--    ----   ------ -------------------------------------------------
+1     Po4094 up     1,10-11,30,40,42,50-51,55-56,60-84,86-88,90-91,                      
+                    100,115-118,120-124,127-142,145-146,150-168,180,                     
+                    190,200-201,205-206,210,214-215,220-222,226-227,                     
+                    230,284,300,304-305,308-309,312-317,320-321,                         
+                    325-336,340-346,350-351,360-376,386,400-405,410,                     
+                    418,427,429,440,451-453,461,473,502,540-548,556,     ...             
+
+vPC status
+----------------------------------------------------------------------------
+Id    Port          Status Consistency Reason                Active vlans
+--    ------------  ------ ----------- ------                ---------------
+1     Po1           up     success     success               1,10-11,30,40,42,           
+                                                             50-51,55-56,60-84,          
+                                                             86-88,90-91,100,            
+                                                             115-118,120-124,            
+                                                             127-142,145-146,            
+                                                             150-168,180,...,            
+3     Po3           up     success     success               1,10-11,30,40,42,           
+                                                             50-51,55-56,60-84,          
+                                                             86-88,90-91,100,            
+                                                             115-118,120-124,            
+                                                             127-142,145-146,            
+                                                             150-168,180,...,            
+4     Po4           up     success     success               1,10-11,30,40,42,           
+                                                             50-51,55-56,60-84,          
+                                                             86-88,90-91,100,            
+                                                             115-118,120-124,            
+                                                             127-142,145-146,            
+                                                             150-168,180,...,            
+
+Please check "show vpc consistency-parameters vpc <vpc-num>" for the 
+consistency reason of down vpc and for type-2 consistency reasons for 
+any vpc.
+
+
+
+
+######################################################################################################################################
+
+
+
+BG2NX01
+
+
+                                                                
+    11                  1          1    11  11 1                
+    344543437772237582260961111111489999009925919411111186111154
+100                                                             
+ 90                                                             
+ 80                                                             
+ 70                                                             
+ 60                                                             
+ 50                                                             
+ 40                                                             
+ 30                                                             
+ 20                                #         #                  
+ 10 ## #    ###   ###  ####        ##############       ##    # 
+    0....5....1....1....2....2....3....3....4....4....5....5....
+              0    5    0    5    0    5    0    5    0    5    
+
+               CPU% per second (last 60 seconds)
+                      # = average CPU%
+
+
+                                                                
+    112111121112311122121121111212112111121121211112111121111311
+    582519778940441802237649758681745537646638475282347750966294
+100                                                             
+ 90                                                             
+ 80                                                             
+ 70                                                             
+ 60                                                             
+ 50                                                             
+ 40                                                             
+ 30        *    *              *    *                   *    *  
+ 20 **** ***** **  *** ************ ** ********** **  *** ***** 
+ 10 ####***#****#**#*#*##*#**#*#*##*#****#***##***##****#*###*##
+    0....5....1....1....2....2....3....3....4....4....5....5....
+              0    5    0    5    0    5    0    5    0    5    
+
+               CPU% per minute (last 60 minutes)
+              * = maximum CPU%   # = average CPU%
+
+
+                                                                            
+    323333323223232323233322323232223222333233323332323223323233323323233332
+    485334050981728090931099091829960687314921080378080961591835160292941119
+100                                                                         
+ 90                                                                         
+ 80                                                                         
+ 70                                                                         
+ 60                                                                         
+ 50                                                                         
+ 40   *                                           *       *    *            
+ 30 ************************************************************************
+ 20 ************************************************************************
+ 10 ************************************************************************
+    0....5....1....1....2....2....3....3....4....4....5....5....6....6....7.
+              0    5    0    5    0    5    0    5    0    5    0    5    0 
+
+                   CPU% per hour (last 72 hours)
+                  * = maximum CPU%   # = average CPU%
+
+
+
+
+
+
+
+
+
+
+
+
+
+Load average:   1 minute: 0.66   5 minutes: 0.54   15 minutes: 0.55
+Processes   :   799 total, 2 running
+CPU states  :   3.35% user,   1.00% kernel,   95.63% idle
+        CPU0 states  :   2.00% user,   5.00% kernel,   93.00% idle
+        CPU1 states  :   1.98% user,   1.98% kernel,   96.03% idle
+        CPU2 states  :   1.00% user,   0.00% kernel,   99.00% idle
+        CPU3 states  :   1.00% user,   2.00% kernel,   97.00% idle
+        CPU4 states  :   24.00% user,   0.00% kernel,   76.00% idle
+        CPU5 states  :   0.00% user,   0.00% kernel,   100.00% idle
+        CPU6 states  :   0.00% user,   0.00% kernel,   100.00% idle
+        CPU7 states  :   3.96% user,   0.99% kernel,   95.04% idle
+        CPU8 states  :   1.01% user,   1.01% kernel,   97.97% idle
+        CPU9 states  :   0.00% user,   0.00% kernel,   100.00% idle
+        CPU10 states  :   5.05% user,   1.01% kernel,   93.93% idle
+        CPU11 states  :   0.00% user,   0.00% kernel,   100.00% idle
+Memory usage:   32802128K total,   10488748K used,   22313380K free
+Kernel vmalloc:   0K total,   0K free
+Kernel buffers:   286976K Used
+Kernel cached :   8327148K Used
+Current memory status: OK
+
+
+
+
+
+
+
+
+
+
+
+
+Mod Ports                  Module-Type                            Model           Status
+--- ----- ------------------------------------------------ --------------------- --------
+1    54   48x10/25G/32G + 6x40/100G Ethernet/FC Module     N9K-C93180YC-FX       active *  
+
+Mod  Sw                       Hw    Slot
+---  ----------------------- ------ ----
+1    10.3(4a)                 2.2    NA  
+
+
+Mod  MAC-Address(es)                         Serial-Num
+---  --------------------------------------  ----------
+1    80-2d-bf-8f-9f-60 to 80-2d-bf-8f-9f-bf  FDO24271DBE
+
+Mod  Online Diag Status
+---  ------------------
+1    Pass
+
+* this terminal session 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Current bootup diagnostic level: complete
+Module 1: 48x10/25G/32G + 6x40/100G Ethernet/FC Module  (Active)
+
+        Test results: (. = Pass, F = Fail, I = Incomplete,
+        U = Untested, A = Abort, E = Error disabled)
+
+         1) USB---------------------------> .
+         2) NVRAM-------------------------> .
+         3) RealTimeClock-----------------> .
+         4) PrimaryBootROM----------------> .
+         5) SecondaryBootROM--------------> .
+         6) BootFlash---------------------> .
+         7) SystemMgmtBus-----------------> .
+         8) OBFL--------------------------> .
+         9) ACT2--------------------------> .
+        10) Console-----------------------> .
+        11) FpgaRegTest-------------------> .
+        12) Mce---------------------------> .
+        13) ASICRegisterCheck-------------> .
+        14) AsicMemory--------------------> .
+        15) Pcie--------------------------> .
+        16) PortLoopback: U 
+
+          Port   1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 
+          -----------------------------------------------------
+                 U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  
+
+          Port  17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 
+          -----------------------------------------------------
+                 U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  
+
+          Port  33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 
+          -----------------------------------------------------
+                 U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  
+
+          Port  49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 
+          -----------------------------------------------------
+                 U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  
+
+          Port  65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 
+          -----------------------------------------------------
+                 U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  
+
+          Port  81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 
+          -----------------------------------------------------
+                 U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  
+
+          Port  97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 
+          ------------------------------------------------------------------
+                 U  U  U  U   U   U   U   U   U   U   U   U   U   U   U   U   
+
+          Port  113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 
+          ---------------------------------------------------------------------
+                 U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   
+
+          Port  129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 
+          ---------------------------------------------------------------------
+                 U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   
+
+          Port  145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 160 
+          ---------------------------------------------------------------------
+                 U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   
+
+          Port  161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 
+          ---------------------------------------------------------------------
+                 U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   
+
+          Port  177 178 179 180 181 182 183 184 185 186 187 188 189 190 191 192 
+          ---------------------------------------------------------------------
+                 U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   
+
+          Port  193 194 195 196 197 198 199 200 201 202 203 204 205 206 207 208 
+          ---------------------------------------------------------------------
+                 U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   
+
+          Port  209 210 211 212 213 214 215 216 
+          -------------------------------------
+                 U   U   U   U   U   U   U   U   
+
+
+        17) L2ACLRedirect-----------------> .
+        18) BootupPortLoopback: . 
+
+          Port   1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 
+          -----------------------------------------------------
+                 .  U  U  U  .  U  U  U  .  U  U  U  .  U  U  U  
+
+          Port  17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 
+          -----------------------------------------------------
+                 .  U  U  U  .  U  U  U  .  U  U  U  .  U  U  U  
+
+          Port  33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 
+          -----------------------------------------------------
+                 .  U  U  U  .  U  U  U  .  U  U  U  .  U  U  U  
+
+          Port  49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 
+          -----------------------------------------------------
+                 .  U  U  U  .  U  U  U  .  U  U  U  .  U  U  U  
+
+          Port  65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 
+          -----------------------------------------------------
+                 .  U  U  U  .  U  U  U  .  U  U  U  .  U  U  U  
+
+          Port  81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 
+          -----------------------------------------------------
+                 .  U  U  U  .  U  U  U  .  U  U  U  .  U  U  U  
+
+          Port  97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 
+          ------------------------------------------------------------------
+                 .  U  U  U   .   U   U   U   .   U   U   U   .   U   U   U   
+
+          Port  113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 
+          ---------------------------------------------------------------------
+                 .   U   U   U   .   U   U   U   .   U   U   U   .   U   U   U   
+
+          Port  129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 
+          ---------------------------------------------------------------------
+                 .   U   U   U   .   U   U   U   .   U   U   U   .   U   U   U   
+
+          Port  145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 160 
+          ---------------------------------------------------------------------
+                 .   U   U   U   .   U   U   U   .   U   U   U   .   U   U   U   
+
+          Port  161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 
+          ---------------------------------------------------------------------
+                 .   U   U   U   .   U   U   U   .   U   U   U   .   U   U   U   
+
+          Port  177 178 179 180 181 182 183 184 185 186 187 188 189 190 191 192 
+          ---------------------------------------------------------------------
+                 .   U   U   U   .   U   U   U   .   U   U   U   .   U   U   U   
+
+          Port  193 194 195 196 197 198 199 200 201 202 203 204 205 206 207 208 
+          ---------------------------------------------------------------------
+                 .   U   U   U   .   U   U   U   .   U   U   U   .   U   U   U   
+
+          Port  209 210 211 212 213 214 215 216 
+          -------------------------------------
+                 .   U   U   U   .   U   U   U   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Fan:
+---------------------------------------------------------------------------
+Fan             Model                Hw     Direction       Status
+---------------------------------------------------------------------------
+Fan1(sys_fan1)  NXA-FAN-30CFM-F      --     back-to-front   Ok 
+Fan2(sys_fan2)  NXA-FAN-30CFM-F      --     back-to-front   Ok 
+Fan3(sys_fan3)  NXA-FAN-30CFM-F      --     back-to-front   Ok 
+Fan4(sys_fan4)  NXA-FAN-30CFM-F      --     back-to-front   Ok 
+Fan_in_PS1      --                   --     back-to-front   Ok
+Fan_in_PS2      --                   --     back-to-front   Ok
+Fan Zone Speed: Zone 1: 0xb3
+Fan Air Filter : NotSupported
+
+
+Power Supply:
+Voltage: 12 Volts
+Power                      Actual             Actual        Total
+Supply    Model            Output             Input        Capacity     Status
+                           (Watts )           (Watts )     (Watts )
+-------  ----------  ---------------  ------  ----------  --------------------
+1        NXA-PAC-500W-PE        71 W               84 W       500 W      Ok
+2        NXA-PAC-500W-PE        73 W               84 W       500 W      Ok
+
+
+Power Usage Summary:
+--------------------
+Power Supply redundancy mode (configured)                PS-Redundant
+Power Supply redundancy mode (operational)               PS-Redundant
+
+Total Power Capacity (based on configured mode)             500.00 W
+Total Grid-A (first half of PS slots) Power Capacity        500.00 W
+Total Grid-B (second half of PS slots) Power Capacity       500.00 W
+Total Power of all Inputs (cumulative)                     1000.00 W
+Total Power Output (actual draw)                            144.00 W
+Total Power Input (actual draw)                             168.00 W
+Total Power Allocated (budget)                                N/A   
+Total Power Available for additional modules                  N/A   
+
+
+
+Temperature:
+--------------------------------------------------------------------
+Module   Sensor        MajorThresh   MinorThres   CurTemp     Status
+                       (Celsius)     (Celsius)    (Celsius)         
+--------------------------------------------------------------------
+1        FRONT           80              70          23         Ok             
+1        BACK            70              42          20         Ok             
+1        CPU             90              80          37         Ok             
+1        Homewood        110             90          37         Ok             
+
+
+
+
+
+
+
+
+
+
+
+
+Legend:
+                (*) - local vPC is down, forwarding via vPC peer-link
+
+vPC domain id                     : 1   
+Peer status                       : peer adjacency formed ok      
+vPC keep-alive status             : peer is alive                 
+Configuration consistency status  : success 
+Per-vlan consistency status       : success                       
+Type-2 consistency status         : success 
+vPC role                          : primary                       
+Number of vPCs configured         : 3   
+Peer Gateway                      : Enabled
+Dual-active excluded VLANs        : -
+Graceful Consistency Check        : Enabled
+Auto-recovery status              : Disabled
+Delay-restore status              : Timer is off.(timeout = 30s)
+Delay-restore SVI status          : Timer is off.(timeout = 10s)
+Delay-restore Orphan-port status  : Timer is off.(timeout = 0s)
+Operational Layer3 Peer-router    : Enabled
+Virtual-peerlink mode             : Disabled
+
+vPC Peer-link status
+---------------------------------------------------------------------
+id    Port   Status Active vlans    
+--    ----   ------ -------------------------------------------------
+1     Po4094 up     1-2,16,18,100,183,191,200,207-208,220,242,300,                       
+                    312-315,390,400-401,410-411,440,520-521,550-552,                     
+                    600,625-626,629-630,980,1006,1013,1015,1036,3060,                    
+                    3967                                                                 
+
+vPC status
+----------------------------------------------------------------------------
+Id    Port          Status Consistency Reason                Active vlans
+--    ------------  ------ ----------- ------                ---------------
+1     Po1           up     success     success               1-2,16,18,100,183,          
+                                                             191,200,207-208,            
+                                                             220,242,300,                
+                                                             312-315,390,                
+                                                             400-401,410-411,            
+                                                             440,520-521,...             
+3     Po3           up     success     success               1-2,16,18,100,183,          
+                                                             191,200,207-208,            
+                                                             220,242,300,                
+                                                             312-315,390,                
+                                                             400-401,410-411,            
+                                                             440,520-521,...             
+4     Po4           up     success     success               1-2,16,18,100,183,          
+                                                             191,200,207-208,            
+                                                             220,242,300,                
+                                                             312-315,390,                
+                                                             400-401,410-411,            
+                                                             440,520-521,...             
+
+Please check "show vpc consistency-parameters vpc <vpc-num>" for the 
+consistency reason of down vpc and for type-2 consistency reasons for 
+any vpc.
+
+
+
+
+######################################################################################################################################
+
+
+
+BG2NX02
+
+
+                                                                
+    1111                           1121 111  1                  
+    8444111211111 121271 11211111221440914099199911261222  11112
+100                                                             
+ 90                                                             
+ 80                                                             
+ 70                                                             
+ 60                                                             
+ 50                                                             
+ 40                                                             
+ 30                                                             
+ 20 #                                #                          
+ 10 ####              #            ##############   #           
+    0....5....1....1....2....2....3....3....4....4....5....5....
+              0    5    0    5    0    5    0    5    0    5    
+
+               CPU% per second (last 60 seconds)
+                      # = average CPU%
+
+
+                                                                
+    112311212211121111212112111221121211122111121212211212111131
+    060070269206432478431495777044961653645139566070444056975807
+100                                                             
+ 90                                                             
+ 80                                                             
+ 70                                                             
+ 60                                                             
+ 50                                                             
+ 40                                                             
+ 30    *    *              *       * *    *    *         *    * 
+ 20  **** **** * *  *** * ******* ** ** ***  ********  *********
+ 10 ***##**##****##*#*#****##*#*#**#*#****#**#*#*##*#*#**#****#*
+    0....5....1....1....2....2....3....3....4....4....5....5....
+              0    5    0    5    0    5    0    5    0    5    
+
+               CPU% per minute (last 60 minutes)
+              * = maximum CPU%   # = average CPU%
+
+
+                                                                            
+    332333232433323333322333222223333332233233322223223332222333232223322223
+    019100939223280111096212887991310159700821289681870008789126906981399794
+100                                                                         
+ 90                                                                         
+ 80                                                                         
+ 70                                                                         
+ 60                                                                         
+ 50                                                                         
+ 40          *                        *                        *            
+ 30 ************************************************************************
+ 20 ************************************************************************
+ 10 ************************************************************************
+    0....5....1....1....2....2....3....3....4....4....5....5....6....6....7.
+              0    5    0    5    0    5    0    5    0    5    0    5    0 
+
+                   CPU% per hour (last 72 hours)
+                  * = maximum CPU%   # = average CPU%
+
+
+
+
+
+
+
+
+
+
+
+
+
+Load average:   1 minute: 0.52   5 minutes: 0.62   15 minutes: 0.70
+Processes   :   801 total, 1 running
+CPU states  :   0.41% user,   0.74% kernel,   98.83% idle
+        CPU0 states  :   0.00% user,   0.00% kernel,   100.00% idle
+        CPU1 states  :   0.00% user,   0.00% kernel,   100.00% idle
+        CPU2 states  :   0.00% user,   0.00% kernel,   100.00% idle
+        CPU3 states  :   0.00% user,   0.00% kernel,   100.00% idle
+        CPU4 states  :   0.00% user,   0.00% kernel,   100.00% idle
+        CPU5 states  :   0.00% user,   0.00% kernel,   100.00% idle
+        CPU6 states  :   0.00% user,   6.00% kernel,   94.00% idle
+        CPU7 states  :   1.98% user,   0.99% kernel,   97.02% idle
+        CPU8 states  :   0.98% user,   0.98% kernel,   98.03% idle
+        CPU9 states  :   0.00% user,   1.02% kernel,   98.97% idle
+        CPU10 states  :   0.00% user,   0.00% kernel,   100.00% idle
+        CPU11 states  :   0.00% user,   0.00% kernel,   100.00% idle
+Memory usage:   32802128K total,   10485460K used,   22316668K free
+Kernel vmalloc:   0K total,   0K free
+Kernel buffers:   286724K Used
+Kernel cached :   8570152K Used
+Current memory status: OK
+
+
+
+
+
+
+
+
+
+
+
+
+Mod Ports                  Module-Type                            Model           Status
+--- ----- ------------------------------------------------ --------------------- --------
+1    54   48x10/25G/32G + 6x40/100G Ethernet/FC Module     N9K-C93180YC-FX       active *  
+
+Mod  Sw                       Hw    Slot
+---  ----------------------- ------ ----
+1    10.3(4a)                 2.2    NA  
+
+
+Mod  MAC-Address(es)                         Serial-Num
+---  --------------------------------------  ----------
+1    90-77-ee-01-d4-c0 to 90-77-ee-01-d5-1f  FDO24270D83
+
+Mod  Online Diag Status
+---  ------------------
+1    Pass
+
+* this terminal session 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Current bootup diagnostic level: complete
+Module 1: 48x10/25G/32G + 6x40/100G Ethernet/FC Module  (Active)
+
+        Test results: (. = Pass, F = Fail, I = Incomplete,
+        U = Untested, A = Abort, E = Error disabled)
+
+         1) USB---------------------------> .
+         2) NVRAM-------------------------> .
+         3) RealTimeClock-----------------> .
+         4) PrimaryBootROM----------------> .
+         5) SecondaryBootROM--------------> .
+         6) BootFlash---------------------> .
+         7) SystemMgmtBus-----------------> .
+         8) OBFL--------------------------> .
+         9) ACT2--------------------------> .
+        10) Console-----------------------> .
+        11) FpgaRegTest-------------------> .
+        12) Mce---------------------------> .
+        13) ASICRegisterCheck-------------> .
+        14) AsicMemory--------------------> .
+        15) Pcie--------------------------> .
+        16) PortLoopback: U 
+
+          Port   1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 
+          -----------------------------------------------------
+                 U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  
+
+          Port  17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 
+          -----------------------------------------------------
+                 U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  
+
+          Port  33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 
+          -----------------------------------------------------
+                 U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  
+
+          Port  49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 
+          -----------------------------------------------------
+                 U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  
+
+          Port  65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 
+          -----------------------------------------------------
+                 U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  
+
+          Port  81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 
+          -----------------------------------------------------
+                 U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  
+
+          Port  97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 
+          ------------------------------------------------------------------
+                 U  U  U  U   U   U   U   U   U   U   U   U   U   U   U   U   
+
+          Port  113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 
+          ---------------------------------------------------------------------
+                 U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   
+
+          Port  129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 
+          ---------------------------------------------------------------------
+                 U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   
+
+          Port  145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 160 
+          ---------------------------------------------------------------------
+                 U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   
+
+          Port  161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 
+          ---------------------------------------------------------------------
+                 U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   
+
+          Port  177 178 179 180 181 182 183 184 185 186 187 188 189 190 191 192 
+          ---------------------------------------------------------------------
+                 U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   
+
+          Port  193 194 195 196 197 198 199 200 201 202 203 204 205 206 207 208 
+          ---------------------------------------------------------------------
+                 U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   
+
+          Port  209 210 211 212 213 214 215 216 
+          -------------------------------------
+                 U   U   U   U   U   U   U   U   
+
+
+        17) L2ACLRedirect-----------------> .
+        18) BootupPortLoopback: . 
+
+          Port   1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 
+          -----------------------------------------------------
+                 .  U  U  U  .  U  U  U  .  U  U  U  .  U  U  U  
+
+          Port  17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 
+          -----------------------------------------------------
+                 .  U  U  U  .  U  U  U  .  U  U  U  .  U  U  U  
+
+          Port  33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 
+          -----------------------------------------------------
+                 .  U  U  U  .  U  U  U  .  U  U  U  .  U  U  U  
+
+          Port  49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 
+          -----------------------------------------------------
+                 .  U  U  U  .  U  U  U  .  U  U  U  .  U  U  U  
+
+          Port  65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 
+          -----------------------------------------------------
+                 .  U  U  U  .  U  U  U  .  U  U  U  .  U  U  U  
+
+          Port  81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 
+          -----------------------------------------------------
+                 .  U  U  U  .  U  U  U  .  U  U  U  .  U  U  U  
+
+          Port  97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 
+          ------------------------------------------------------------------
+                 .  U  U  U   .   U   U   U   .   U   U   U   .   U   U   U   
+
+          Port  113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 
+          ---------------------------------------------------------------------
+                 .   U   U   U   .   U   U   U   .   U   U   U   .   U   U   U   
+
+          Port  129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 
+          ---------------------------------------------------------------------
+                 .   U   U   U   .   U   U   U   .   U   U   U   .   U   U   U   
+
+          Port  145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 160 
+          ---------------------------------------------------------------------
+                 .   U   U   U   .   U   U   U   .   U   U   U   .   U   U   U   
+
+          Port  161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 
+          ---------------------------------------------------------------------
+                 .   U   U   U   .   U   U   U   .   U   U   U   .   U   U   U   
+
+          Port  177 178 179 180 181 182 183 184 185 186 187 188 189 190 191 192 
+          ---------------------------------------------------------------------
+                 .   U   U   U   .   U   U   U   .   U   U   U   .   U   U   U   
+
+          Port  193 194 195 196 197 198 199 200 201 202 203 204 205 206 207 208 
+          ---------------------------------------------------------------------
+                 .   U   U   U   .   U   U   U   .   U   U   U   .   U   U   U   
+
+          Port  209 210 211 212 213 214 215 216 
+          -------------------------------------
+                 .   U   U   U   .   U   U   U   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Fan:
+---------------------------------------------------------------------------
+Fan             Model                Hw     Direction       Status
+---------------------------------------------------------------------------
+Fan1(sys_fan1)  NXA-FAN-30CFM-F      --     back-to-front   Ok 
+Fan2(sys_fan2)  NXA-FAN-30CFM-F      --     back-to-front   Ok 
+Fan3(sys_fan3)  NXA-FAN-30CFM-F      --     back-to-front   Ok 
+Fan4(sys_fan4)  NXA-FAN-30CFM-F      --     back-to-front   Ok 
+Fan_in_PS1      --                   --     back-to-front   Ok
+Fan_in_PS2      --                   --     back-to-front   Ok
+Fan Zone Speed: Zone 1: 0xb3
+Fan Air Filter : NotSupported
+
+
+Power Supply:
+Voltage: 12 Volts
+Power                      Actual             Actual        Total
+Supply    Model            Output             Input        Capacity     Status
+                           (Watts )           (Watts )     (Watts )
+-------  ----------  ---------------  ------  ----------  --------------------
+1        NXA-PAC-500W-PE        70 W               80 W       500 W      Ok
+2        NXA-PAC-500W-PE        73 W               84 W       500 W      Ok
+
+
+Power Usage Summary:
+--------------------
+Power Supply redundancy mode (configured)                PS-Redundant
+Power Supply redundancy mode (operational)               PS-Redundant
+
+Total Power Capacity (based on configured mode)             500.00 W
+Total Grid-A (first half of PS slots) Power Capacity        500.00 W
+Total Grid-B (second half of PS slots) Power Capacity       500.00 W
+Total Power of all Inputs (cumulative)                     1000.00 W
+Total Power Output (actual draw)                            143.00 W
+Total Power Input (actual draw)                             164.00 W
+Total Power Allocated (budget)                                N/A   
+Total Power Available for additional modules                  N/A   
+
+
+
+Temperature:
+--------------------------------------------------------------------
+Module   Sensor        MajorThresh   MinorThres   CurTemp     Status
+                       (Celsius)     (Celsius)    (Celsius)         
+--------------------------------------------------------------------
+1        FRONT           80              70          20         Ok             
+1        BACK            70              42          17         Ok             
+1        CPU             90              80          32         Ok             
+1        Homewood        110             90          34         Ok             
+
+
+
+
+
+
+
+
+
+
+
+
+Legend:
+                (*) - local vPC is down, forwarding via vPC peer-link
+
+vPC domain id                     : 1   
+Peer status                       : peer adjacency formed ok      
+vPC keep-alive status             : peer is alive                 
+Configuration consistency status  : success 
+Per-vlan consistency status       : success                       
+Type-2 consistency status         : success 
+vPC role                          : secondary                     
+Number of vPCs configured         : 3   
+Peer Gateway                      : Enabled
+Dual-active excluded VLANs        : -
+Graceful Consistency Check        : Enabled
+Auto-recovery status              : Disabled
+Delay-restore status              : Timer is off.(timeout = 30s)
+Delay-restore SVI status          : Timer is off.(timeout = 10s)
+Delay-restore Orphan-port status  : Timer is off.(timeout = 0s)
+Operational Layer3 Peer-router    : Enabled
+Virtual-peerlink mode             : Disabled
+
+vPC Peer-link status
+---------------------------------------------------------------------
+id    Port   Status Active vlans    
+--    ----   ------ -------------------------------------------------
+1     Po4094 up     1-2,16,18,100,183,191,200,207-208,220,242,300,                       
+                    312-315,390,400-401,410-411,440,520-521,550-552,                     
+                    600,625-626,629-630,980,1006,1013,1015,1036,3060,                    
+                    3967                                                                 
+
+vPC status
+----------------------------------------------------------------------------
+Id    Port          Status Consistency Reason                Active vlans
+--    ------------  ------ ----------- ------                ---------------
+1     Po1           up     success     success               1-2,16,18,100,183,          
+                                                             191,200,207-208,            
+                                                             220,242,300,                
+                                                             312-315,390,                
+                                                             400-401,410-411,            
+                                                             440,520-521,...             
+3     Po3           up     success     success               1-2,16,18,100,183,          
+                                                             191,200,207-208,            
+                                                             220,242,300,                
+                                                             312-315,390,                
+                                                             400-401,410-411,            
+                                                             440,520-521,...             
+4     Po4           up     success     success               1-2,16,18,100,183,          
+                                                             191,200,207-208,            
+                                                             220,242,300,                
+                                                             312-315,390,                
+                                                             400-401,410-411,            
+                                                             440,520-521,...             
+
+Please check "show vpc consistency-parameters vpc <vpc-num>" for the 
+consistency reason of down vpc and for type-2 consistency reasons for 
+any vpc.
+
+
+
+
+######################################################################################################################################
+
+
+
+BG3NX01
+
+
+                                                                
+              1              111112211 111 1221                 
+    18151183179411121111122 91030650279100902065111111292 212111
+100                                                             
+ 90                                                             
+ 80                                                             
+ 70                                                             
+ 60                                                             
+ 50                                                             
+ 40                                                             
+ 30                               #                             
+ 20           #                  ### #      ###                 
+ 10  # #  #  ##             ####################       #        
+    0....5....1....1....2....2....3....3....4....4....5....5....
+              0    5    0    5    0    5    0    5    0    5    
+
+               CPU% per second (last 60 seconds)
+                      # = average CPU%
+
+
+                                                                
+    212111111121112221112111121111211112111121111221112111121122
+    580889984537816508985744637568488457741834954921581759568700
+100                                                             
+ 90                                                             
+ 80                                                             
+ 70                                                             
+ 60                                                             
+ 50                                                             
+ 40                                                             
+ 30 *             **    *              *         *         *    
+ 20 ******** **** ********  ********* ***  ** ** ** ************
+ 10 #*#**###**#****###**#****##**##***###**###**###***##**###*#*
+    0....5....1....1....2....2....3....3....4....4....5....5....
+              0    5    0    5    0    5    0    5    0    5    
+
+               CPU% per minute (last 60 minutes)
+              * = maximum CPU%   # = average CPU%
+
+
+                                                                            
+    333333332323332223223222323233322322323322333333322332322322323333333323
+    110110129080508974990889574923377399084088220453198028199088481022442081
+100                                                                         
+ 90                                                                         
+ 80                                                                         
+ 70                                                                         
+ 60                                                                         
+ 50                                                                         
+ 40             *           *                     *                         
+ 30 ************************************************************************
+ 20 ************************************************************************
+ 10 **************************************###*****************#*************
+    0....5....1....1....2....2....3....3....4....4....5....5....6....6....7.
+              0    5    0    5    0    5    0    5    0    5    0    5    0 
+
+                   CPU% per hour (last 72 hours)
+                  * = maximum CPU%   # = average CPU%
+
+
+
+
+
+
+
+
+
+
+
+
+
+Load average:   1 minute: 0.94   5 minutes: 0.78   15 minutes: 0.67
+Processes   :   803 total, 1 running
+CPU states  :   0.58% user,   1.75% kernel,   97.65% idle
+        CPU0 states  :   0.00% user,   0.00% kernel,   100.00% idle
+        CPU1 states  :   1.03% user,   10.30% kernel,   88.65% idle
+        CPU2 states  :   0.00% user,   0.00% kernel,   100.00% idle
+        CPU3 states  :   0.00% user,   0.00% kernel,   100.00% idle
+        CPU4 states  :   1.00% user,   1.00% kernel,   98.00% idle
+        CPU5 states  :   0.00% user,   0.99% kernel,   99.00% idle
+        CPU6 states  :   1.00% user,   2.00% kernel,   97.00% idle
+        CPU7 states  :   2.00% user,   0.00% kernel,   98.00% idle
+        CPU8 states  :   1.01% user,   4.04% kernel,   94.94% idle
+        CPU9 states  :   1.98% user,   0.00% kernel,   98.01% idle
+        CPU10 states  :   0.00% user,   1.00% kernel,   99.00% idle
+        CPU11 states  :   0.00% user,   1.01% kernel,   98.98% idle
+Memory usage:   32802128K total,   10281308K used,   22520820K free
+Kernel vmalloc:   0K total,   0K free
+Kernel buffers:   288368K Used
+Kernel cached :   8122172K Used
+Current memory status: OK
+
+
+
+
+
+
+
+
+
+
+
+
+Mod Ports                  Module-Type                            Model           Status
+--- ----- ------------------------------------------------ --------------------- --------
+1    54   48x10/25G/32G + 6x40/100G Ethernet/FC Module     N9K-C93180YC-FX       active *  
+
+Mod  Sw                       Hw    Slot
+---  ----------------------- ------ ----
+1    10.3(4a)                 2.2    NA  
+
+
+Mod  MAC-Address(es)                         Serial-Num
+---  --------------------------------------  ----------
+1    80-2d-bf-8f-a5-c0 to 80-2d-bf-8f-a6-1f  FDO24271D6D
+
+Mod  Online Diag Status
+---  ------------------
+1    Pass
+
+* this terminal session 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Current bootup diagnostic level: complete
+Module 1: 48x10/25G/32G + 6x40/100G Ethernet/FC Module  (Active)
+
+        Test results: (. = Pass, F = Fail, I = Incomplete,
+        U = Untested, A = Abort, E = Error disabled)
+
+         1) USB---------------------------> .
+         2) NVRAM-------------------------> .
+         3) RealTimeClock-----------------> .
+         4) PrimaryBootROM----------------> .
+         5) SecondaryBootROM--------------> .
+         6) BootFlash---------------------> .
+         7) SystemMgmtBus-----------------> .
+         8) OBFL--------------------------> .
+         9) ACT2--------------------------> .
+        10) Console-----------------------> .
+        11) FpgaRegTest-------------------> .
+        12) Mce---------------------------> .
+        13) ASICRegisterCheck-------------> .
+        14) AsicMemory--------------------> .
+        15) Pcie--------------------------> .
+        16) PortLoopback: U 
+
+          Port   1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 
+          -----------------------------------------------------
+                 U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  
+
+          Port  17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 
+          -----------------------------------------------------
+                 U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  
+
+          Port  33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 
+          -----------------------------------------------------
+                 U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  
+
+          Port  49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 
+          -----------------------------------------------------
+                 U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  
+
+          Port  65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 
+          -----------------------------------------------------
+                 U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  
+
+          Port  81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 
+          -----------------------------------------------------
+                 U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  
+
+          Port  97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 
+          ------------------------------------------------------------------
+                 U  U  U  U   U   U   U   U   U   U   U   U   U   U   U   U   
+
+          Port  113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 
+          ---------------------------------------------------------------------
+                 U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   
+
+          Port  129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 
+          ---------------------------------------------------------------------
+                 U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   
+
+          Port  145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 160 
+          ---------------------------------------------------------------------
+                 U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   
+
+          Port  161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 
+          ---------------------------------------------------------------------
+                 U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   
+
+          Port  177 178 179 180 181 182 183 184 185 186 187 188 189 190 191 192 
+          ---------------------------------------------------------------------
+                 U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   
+
+          Port  193 194 195 196 197 198 199 200 201 202 203 204 205 206 207 208 
+          ---------------------------------------------------------------------
+                 U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   
+
+          Port  209 210 211 212 213 214 215 216 
+          -------------------------------------
+                 U   U   U   U   U   U   U   U   
+
+
+        17) L2ACLRedirect-----------------> .
+        18) BootupPortLoopback: . 
+
+          Port   1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 
+          -----------------------------------------------------
+                 .  U  U  U  .  U  U  U  .  U  U  U  .  U  U  U  
+
+          Port  17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 
+          -----------------------------------------------------
+                 .  U  U  U  .  U  U  U  .  U  U  U  .  U  U  U  
+
+          Port  33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 
+          -----------------------------------------------------
+                 .  U  U  U  .  U  U  U  .  U  U  U  .  U  U  U  
+
+          Port  49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 
+          -----------------------------------------------------
+                 .  U  U  U  .  U  U  U  .  U  U  U  .  U  U  U  
+
+          Port  65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 
+          -----------------------------------------------------
+                 .  U  U  U  .  U  U  U  .  U  U  U  .  U  U  U  
+
+          Port  81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 
+          -----------------------------------------------------
+                 .  U  U  U  .  U  U  U  .  U  U  U  .  U  U  U  
+
+          Port  97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 
+          ------------------------------------------------------------------
+                 .  U  U  U   .   U   U   U   .   U   U   U   .   U   U   U   
+
+          Port  113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 
+          ---------------------------------------------------------------------
+                 .   U   U   U   .   U   U   U   .   U   U   U   .   U   U   U   
+
+          Port  129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 
+          ---------------------------------------------------------------------
+                 .   U   U   U   .   U   U   U   .   U   U   U   .   U   U   U   
+
+          Port  145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 160 
+          ---------------------------------------------------------------------
+                 .   U   U   U   .   U   U   U   .   U   U   U   .   U   U   U   
+
+          Port  161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 
+          ---------------------------------------------------------------------
+                 .   U   U   U   .   U   U   U   .   U   U   U   .   U   U   U   
+
+          Port  177 178 179 180 181 182 183 184 185 186 187 188 189 190 191 192 
+          ---------------------------------------------------------------------
+                 .   U   U   U   .   U   U   U   .   U   U   U   .   U   U   U   
+
+          Port  193 194 195 196 197 198 199 200 201 202 203 204 205 206 207 208 
+          ---------------------------------------------------------------------
+                 .   U   U   U   .   U   U   U   .   U   U   U   .   U   U   U   
+
+          Port  209 210 211 212 213 214 215 216 
+          -------------------------------------
+                 .   U   U   U   .   U   U   U   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Fan:
+---------------------------------------------------------------------------
+Fan             Model                Hw     Direction       Status
+---------------------------------------------------------------------------
+Fan1(sys_fan1)  NXA-FAN-30CFM-F      --     back-to-front   Ok 
+Fan2(sys_fan2)  NXA-FAN-30CFM-F      --     back-to-front   Ok 
+Fan3(sys_fan3)  NXA-FAN-30CFM-F      --     back-to-front   Ok 
+Fan4(sys_fan4)  NXA-FAN-30CFM-F      --     back-to-front   Ok 
+Fan_in_PS1      --                   --     back-to-front   Ok
+Fan_in_PS2      --                   --     back-to-front   Ok
+Fan Zone Speed: Zone 1: 0xb3
+Fan Air Filter : NotSupported
+
+
+Power Supply:
+Voltage: 12 Volts
+Power                      Actual             Actual        Total
+Supply    Model            Output             Input        Capacity     Status
+                           (Watts )           (Watts )     (Watts )
+-------  ----------  ---------------  ------  ----------  --------------------
+1        NXA-PAC-500W-PE        66 W               75 W       500 W      Ok
+2        NXA-PAC-500W-PE        68 W               83 W       500 W      Ok
+
+
+Power Usage Summary:
+--------------------
+Power Supply redundancy mode (configured)                PS-Redundant
+Power Supply redundancy mode (operational)               PS-Redundant
+
+Total Power Capacity (based on configured mode)             500.00 W
+Total Grid-A (first half of PS slots) Power Capacity        500.00 W
+Total Grid-B (second half of PS slots) Power Capacity       500.00 W
+Total Power of all Inputs (cumulative)                     1000.00 W
+Total Power Output (actual draw)                            135.00 W
+Total Power Input (actual draw)                             158.00 W
+Total Power Allocated (budget)                                N/A   
+Total Power Available for additional modules                  N/A   
+
+
+
+Temperature:
+--------------------------------------------------------------------
+Module   Sensor        MajorThresh   MinorThres   CurTemp     Status
+                       (Celsius)     (Celsius)    (Celsius)         
+--------------------------------------------------------------------
+1        FRONT           80              70          21         Ok             
+1        BACK            70              42          18         Ok             
+1        CPU             90              80          35         Ok             
+1        Homewood        110             90          35         Ok             
+
+
+
+
+
+
+
+
+
+
+
+
+Legend:
+                (*) - local vPC is down, forwarding via vPC peer-link
+
+vPC domain id                     : 1   
+Peer status                       : peer adjacency formed ok      
+vPC keep-alive status             : peer is alive                 
+Configuration consistency status  : success 
+Per-vlan consistency status       : success                       
+Type-2 consistency status         : success 
+vPC role                          : primary                       
+Number of vPCs configured         : 3   
+Peer Gateway                      : Enabled
+Dual-active excluded VLANs        : -
+Graceful Consistency Check        : Enabled
+Auto-recovery status              : Disabled
+Delay-restore status              : Timer is off.(timeout = 30s)
+Delay-restore SVI status          : Timer is off.(timeout = 10s)
+Delay-restore Orphan-port status  : Timer is off.(timeout = 0s)
+Operational Layer3 Peer-router    : Enabled
+Virtual-peerlink mode             : Disabled
+
+vPC Peer-link status
+---------------------------------------------------------------------
+id    Port   Status Active vlans    
+--    ----   ------ -------------------------------------------------
+1     Po4094 up     1,16,18,50-51,61-85,87-88,100,182,200,209-210,212                    
+                    ,240,300-302,308-309,312-315,322-325,390,400,                        
+                    404-405,416,420,425,428,450,461,502,600,602,612,                     
+                    699,850-854,972,1006,1011-1015,1038,2764,3005,                       
+                    3967                                                                 
+
+vPC status
+----------------------------------------------------------------------------
+Id    Port          Status Consistency Reason                Active vlans
+--    ------------  ------ ----------- ------                ---------------
+1     Po1           up     success     success               1,16,18,50-51,              
+                                                             61-85,87-88,100,            
+                                                             182,200,209-210,            
+                                                             212,240,300-302,            
+                                                             308-309,312-315,            
+                                                             322-325,390,...,            
+3     Po3           up     success     success               1,16,18,50-51,              
+                                                             61-85,87-88,100,            
+                                                             182,200,209-210,            
+                                                             212,240,300-302,            
+                                                             308-309,312-315,            
+                                                             322-325,390,...,            
+4     Po4           up     success     success               1,16,18,50-51,              
+                                                             61-85,87-88,100,            
+                                                             182,200,209-210,            
+                                                             212,240,300-302,            
+                                                             308-309,312-315,            
+                                                             322-325,390,...,            
+
+Please check "show vpc consistency-parameters vpc <vpc-num>" for the 
+consistency reason of down vpc and for type-2 consistency reasons for 
+any vpc.
+
+
+
+
+######################################################################################################################################
+
+
+
+BG3NX02
+
+
+                                                                
+         11                                 11 1211  1          
+    2675220712118671221111181113 2132 11179907960819904111111145
+100                                                             
+ 90                                                             
+ 80                                                             
+ 70                                                             
+ 60                                                             
+ 50                                                             
+ 40                                                             
+ 30                                                             
+ 20                                          # ###              
+ 10  ### ###    ###        #             #############         #
+    0....5....1....1....2....2....3....3....4....4....5....5....
+              0    5    0    5    0    5    0    5    0    5    
+
+               CPU% per second (last 60 seconds)
+                      # = average CPU%
+
+
+                                                                
+    111111121121111121111211111111111111111111111111111121111111
+    377936934735594509652575965975487429378759648755864732598887
+100                                                             
+ 90                                                             
+ 80                                                             
+ 70                                                             
+ 60                                                             
+ 50                                                             
+ 40                                                             
+ 30                      *                                      
+ 20  *** *** ***** ***** ********* **  * ****** ****** ** ******
+ 10 *#*#**#*##*#*#**#*#**#*#**###**##***###***#**#*##***#**#*#**
+    0....5....1....1....2....2....3....3....4....4....5....5....
+              0    5    0    5    0    5    0    5    0    5    
+
+               CPU% per minute (last 60 minutes)
+              * = maximum CPU%   # = average CPU%
+
+
+                                                                            
+    222222222222222222222222222222222223222322222222222222222222222222222333
+    573341336354475834441339859356494641734034346647455555598849554533846112
+100                                                                         
+ 90                                                                         
+ 80                                                                         
+ 70                                                                         
+ 60                                                                         
+ 50                                                                         
+ 40                                                                         
+ 30 **      * *  ***       **** ** * * **  *    ** * ********* *** *  * ****
+ 20 ************************************************************************
+ 10 ***************************************#********************************
+    0....5....1....1....2....2....3....3....4....4....5....5....6....6....7.
+              0    5    0    5    0    5    0    5    0    5    0    5    0 
+
+                   CPU% per hour (last 72 hours)
+                  * = maximum CPU%   # = average CPU%
+
+
+
+
+
+
+
+
+
+
+
+
+
+Load average:   1 minute: 0.63   5 minutes: 0.58   15 minutes: 0.63
+Processes   :   803 total, 3 running
+CPU states  :   2.67% user,   1.67% kernel,   95.64% idle
+        CPU0 states  :   0.00% user,   9.18% kernel,   90.81% idle
+        CPU1 states  :   1.96% user,   2.94% kernel,   95.09% idle
+        CPU2 states  :   0.00% user,   0.00% kernel,   100.00% idle
+        CPU3 states  :   1.00% user,   1.00% kernel,   98.00% idle
+        CPU4 states  :   0.00% user,   0.00% kernel,   100.00% idle
+        CPU5 states  :   0.00% user,   1.98% kernel,   98.01% idle
+        CPU6 states  :   2.00% user,   4.00% kernel,   94.00% idle
+        CPU7 states  :   2.94% user,   1.96% kernel,   95.09% idle
+        CPU8 states  :   0.00% user,   0.00% kernel,   100.00% idle
+        CPU9 states  :   21.21% user,   3.03% kernel,   75.75% idle
+        CPU10 states  :   3.00% user,   0.00% kernel,   97.00% idle
+        CPU11 states  :   0.00% user,   0.00% kernel,   100.00% idle
+Memory usage:   32802132K total,   10247844K used,   22554288K free
+Kernel vmalloc:   0K total,   0K free
+Kernel buffers:   287636K Used
+Kernel cached :   8844180K Used
+Current memory status: OK
+
+
+
+
+
+
+
+
+
+
+
+
+Mod Ports                  Module-Type                            Model           Status
+--- ----- ------------------------------------------------ --------------------- --------
+1    54   48x10/25G/32G + 6x40/100G Ethernet/FC Module     N9K-C93180YC-FX       active *  
+
+Mod  Sw                       Hw    Slot
+---  ----------------------- ------ ----
+1    10.3(4a)                 2.2    NA  
+
+
+Mod  MAC-Address(es)                         Serial-Num
+---  --------------------------------------  ----------
+1    80-2d-bf-a3-e7-40 to 80-2d-bf-a3-e7-9f  FDO24271DAJ
+
+Mod  Online Diag Status
+---  ------------------
+1    Pass
+
+* this terminal session 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Current bootup diagnostic level: complete
+Module 1: 48x10/25G/32G + 6x40/100G Ethernet/FC Module  (Active)
+
+        Test results: (. = Pass, F = Fail, I = Incomplete,
+        U = Untested, A = Abort, E = Error disabled)
+
+         1) USB---------------------------> .
+         2) NVRAM-------------------------> .
+         3) RealTimeClock-----------------> .
+         4) PrimaryBootROM----------------> .
+         5) SecondaryBootROM--------------> .
+         6) BootFlash---------------------> .
+         7) SystemMgmtBus-----------------> .
+         8) OBFL--------------------------> .
+         9) ACT2--------------------------> .
+        10) Console-----------------------> .
+        11) FpgaRegTest-------------------> .
+        12) Mce---------------------------> .
+        13) ASICRegisterCheck-------------> .
+        14) AsicMemory--------------------> .
+        15) Pcie--------------------------> .
+        16) PortLoopback: U 
+
+          Port   1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 
+          -----------------------------------------------------
+                 U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  
+
+          Port  17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 
+          -----------------------------------------------------
+                 U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  
+
+          Port  33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 
+          -----------------------------------------------------
+                 U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  
+
+          Port  49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 
+          -----------------------------------------------------
+                 U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  
+
+          Port  65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 
+          -----------------------------------------------------
+                 U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  
+
+          Port  81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 
+          -----------------------------------------------------
+                 U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  
+
+          Port  97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 
+          ------------------------------------------------------------------
+                 U  U  U  U   U   U   U   U   U   U   U   U   U   U   U   U   
+
+          Port  113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 
+          ---------------------------------------------------------------------
+                 U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   
+
+          Port  129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 
+          ---------------------------------------------------------------------
+                 U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   
+
+          Port  145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 160 
+          ---------------------------------------------------------------------
+                 U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   
+
+          Port  161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 
+          ---------------------------------------------------------------------
+                 U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   
+
+          Port  177 178 179 180 181 182 183 184 185 186 187 188 189 190 191 192 
+          ---------------------------------------------------------------------
+                 U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   
+
+          Port  193 194 195 196 197 198 199 200 201 202 203 204 205 206 207 208 
+          ---------------------------------------------------------------------
+                 U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   
+
+          Port  209 210 211 212 213 214 215 216 
+          -------------------------------------
+                 U   U   U   U   U   U   U   U   
+
+
+        17) L2ACLRedirect-----------------> .
+        18) BootupPortLoopback: . 
+
+          Port   1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 
+          -----------------------------------------------------
+                 .  U  U  U  .  U  U  U  .  U  U  U  .  U  U  U  
+
+          Port  17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 
+          -----------------------------------------------------
+                 .  U  U  U  .  U  U  U  .  U  U  U  .  U  U  U  
+
+          Port  33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 
+          -----------------------------------------------------
+                 .  U  U  U  .  U  U  U  .  U  U  U  .  U  U  U  
+
+          Port  49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 
+          -----------------------------------------------------
+                 .  U  U  U  .  U  U  U  .  U  U  U  .  U  U  U  
+
+          Port  65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 
+          -----------------------------------------------------
+                 .  U  U  U  .  U  U  U  .  U  U  U  .  U  U  U  
+
+          Port  81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 
+          -----------------------------------------------------
+                 .  U  U  U  .  U  U  U  .  U  U  U  .  U  U  U  
+
+          Port  97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 
+          ------------------------------------------------------------------
+                 .  U  U  U   .   U   U   U   .   U   U   U   .   U   U   U   
+
+          Port  113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 
+          ---------------------------------------------------------------------
+                 .   U   U   U   .   U   U   U   .   U   U   U   .   U   U   U   
+
+          Port  129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 
+          ---------------------------------------------------------------------
+                 .   U   U   U   .   U   U   U   .   U   U   U   .   U   U   U   
+
+          Port  145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 160 
+          ---------------------------------------------------------------------
+                 .   U   U   U   .   U   U   U   .   U   U   U   .   U   U   U   
+
+          Port  161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 
+          ---------------------------------------------------------------------
+                 .   U   U   U   .   U   U   U   .   U   U   U   .   U   U   U   
+
+          Port  177 178 179 180 181 182 183 184 185 186 187 188 189 190 191 192 
+          ---------------------------------------------------------------------
+                 .   U   U   U   .   U   U   U   .   U   U   U   .   U   U   U   
+
+          Port  193 194 195 196 197 198 199 200 201 202 203 204 205 206 207 208 
+          ---------------------------------------------------------------------
+                 .   U   U   U   .   U   U   U   .   U   U   U   .   U   U   U   
+
+          Port  209 210 211 212 213 214 215 216 
+          -------------------------------------
+                 .   U   U   U   .   U   U   U   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Fan:
+---------------------------------------------------------------------------
+Fan             Model                Hw     Direction       Status
+---------------------------------------------------------------------------
+Fan1(sys_fan1)  NXA-FAN-30CFM-F      --     back-to-front   Ok 
+Fan2(sys_fan2)  NXA-FAN-30CFM-F      --     back-to-front   Ok 
+Fan3(sys_fan3)  NXA-FAN-30CFM-F      --     back-to-front   Ok 
+Fan4(sys_fan4)  NXA-FAN-30CFM-F      --     back-to-front   Ok 
+Fan_in_PS1      --                   --     back-to-front   Ok
+Fan_in_PS2      --                   --     back-to-front   Ok
+Fan Zone Speed: Zone 1: 0xb3
+Fan Air Filter : NotSupported
+
+
+Power Supply:
+Voltage: 12 Volts
+Power                      Actual             Actual        Total
+Supply    Model            Output             Input        Capacity     Status
+                           (Watts )           (Watts )     (Watts )
+-------  ----------  ---------------  ------  ----------  --------------------
+1        NXA-PAC-500W-PE        73 W               89 W       500 W      Ok
+2        NXA-PAC-500W-PE        71 W               80 W       500 W      Ok
+
+
+Power Usage Summary:
+--------------------
+Power Supply redundancy mode (configured)                PS-Redundant
+Power Supply redundancy mode (operational)               PS-Redundant
+
+Total Power Capacity (based on configured mode)             500.00 W
+Total Grid-A (first half of PS slots) Power Capacity        500.00 W
+Total Grid-B (second half of PS slots) Power Capacity       500.00 W
+Total Power of all Inputs (cumulative)                     1000.00 W
+Total Power Output (actual draw)                            145.00 W
+Total Power Input (actual draw)                             169.00 W
+Total Power Allocated (budget)                                N/A   
+Total Power Available for additional modules                  N/A   
+
+
+
+Temperature:
+--------------------------------------------------------------------
+Module   Sensor        MajorThresh   MinorThres   CurTemp     Status
+                       (Celsius)     (Celsius)    (Celsius)         
+--------------------------------------------------------------------
+1        FRONT           80              70          23         Ok             
+1        BACK            70              42          19         Ok             
+1        CPU             90              80          36         Ok             
+1        Homewood        110             90          38         Ok             
+
+
+
+
+
+
+
+
+
+
+
+
+Legend:
+                (*) - local vPC is down, forwarding via vPC peer-link
+
+vPC domain id                     : 1   
+Peer status                       : peer adjacency formed ok      
+vPC keep-alive status             : peer is alive                 
+Configuration consistency status  : success 
+Per-vlan consistency status       : success                       
+Type-2 consistency status         : success 
+vPC role                          : secondary                     
+Number of vPCs configured         : 3   
+Peer Gateway                      : Enabled
+Dual-active excluded VLANs        : -
+Graceful Consistency Check        : Enabled
+Auto-recovery status              : Disabled
+Delay-restore status              : Timer is off.(timeout = 30s)
+Delay-restore SVI status          : Timer is off.(timeout = 10s)
+Delay-restore Orphan-port status  : Timer is off.(timeout = 0s)
+Operational Layer3 Peer-router    : Enabled
+Virtual-peerlink mode             : Disabled
+
+vPC Peer-link status
+---------------------------------------------------------------------
+id    Port   Status Active vlans    
+--    ----   ------ -------------------------------------------------
+1     Po4094 up     1,16,18,50-51,61-85,87-88,100,182,200,209-210,212                    
+                    ,240,300-302,308-309,312-315,322-325,390,400,                        
+                    404-405,416,420,425,428,450,461,502,600,602,612,                     
+                    699,850-854,972,1006,1011-1015,1038,2764,3005,                       
+                    3967                                                                 
+
+vPC status
+----------------------------------------------------------------------------
+Id    Port          Status Consistency Reason                Active vlans
+--    ------------  ------ ----------- ------                ---------------
+1     Po1           up     success     success               1,16,18,50-51,              
+                                                             61-85,87-88,100,            
+                                                             182,200,209-210,            
+                                                             212,240,300-302,            
+                                                             308-309,312-315,            
+                                                             322-325,390,...,            
+3     Po3           up     success     success               1,16,18,50-51,              
+                                                             61-85,87-88,100,            
+                                                             182,200,209-210,            
+                                                             212,240,300-302,            
+                                                             308-309,312-315,            
+                                                             322-325,390,...,            
+4     Po4           up     success     success               1,16,18,50-51,              
+                                                             61-85,87-88,100,            
+                                                             182,200,209-210,            
+                                                             212,240,300-302,            
+                                                             308-309,312-315,            
+                                                             322-325,390,...,            
+
+Please check "show vpc consistency-parameters vpc <vpc-num>" for the 
+consistency reason of down vpc and for type-2 consistency reasons for 
+any vpc.
+
+
+
+
+######################################################################################################################################
+
+
+
+REZNX01
+
+
+                                                                
+      122     1        11             11               111111111
+    384453622213152212634425622223252725312266943225864754448484
+100                                                             
+ 90                                                             
+ 80                                                             
+ 70                                                             
+ 60                                                             
+ 50                                                             
+ 40                                                             
+ 30     #                                                       
+ 20    ##                              #               ##   # # 
+ 10  #### #   #  #    ###  ##      # ###    ###    ### #########
+    0....5....1....1....2....2....3....3....4....4....5....5....
+              0    5    0    5    0    5    0    5    0    5    
+
+               CPU% per second (last 60 seconds)
+                      # = average CPU%
+
+
+                                                                
+    222223221222322222222331222223222222224222322232221322212322
+    282060578697152779887276766312786638532984492841199446396457
+100                                                             
+ 90                                                             
+ 80                                                             
+ 70                                                             
+ 60                                                             
+ 50                                                             
+ 40                       *               *                     
+ 30  *  **** ***** ******** ***  ***** ** *** ** **  * * *  ****
+ 20 ************************************************************
+ 10 ############################################################
+    0....5....1....1....2....2....3....3....4....4....5....5....
+              0    5    0    5    0    5    0    5    0    5    
+
+               CPU% per minute (last 60 minutes)
+              * = maximum CPU%   # = average CPU%
+
+
+                                                                            
+    343336344434334444533454444344434433434443443444353444344444544433344344
+    977881805096882325096230595517194477971717669474889174606006040679885882
+100                                                                         
+ 90                                                                         
+ 80                                                                         
+ 70                                                                         
+ 60      *                                           *                      
+ 50  *   *  *  *     **   * ***  *      *  *  **  *  *  *   *  **  *   ** * 
+ 40 ************************************************************************
+ 30 ************************************************************************
+ 20 ************************************************************************
+ 10 ########################################################################
+    0....5....1....1....2....2....3....3....4....4....5....5....6....6....7.
+              0    5    0    5    0    5    0    5    0    5    0    5    0 
+
+                   CPU% per hour (last 72 hours)
+                  * = maximum CPU%   # = average CPU%
+
+
+
+
+
+
+
+
+
+
+
+
+
+Load average:   1 minute: 0.41   5 minutes: 0.50   15 minutes: 0.55
+Processes   :   801 total, 1 running
+CPU states  :   1.12% user,   0.87% kernel,   97.99% idle
+        CPU0 states  :   2.00% user,   3.00% kernel,   95.00% idle
+        CPU1 states  :   1.00% user,   0.00% kernel,   99.00% idle
+        CPU2 states  :   1.00% user,   2.00% kernel,   97.00% idle
+        CPU3 states  :   0.00% user,   2.02% kernel,   97.97% idle
+        CPU4 states  :   1.00% user,   0.00% kernel,   99.00% idle
+        CPU5 states  :   2.97% user,   1.98% kernel,   95.04% idle
+        CPU6 states  :   1.00% user,   0.00% kernel,   99.00% idle
+        CPU7 states  :   0.99% user,   0.99% kernel,   98.01% idle
+Memory usage:   32813060K total,   9599136K used,   23213924K free
+Kernel vmalloc:   0K total,   0K free
+Kernel buffers:   495012K Used
+Kernel cached :   5772312K Used
+Current memory status: OK
+
+
+
+
+
+
+
+
+
+
+
+
+Mod Ports             Module-Type                      Model           Status
+--- ----- ------------------------------------- --------------------- ---------
+1    54   48x10/25G + 6x40/100G Ethernet Module N9K-C93180YC-FX3      active *  
+
+Mod  Sw                       Hw    Slot
+---  ----------------------- ------ ----
+1    10.2(6)                  1.0    NA  
+
+
+Mod  MAC-Address(es)                         Serial-Num
+---  --------------------------------------  ----------
+1    a4-10-b6-6b-cf-2c to a4-10-b6-6b-cf-8f  FDO27470NZH
+
+Mod  Online Diag Status
+---  ------------------
+1    Pass
+
+* this terminal session 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Current bootup diagnostic level: complete
+Module 1: 48x10/25G + 6x40/100G Ethernet Module  (Active)
+
+        Test results: (. = Pass, F = Fail, I = Incomplete,
+        U = Untested, A = Abort, E = Error disabled)
+
+         1) USB---------------------------> .
+         2) NVRAM-------------------------> .
+         3) RealTimeClock-----------------> .
+         4) PrimaryBootROM----------------> .
+         5) SecondaryBootROM--------------> .
+         6) BootFlash---------------------> .
+         7) SystemMgmtBus-----------------> .
+         8) OBFL--------------------------> .
+         9) ACT2--------------------------> .
+        10) Console-----------------------> .
+        11) FpgaRegTest-------------------> .
+        12) Mce---------------------------> .
+        13) ASICRegisterCheck-------------> .
+        14) AsicMemory--------------------> .
+        15) Pcie--------------------------> .
+        16) PortLoopback: U 
+
+          Port   1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 
+          -----------------------------------------------------
+                 U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  
+
+          Port  17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 
+          -----------------------------------------------------
+                 U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  
+
+          Port  33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 
+          -----------------------------------------------------
+                 U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  
+
+          Port  49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 
+          -----------------------------------------------------
+                 U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  
+
+          Port  65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 
+          -----------------------------------------------------
+                 U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  
+
+          Port  81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 
+          -----------------------------------------------------
+                 U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  
+
+          Port  97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 
+          ------------------------------------------------------------------
+                 U  U  U  U   U   U   U   U   U   U   U   U   U   U   U   U   
+
+          Port  113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 
+          ---------------------------------------------------------------------
+                 U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   
+
+          Port  129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 
+          ---------------------------------------------------------------------
+                 U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   
+
+          Port  145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 160 
+          ---------------------------------------------------------------------
+                 U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   
+
+          Port  161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 
+          ---------------------------------------------------------------------
+                 U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   
+
+          Port  177 178 179 180 181 182 183 184 185 186 187 188 189 190 191 192 
+          ---------------------------------------------------------------------
+                 U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   
+
+          Port  193 194 195 196 197 198 199 200 201 202 203 204 205 206 207 208 
+          ---------------------------------------------------------------------
+                 U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   
+
+          Port  209 210 211 212 213 214 215 216 
+          -------------------------------------
+                 U   U   U   U   U   U   U   U   
+
+
+        17) L2ACLRedirect-----------------> .
+        18) BootupPortLoopback: . 
+
+          Port   1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 
+          -----------------------------------------------------
+                 .  U  U  U  .  U  U  U  .  U  U  U  .  U  U  U  
+
+          Port  17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 
+          -----------------------------------------------------
+                 .  U  U  U  .  U  U  U  .  U  U  U  .  U  U  U  
+
+          Port  33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 
+          -----------------------------------------------------
+                 .  U  U  U  .  U  U  U  .  U  U  U  .  U  U  U  
+
+          Port  49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 
+          -----------------------------------------------------
+                 .  U  U  U  .  U  U  U  .  U  U  U  .  U  U  U  
+
+          Port  65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 
+          -----------------------------------------------------
+                 .  U  U  U  .  U  U  U  .  U  U  U  .  U  U  U  
+
+          Port  81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 
+          -----------------------------------------------------
+                 .  U  U  U  .  U  U  U  .  U  U  U  .  U  U  U  
+
+          Port  97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 
+          ------------------------------------------------------------------
+                 .  U  U  U   .   U   U   U   .   U   U   U   .   U   U   U   
+
+          Port  113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 
+          ---------------------------------------------------------------------
+                 .   U   U   U   .   U   U   U   .   U   U   U   .   U   U   U   
+
+          Port  129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 
+          ---------------------------------------------------------------------
+                 .   U   U   U   .   U   U   U   .   U   U   U   .   U   U   U   
+
+          Port  145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 160 
+          ---------------------------------------------------------------------
+                 .   U   U   U   .   U   U   U   .   U   U   U   .   U   U   U   
+
+          Port  161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 
+          ---------------------------------------------------------------------
+                 .   U   U   U   .   U   U   U   .   U   U   U   .   U   U   U   
+
+          Port  177 178 179 180 181 182 183 184 185 186 187 188 189 190 191 192 
+          ---------------------------------------------------------------------
+                 .   U   U   U   .   U   U   U   .   U   U   U   .   U   U   U   
+
+          Port  193 194 195 196 197 198 199 200 201 202 203 204 205 206 207 208 
+          ---------------------------------------------------------------------
+                 .   U   U   U   .   U   U   U   .   U   U   U   .   U   U   U   
+
+          Port  209 210 211 212 213 214 215 216 
+          -------------------------------------
+                 .   U   U   U   .   U   U   U   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Fan:
+---------------------------------------------------------------------------
+Fan             Model                Hw     Direction       Status
+---------------------------------------------------------------------------
+Fan1(sys_fan1)  NXA-FAN-35CFM-PI     --     front-to-back   Ok 
+Fan2(sys_fan2)  NXA-FAN-35CFM-PI     --     front-to-back   Ok 
+Fan3(sys_fan3)  NXA-FAN-35CFM-PI     --     front-to-back   Ok 
+Fan4(sys_fan4)  NXA-FAN-35CFM-PI     --     front-to-back   Ok 
+Fan_in_PS1      --                   --     front-to-back   Ok
+Fan_in_PS2      --                   --     front-to-back   Ok
+Fan Zone Speed: Zone 1: 0x80
+Fan Air Filter : NotSupported
+
+
+Power Supply:
+Voltage: 12 Volts
+Power                      Actual             Actual        Total
+Supply    Model            Output             Input        Capacity     Status
+                           (Watts )           (Watts )     (Watts )
+-------  ----------  ---------------  ------  ----------  --------------------
+1        NXA-PAC-650W-PI       112 W              126 W       650 W      Ok
+2        NXA-PAC-650W-PI       103 W              120 W       650 W      Ok
+
+
+Power Usage Summary:
+--------------------
+Power Supply redundancy mode (configured)                PS-Redundant
+Power Supply redundancy mode (operational)               PS-Redundant
+
+Total Power Capacity (based on configured mode)             650.00 W
+Total Grid-A (first half of PS slots) Power Capacity        650.00 W
+Total Grid-B (second half of PS slots) Power Capacity       650.00 W
+Total Power of all Inputs (cumulative)                     1300.00 W
+Total Power Output (actual draw)                            216.00 W
+Total Power Input (actual draw)                             246.00 W
+Total Power Allocated (budget)                                N/A   
+Total Power Available for additional modules                  N/A   
+
+
+
+Temperature:
+--------------------------------------------------------------------
+Module   Sensor        MajorThresh   MinorThres   CurTemp     Status
+                       (Celsius)     (Celsius)    (Celsius)         
+--------------------------------------------------------------------
+1        FRONT           70              42          24         Ok             
+1        BACK            80              70          32         Ok             
+1        CPU             90              80          42         Ok             
+1        SUN1            110             90          42         Ok             
+
+
+
+
+
+
+
+
+
+
+
+
+Legend:
+                (*) - local vPC is down, forwarding via vPC peer-link
+
+vPC domain id                     : 1   
+Peer status                       : peer adjacency formed ok      
+vPC keep-alive status             : peer is alive                 
+Configuration consistency status  : success 
+Per-vlan consistency status       : success                       
+Type-2 consistency status         : success 
+vPC role                          : primary                       
+Number of vPCs configured         : 6   
+Peer Gateway                      : Enabled
+Dual-active excluded VLANs        : -
+Graceful Consistency Check        : Enabled
+Auto-recovery status              : Disabled
+Delay-restore status              : Timer is off.(timeout = 30s)
+Delay-restore SVI status          : Timer is off.(timeout = 10s)
+Delay-restore Orphan-port status  : Timer is off.(timeout = 0s)
+Operational Layer3 Peer-router    : Enabled
+Virtual-peerlink mode             : Disabled
+
+vPC Peer-link status
+---------------------------------------------------------------------
+id    Port   Status Active vlans    
+--    ----   ------ -------------------------------------------------
+1     Po4094 up     1,16,18,23,45,62-87,90,155,170-171,173-174,3090,                     
+                    3967                                                                 
+
+vPC status
+----------------------------------------------------------------------------
+Id    Port          Status Consistency Reason                Active vlans
+--    ------------  ------ ----------- ------                ---------------
+1     Po1           up     success     success               1,16,18,23,45,              
+                                                             62-87,90,155,               
+                                                             170-171,173-174,            
+                                                             3090,3967                   
+3     Po3           up     success     success               1,16,18,23,45,              
+                                                             62-87,90,155,               
+                                                             170-171,173-174,            
+                                                             3090,3967                   
+4     Po4           up     success     success               1,16,18,23,45,              
+                                                             62-87,90,155,               
+                                                             170-171,173-174,            
+                                                             3090,3967                   
+14    Po14          up     success     success               174                         
+                                                                                         
+15    Po15          up     success     success               174                         
+                                                                                         
+19    Po19          up     success     success               173-174                     
+                                                                                         
+
+Please check "show vpc consistency-parameters vpc <vpc-num>" for the 
+consistency reason of down vpc and for type-2 consistency reasons for 
+any vpc.
+
+
+
+
+######################################################################################################################################
+
+
+
+REZNX02
+
+
+                                                                
+            1    1   111 11111112111111       11      11      1 
+    379732221512442174449644445654544446122423412122374144222613
+100                                                             
+ 90                                                             
+ 80                                                             
+ 70                                                             
+ 60                                                             
+ 50                                                             
+ 40                                                             
+ 30                             #                               
+ 20                      #    ### #                             
+ 10  ###    ##   #  ####################      ##     ###     ## 
+    0....5....1....1....2....2....3....3....4....4....5....5....
+              0    5    0    5    0    5    0    5    0    5    
+
+               CPU% per second (last 60 seconds)
+                      # = average CPU%
+
+
+                                                                
+    222222322222322322222322212223122221332232221233124322323222
+    466328077924862354290289489340457855813584597280724952926791
+100                                                             
+ 90                                                             
+ 80                                                             
+ 70                                                             
+ 60                                                             
+ 50                                                             
+ 40             *                       *   *     *   **  * *   
+ 30  **  *****  ** **  * ***  *  * **** ** ** **  **  *** * *** 
+ 20 ****************************** *****************************
+ 10 ##############################*#############################
+    0....5....1....1....2....2....3....3....4....4....5....5....
+              0    5    0    5    0    5    0    5    0    5    
+
+               CPU% per minute (last 60 minutes)
+              * = maximum CPU%   # = average CPU%
+
+
+                                                                            
+    543444434534454354444344334444434344444533444434443433433343444435344334
+    309723481693510897071770991325378805524366570996818698489565145287846963
+100                                                                         
+ 90                                                                         
+ 80                                                                         
+ 70                                                                         
+ 60          *      *                                                *      
+ 50 *  *     *  **  ** *  *      *  *  **  *  ** * **  *      *   *  *  *   
+ 40 ************************************************************************
+ 30 ************************************************************************
+ 20 ************************************************************************
+ 10 ########################################################################
+    0....5....1....1....2....2....3....3....4....4....5....5....6....6....7.
+              0    5    0    5    0    5    0    5    0    5    0    5    0 
+
+                   CPU% per hour (last 72 hours)
+                  * = maximum CPU%   # = average CPU%
+
+
+
+
+
+
+
+
+
+
+
+
+
+Load average:   1 minute: 0.37   5 minutes: 0.58   15 minutes: 0.63
+Processes   :   800 total, 1 running
+CPU states  :   7.44% user,   5.54% kernel,   87.01% idle
+        CPU0 states  :   0.00% user,   0.00% kernel,   100.00% idle
+        CPU1 states  :   1.00% user,   2.00% kernel,   97.00% idle
+        CPU2 states  :   45.00% user,   30.00% kernel,   25.00% idle
+        CPU3 states  :   1.01% user,   1.01% kernel,   97.97% idle
+        CPU4 states  :   3.03% user,   6.06% kernel,   90.90% idle
+        CPU5 states  :   1.98% user,   2.97% kernel,   95.04% idle
+        CPU6 states  :   2.02% user,   2.02% kernel,   95.95% idle
+        CPU7 states  :   4.08% user,   4.08% kernel,   91.83% idle
+Memory usage:   32813060K total,   9569364K used,   23243696K free
+Kernel vmalloc:   0K total,   0K free
+Kernel buffers:   499084K Used
+Kernel cached :   5757484K Used
+Current memory status: OK
+
+
+
+
+
+
+
+
+
+
+
+
+Mod Ports             Module-Type                      Model           Status
+--- ----- ------------------------------------- --------------------- ---------
+1    54   48x10/25G + 6x40/100G Ethernet Module N9K-C93180YC-FX3      active *  
+
+Mod  Sw                       Hw    Slot
+---  ----------------------- ------ ----
+1    10.2(6)                  1.0    NA  
+
+
+Mod  MAC-Address(es)                         Serial-Num
+---  --------------------------------------  ----------
+1    a4-10-b6-6b-dd-a0 to a4-10-b6-6b-de-03  FDO27470E9X
+
+Mod  Online Diag Status
+---  ------------------
+1    Pass
+
+* this terminal session 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Current bootup diagnostic level: complete
+Module 1: 48x10/25G + 6x40/100G Ethernet Module  (Active)
+
+        Test results: (. = Pass, F = Fail, I = Incomplete,
+        U = Untested, A = Abort, E = Error disabled)
+
+         1) USB---------------------------> .
+         2) NVRAM-------------------------> .
+         3) RealTimeClock-----------------> .
+         4) PrimaryBootROM----------------> .
+         5) SecondaryBootROM--------------> .
+         6) BootFlash---------------------> .
+         7) SystemMgmtBus-----------------> .
+         8) OBFL--------------------------> .
+         9) ACT2--------------------------> .
+        10) Console-----------------------> .
+        11) FpgaRegTest-------------------> .
+        12) Mce---------------------------> .
+        13) ASICRegisterCheck-------------> .
+        14) AsicMemory--------------------> .
+        15) Pcie--------------------------> .
+        16) PortLoopback: U 
+
+          Port   1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 
+          -----------------------------------------------------
+                 U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  
+
+          Port  17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 
+          -----------------------------------------------------
+                 U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  
+
+          Port  33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 
+          -----------------------------------------------------
+                 U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  
+
+          Port  49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 
+          -----------------------------------------------------
+                 U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  
+
+          Port  65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 
+          -----------------------------------------------------
+                 U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  
+
+          Port  81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 
+          -----------------------------------------------------
+                 U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  
+
+          Port  97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 
+          ------------------------------------------------------------------
+                 U  U  U  U   U   U   U   U   U   U   U   U   U   U   U   U   
+
+          Port  113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 
+          ---------------------------------------------------------------------
+                 U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   
+
+          Port  129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 
+          ---------------------------------------------------------------------
+                 U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   
+
+          Port  145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 160 
+          ---------------------------------------------------------------------
+                 U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   
+
+          Port  161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 
+          ---------------------------------------------------------------------
+                 U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   
+
+          Port  177 178 179 180 181 182 183 184 185 186 187 188 189 190 191 192 
+          ---------------------------------------------------------------------
+                 U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   
+
+          Port  193 194 195 196 197 198 199 200 201 202 203 204 205 206 207 208 
+          ---------------------------------------------------------------------
+                 U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   
+
+          Port  209 210 211 212 213 214 215 216 
+          -------------------------------------
+                 U   U   U   U   U   U   U   U   
+
+
+        17) L2ACLRedirect-----------------> .
+        18) BootupPortLoopback: . 
+
+          Port   1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 
+          -----------------------------------------------------
+                 .  U  U  U  .  U  U  U  .  U  U  U  .  U  U  U  
+
+          Port  17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 
+          -----------------------------------------------------
+                 .  U  U  U  .  U  U  U  .  U  U  U  .  U  U  U  
+
+          Port  33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 
+          -----------------------------------------------------
+                 .  U  U  U  .  U  U  U  .  U  U  U  .  U  U  U  
+
+          Port  49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 
+          -----------------------------------------------------
+                 .  U  U  U  .  U  U  U  .  U  U  U  .  U  U  U  
+
+          Port  65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 
+          -----------------------------------------------------
+                 .  U  U  U  .  U  U  U  .  U  U  U  .  U  U  U  
+
+          Port  81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 
+          -----------------------------------------------------
+                 .  U  U  U  .  U  U  U  .  U  U  U  .  U  U  U  
+
+          Port  97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 
+          ------------------------------------------------------------------
+                 .  U  U  U   .   U   U   U   .   U   U   U   .   U   U   U   
+
+          Port  113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 
+          ---------------------------------------------------------------------
+                 .   U   U   U   .   U   U   U   .   U   U   U   .   U   U   U   
+
+          Port  129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 
+          ---------------------------------------------------------------------
+                 .   U   U   U   .   U   U   U   .   U   U   U   .   U   U   U   
+
+          Port  145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 160 
+          ---------------------------------------------------------------------
+                 .   U   U   U   .   U   U   U   .   U   U   U   .   U   U   U   
+
+          Port  161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 
+          ---------------------------------------------------------------------
+                 .   U   U   U   .   U   U   U   .   U   U   U   .   U   U   U   
+
+          Port  177 178 179 180 181 182 183 184 185 186 187 188 189 190 191 192 
+          ---------------------------------------------------------------------
+                 .   U   U   U   .   U   U   U   .   U   U   U   .   U   U   U   
+
+          Port  193 194 195 196 197 198 199 200 201 202 203 204 205 206 207 208 
+          ---------------------------------------------------------------------
+                 .   U   U   U   .   U   U   U   .   U   U   U   .   U   U   U   
+
+          Port  209 210 211 212 213 214 215 216 
+          -------------------------------------
+                 .   U   U   U   .   U   U   U   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Fan:
+---------------------------------------------------------------------------
+Fan             Model                Hw     Direction       Status
+---------------------------------------------------------------------------
+Fan1(sys_fan1)  NXA-FAN-35CFM-PI     --     front-to-back   Ok 
+Fan2(sys_fan2)  NXA-FAN-35CFM-PI     --     front-to-back   Ok 
+Fan3(sys_fan3)  NXA-FAN-35CFM-PI     --     front-to-back   Ok 
+Fan4(sys_fan4)  NXA-FAN-35CFM-PI     --     front-to-back   Ok 
+Fan_in_PS1      --                   --     front-to-back   Ok
+Fan_in_PS2      --                   --     front-to-back   Ok
+Fan Zone Speed: Zone 1: 0x80
+Fan Air Filter : NotSupported
+
+
+Power Supply:
+Voltage: 12 Volts
+Power                      Actual             Actual        Total
+Supply    Model            Output             Input        Capacity     Status
+                           (Watts )           (Watts )     (Watts )
+-------  ----------  ---------------  ------  ----------  --------------------
+1        NXA-PAC-650W-PI       111 W              126 W       650 W      Ok
+2        NXA-PAC-650W-PI       107 W              122 W       650 W      Ok
+
+
+Power Usage Summary:
+--------------------
+Power Supply redundancy mode (configured)                PS-Redundant
+Power Supply redundancy mode (operational)               PS-Redundant
+
+Total Power Capacity (based on configured mode)             650.00 W
+Total Grid-A (first half of PS slots) Power Capacity        650.00 W
+Total Grid-B (second half of PS slots) Power Capacity       650.00 W
+Total Power of all Inputs (cumulative)                     1300.00 W
+Total Power Output (actual draw)                            218.00 W
+Total Power Input (actual draw)                             248.00 W
+Total Power Allocated (budget)                                N/A   
+Total Power Available for additional modules                  N/A   
+
+
+
+Temperature:
+--------------------------------------------------------------------
+Module   Sensor        MajorThresh   MinorThres   CurTemp     Status
+                       (Celsius)     (Celsius)    (Celsius)         
+--------------------------------------------------------------------
+1        FRONT           70              42          24         Ok             
+1        BACK            80              70          31         Ok             
+1        CPU             90              80          42         Ok             
+1        SUN1            110             90          42         Ok             
+
+
+
+
+
+
+
+
+
+
+
+
+Legend:
+                (*) - local vPC is down, forwarding via vPC peer-link
+
+vPC domain id                     : 1   
+Peer status                       : peer adjacency formed ok      
+vPC keep-alive status             : peer is alive                 
+Configuration consistency status  : success 
+Per-vlan consistency status       : success                       
+Type-2 consistency status         : success 
+vPC role                          : secondary                     
+Number of vPCs configured         : 6   
+Peer Gateway                      : Enabled
+Dual-active excluded VLANs        : -
+Graceful Consistency Check        : Enabled
+Auto-recovery status              : Disabled
+Delay-restore status              : Timer is off.(timeout = 30s)
+Delay-restore SVI status          : Timer is off.(timeout = 10s)
+Delay-restore Orphan-port status  : Timer is off.(timeout = 0s)
+Operational Layer3 Peer-router    : Enabled
+Virtual-peerlink mode             : Disabled
+
+vPC Peer-link status
+---------------------------------------------------------------------
+id    Port   Status Active vlans    
+--    ----   ------ -------------------------------------------------
+1     Po4094 up     1,16,18,23,45,62-87,90,155,170-171,173-174,3090,                     
+                    3967                                                                 
+
+vPC status
+----------------------------------------------------------------------------
+Id    Port          Status Consistency Reason                Active vlans
+--    ------------  ------ ----------- ------                ---------------
+1     Po1           up     success     success               1,16,18,23,45,              
+                                                             62-87,90,155,               
+                                                             170-171,173-174,            
+                                                             3090,3967                   
+3     Po3           up     success     success               1,16,18,23,45,              
+                                                             62-87,90,155,               
+                                                             170-171,173-174,            
+                                                             3090,3967                   
+4     Po4           up     success     success               1,16,18,23,45,              
+                                                             62-87,90,155,               
+                                                             170-171,173-174,            
+                                                             3090,3967                   
+14    Po14          up     success     success               174                         
+                                                                                         
+15    Po15          up     success     success               174                         
+                                                                                         
+19    Po19          up     success     success               173-174                     
+                                                                                         
+
+Please check "show vpc consistency-parameters vpc <vpc-num>" for the 
+consistency reason of down vpc and for type-2 consistency reasons for 
+any vpc.
+
+
+
+
+######################################################################################################################################
+
+
+
+REZNX-BACKUP
+
+
+                                                                
+    1211111 1121111221       1       1  11  11                  
+    518744064653111311345212414222213041031563312233222122881121
+100                                                             
+ 90                                                             
+ 80                                                             
+ 70                                                             
+ 60                                                             
+ 50                                                             
+ 40                                                             
+ 30           #                                                 
+ 20 ####     ##    ##                       #                   
+ 10 ##################  #    #       #  ## ###            ##    
+    0....5....1....1....2....2....3....3....4....4....5....5....
+              0    5    0    5    0    5    0    5    0    5    
+
+               CPU% per second (last 60 seconds)
+                      # = average CPU%
+
+
+                                                                
+    222322322322122322222222222224322242122322223132232222322225
+    832062682153567067777726735570873749867610745813683475727061
+100                                                             
+ 90                                                             
+ 80                                                             
+ 70                                                             
+ 60                                                             
+ 50                                                            *
+ 40       *                      **   *    *    *    *    *    *
+ 30 *  ** ** **  ********* ** ****** *** ***  * * * **  *** * **
+ 20 ************************************************************
+ 10 ###############################*############################
+    0....5....1....1....2....2....3....3....4....4....5....5....
+              0    5    0    5    0    5    0    5    0    5    
+
+               CPU% per minute (last 60 minutes)
+              * = maximum CPU%   # = average CPU%
+
+
+                                                                            
+    533343453434344433433444433443334434344333443334343444434443344443434334
+    187788168661794197895368399748755084890977609999787134383529641527881885
+100                                                                         
+ 90                                                                         
+ 80                                                                         
+ 70                                                                         
+ 60        *                                                                
+ 50 *   *  * *   *    *   **   *    *    *    *    * *       *     *  *    *
+ 40 ************************************************************************
+ 30 ************************************************************************
+ 20 ************************************************************************
+ 10 ########################################################################
+    0....5....1....1....2....2....3....3....4....4....5....5....6....6....7.
+              0    5    0    5    0    5    0    5    0    5    0    5    0 
+
+                   CPU% per hour (last 72 hours)
+                  * = maximum CPU%   # = average CPU%
+
+
+
+
+
+
+
+
+
+
+
+
+
+Load average:   1 minute: 1.11   5 minutes: 0.70   15 minutes: 0.64
+Processes   :   876 total, 3 running
+CPU states  :   11.99% user,   3.66% kernel,   84.34% idle
+        CPU0 states  :   10.63% user,   1.06% kernel,   88.29% idle
+        CPU1 states  :   22.22% user,   5.05% kernel,   72.72% idle
+        CPU2 states  :   1.00% user,   5.00% kernel,   94.00% idle
+        CPU3 states  :   0.00% user,   0.00% kernel,   100.00% idle
+        CPU4 states  :   2.02% user,   3.03% kernel,   94.94% idle
+        CPU5 states  :   32.67% user,   4.95% kernel,   62.37% idle
+        CPU6 states  :   2.97% user,   4.95% kernel,   92.07% idle
+        CPU7 states  :   25.00% user,   6.00% kernel,   69.00% idle
+Memory usage:   32813060K total,   9465532K used,   23347528K free
+Kernel vmalloc:   0K total,   0K free
+Kernel buffers:   496060K Used
+Kernel cached :   5733060K Used
+Current memory status: OK
+
+
+
+
+
+
+
+
+
+
+
+
+Mod Ports             Module-Type                      Model           Status
+--- ----- ------------------------------------- --------------------- ---------
+1    54   48x10/25G + 6x40/100G Ethernet Module N9K-C93180YC-FX3      active *  
+
+Mod  Sw                       Hw    Slot
+---  ----------------------- ------ ----
+1    10.2(6)                  1.0    NA  
+
+
+Mod  MAC-Address(es)                         Serial-Num
+---  --------------------------------------  ----------
+1    a4-10-b6-6b-dd-3c to a4-10-b6-6b-dd-9f  FDO27470E9Z
+
+Mod  Online Diag Status
+---  ------------------
+1    Pass
+
+* this terminal session 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Current bootup diagnostic level: complete
+Module 1: 48x10/25G + 6x40/100G Ethernet Module  (Active)
+
+        Test results: (. = Pass, F = Fail, I = Incomplete,
+        U = Untested, A = Abort, E = Error disabled)
+
+         1) USB---------------------------> .
+         2) NVRAM-------------------------> .
+         3) RealTimeClock-----------------> .
+         4) PrimaryBootROM----------------> .
+         5) SecondaryBootROM--------------> .
+         6) BootFlash---------------------> .
+         7) SystemMgmtBus-----------------> .
+         8) OBFL--------------------------> .
+         9) ACT2--------------------------> .
+        10) Console-----------------------> .
+        11) FpgaRegTest-------------------> .
+        12) Mce---------------------------> .
+        13) ASICRegisterCheck-------------> .
+        14) AsicMemory--------------------> .
+        15) Pcie--------------------------> .
+        16) PortLoopback: U 
+
+          Port   1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 
+          -----------------------------------------------------
+                 U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  
+
+          Port  17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 
+          -----------------------------------------------------
+                 U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  
+
+          Port  33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 
+          -----------------------------------------------------
+                 U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  
+
+          Port  49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 
+          -----------------------------------------------------
+                 U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  
+
+          Port  65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 
+          -----------------------------------------------------
+                 U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  
+
+          Port  81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 
+          -----------------------------------------------------
+                 U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  U  
+
+          Port  97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 
+          ------------------------------------------------------------------
+                 U  U  U  U   U   U   U   U   U   U   U   U   U   U   U   U   
+
+          Port  113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 
+          ---------------------------------------------------------------------
+                 U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   
+
+          Port  129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 
+          ---------------------------------------------------------------------
+                 U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   
+
+          Port  145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 160 
+          ---------------------------------------------------------------------
+                 U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   
+
+          Port  161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 
+          ---------------------------------------------------------------------
+                 U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   
+
+          Port  177 178 179 180 181 182 183 184 185 186 187 188 189 190 191 192 
+          ---------------------------------------------------------------------
+                 U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   
+
+          Port  193 194 195 196 197 198 199 200 201 202 203 204 205 206 207 208 
+          ---------------------------------------------------------------------
+                 U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   U   
+
+          Port  209 210 211 212 213 214 215 216 
+          -------------------------------------
+                 U   U   U   U   U   U   U   U   
+
+
+        17) L2ACLRedirect-----------------> .
+        18) BootupPortLoopback: . 
+
+          Port   1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 
+          -----------------------------------------------------
+                 .  U  U  U  .  U  U  U  .  U  U  U  .  U  U  U  
+
+          Port  17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 
+          -----------------------------------------------------
+                 .  U  U  U  .  U  U  U  .  U  U  U  .  U  U  U  
+
+          Port  33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 
+          -----------------------------------------------------
+                 .  U  U  U  .  U  U  U  .  U  U  U  .  U  U  U  
+
+          Port  49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 
+          -----------------------------------------------------
+                 .  U  U  U  .  U  U  U  .  U  U  U  .  U  U  U  
+
+          Port  65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 
+          -----------------------------------------------------
+                 .  U  U  U  .  U  U  U  .  U  U  U  .  U  U  U  
+
+          Port  81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 
+          -----------------------------------------------------
+                 .  U  U  U  .  U  U  U  .  U  U  U  .  U  U  U  
+
+          Port  97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 
+          ------------------------------------------------------------------
+                 .  U  U  U   .   U   U   U   .   U   U   U   .   U   U   U   
+
+          Port  113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 
+          ---------------------------------------------------------------------
+                 .   U   U   U   .   U   U   U   .   U   U   U   .   U   U   U   
+
+          Port  129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 
+          ---------------------------------------------------------------------
+                 .   U   U   U   .   U   U   U   .   U   U   U   .   U   U   U   
+
+          Port  145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 160 
+          ---------------------------------------------------------------------
+                 .   U   U   U   .   U   U   U   .   U   U   U   .   U   U   U   
+
+          Port  161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 
+          ---------------------------------------------------------------------
+                 .   U   U   U   .   U   U   U   .   U   U   U   .   U   U   U   
+
+          Port  177 178 179 180 181 182 183 184 185 186 187 188 189 190 191 192 
+          ---------------------------------------------------------------------
+                 .   U   U   U   .   U   U   U   .   U   U   U   .   U   U   U   
+
+          Port  193 194 195 196 197 198 199 200 201 202 203 204 205 206 207 208 
+          ---------------------------------------------------------------------
+                 .   U   U   U   .   U   U   U   .   U   U   U   .   U   U   U   
+
+          Port  209 210 211 212 213 214 215 216 
+          -------------------------------------
+                 .   U   U   U   .   U   U   U   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Fan:
+---------------------------------------------------------------------------
+Fan             Model                Hw     Direction       Status
+---------------------------------------------------------------------------
+Fan1(sys_fan1)  NXA-FAN-35CFM-PI     --     front-to-back   Ok 
+Fan2(sys_fan2)  NXA-FAN-35CFM-PI     --     front-to-back   Ok 
+Fan3(sys_fan3)  NXA-FAN-35CFM-PI     --     front-to-back   Ok 
+Fan4(sys_fan4)  NXA-FAN-35CFM-PI     --     front-to-back   Ok 
+Fan_in_PS1      --                   --     front-to-back   Ok
+Fan_in_PS2      --                   --     front-to-back   Ok
+Fan Zone Speed: Zone 1: 0x80
+Fan Air Filter : NotSupported
+
+
+Power Supply:
+Voltage: 12 Volts
+Power                      Actual             Actual        Total
+Supply    Model            Output             Input        Capacity     Status
+                           (Watts )           (Watts )     (Watts )
+-------  ----------  ---------------  ------  ----------  --------------------
+1        NXA-PAC-650W-PI        99 W              111 W       650 W      Ok
+2        NXA-PAC-650W-PI        92 W              105 W       650 W      Ok
+
+
+Power Usage Summary:
+--------------------
+Power Supply redundancy mode (configured)                PS-Redundant
+Power Supply redundancy mode (operational)               PS-Redundant
+
+Total Power Capacity (based on configured mode)             650.00 W
+Total Grid-A (first half of PS slots) Power Capacity        650.00 W
+Total Grid-B (second half of PS slots) Power Capacity       650.00 W
+Total Power of all Inputs (cumulative)                     1300.00 W
+Total Power Output (actual draw)                            192.00 W
+Total Power Input (actual draw)                             216.00 W
+Total Power Allocated (budget)                                N/A   
+Total Power Available for additional modules                  N/A   
+
+
+
+Temperature:
+--------------------------------------------------------------------
+Module   Sensor        MajorThresh   MinorThres   CurTemp     Status
+                       (Celsius)     (Celsius)    (Celsius)         
+--------------------------------------------------------------------
+1        FRONT           70              42          22         Ok             
+1        BACK            80              70          31         Ok             
+1        CPU             90              80          43         Ok             
+1        SUN1            110             90          41         Ok             
+
+
+
+
+
+
+
+
+
+
+
+
+Legend:
+                (*) - local vPC is down, forwarding via vPC peer-link
+
+vPC domain id                     : Not configured
+Peer status                       : peer link not configured      
+vPC keep-alive status             : Disabled                      
+Configuration consistency status  : failed  
+Per-vlan consistency status       : failed                        
+Configuration inconsistency reason: vPC peer-link does not exist  
+Type-2 consistency status         : failed  
+Type-2 inconsistency reason       : vPC peer-link does not exist  
+vPC role                          : none established              
+Number of vPCs configured         : 0   
+Peer Gateway                      : Disabled
+Dual-active excluded VLANs        : -
+Graceful Consistency Check        : Disabled (due to peer configuration)
+Auto-recovery status              : Disabled
+Delay-restore status              : Timer is off.(timeout = 30s)
+Delay-restore SVI status          : Timer is off.(timeout = 10s)
+Delay-restore Orphan-port status  : Timer is off.(timeout = 0s)
+Operational Layer3 Peer-router    : Disabled
+Virtual-peerlink mode             : Disabled
+
+
+
+######################################################################################################################################
+
+
+
+SW-BG3-X01
+
+SW-BG3-X02
+
+SW-AR3-X01
+
+SW-AR3-X02
