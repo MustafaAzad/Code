@@ -1,4 +1,0 @@
----
-ansible_user: "mustafa.azad"
-ansible_password: "Grepolis"
-url: "https://{{ ansible_host }}/restconf"
