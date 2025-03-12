@@ -1,0 +1,19 @@
+---
+- name: "Play 1: REST"
+  hosts: REZNX-BACKUP
+  connection: local
+  tasks:
+    - name: GET INFO
+      uri:
+          url: "{{url}}/data/native"
+          user: "{{ansible_user}}"
+          password: "{{ansible_password}}"
+          method: GET
+          return_content: true
+          headers:
+            accept: "application/yan-data+json"
+          validate_certs: false
+      register: getter
+    - name: PRINT OUTPUT
+      debug:
+        var: getter.json
